@@ -9,6 +9,10 @@ function onlyMobileSlide() {
         slider = new Swiper(slideTarget, {
             slidesPerView: 1,
             simulateTouch: true,
+            navigation: {
+                nextEl: '.our-voice-slide button.next',
+                prevEl: '.our-voice-slide button.prev',
+            }
         });
       } else if (ww > 768 && slider != undefined) {
         slider.destroy();

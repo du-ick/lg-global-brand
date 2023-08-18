@@ -53,7 +53,6 @@
 	<link rel="shortcut icon" href="/global/sustainability/img/favicons/favicon.ico" />
 
 	
-
 	<!-- Google Tag Manager -->
 	<script>(function (w, d, s, l, i) {
 			w[l] = w[l] || []; w[l].push({
@@ -106,7 +105,7 @@
 			</div>
 
 			<!-- header -->
-			<%@ include file="/global/sustainability/inc/header.jsp" %>
+			<%@ include file="/global/our-brand/brand-visualization/inc/header.jsp" %>
 			<!-- //header -->
 
             <!-- CONTENTS -->
