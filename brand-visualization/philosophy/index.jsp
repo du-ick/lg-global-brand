@@ -230,6 +230,12 @@
 												<span class="our-identity__move-btn"></span>
 											</a>
 										</li>
+										<li class="our-identity__slide our-identity__slide--tagline swiper-slide">
+											<a href="/global/our-brand/brand-visualization/elements/slogan/index.jsp">
+												<h3 class="our-identity__item-title">Slogan</h3>
+												<span class="our-identity__move-btn"></span>
+											</a>
+										</li>
 										<li class="our-identity__slide our-identity__slide--photography swiper-slide">
 											<a href="/global/our-brand/brand-visualization/elements/photography/index.jsp">
 												<h3 class="our-identity__item-title">Photography</h3>
@@ -239,12 +245,6 @@
 										<li class="our-identity__slide our-identity__slide--design swiper-slide">
 											<a href="/global/our-brand/brand-visualization/elements/design-system/index.jsp">
 												<h3 class="our-identity__item-title">Design System</h3>
-												<span class="our-identity__move-btn"></span>
-											</a>
-										</li>
-										<li class="our-identity__slide our-identity__slide--tagline swiper-slide">
-											<a href="/global/our-brand/brand-visualization/elements/slogan/index.jsp">
-												<h3 class="our-identity__item-title">Slogan</h3>
 												<span class="our-identity__move-btn"></span>
 											</a>
 										</li>

@@ -227,43 +227,43 @@
 							<div class="our-identity__slider">
 								<ul class="our-identity__slides swiper-wrapper">
 									<li class="our-identity__slide our-identity__slide--logo swiper-slide">
-										<a href="/global/our-brand/brand-visualization/logo/index.jsp">
+										<a href="/global/our-brand/brand-visualization/elements/logo/index.jsp">
 											<h3 class="our-identity__item-title">Logo</h3>
 											<span class="our-identity__move-btn"></span>
 										</a>
 									</li>
 									<li class="our-identity__slide our-identity__slide--color swiper-slide">
-										<a href="/global/our-brand/brand-visualization/color/index.jsp">
+										<a href="/global/our-brand/brand-visualization/elements/color/index.jsp">
 											<h3 class="our-identity__item-title">Color & Gradients</h3>
 											<span class="our-identity__move-btn"></span>
 										</a>
 									</li>
+									<li class="our-identity__slide our-identity__slide--tagline swiper-slide">
+										<a href="/global/our-brand/brand-visualization/elements/slogan/index.jsp">
+											<h3 class="our-identity__item-title">Slogan</h3>
+											<span class="our-identity__move-btn"></span>
+										</a>
+									</li>
 									<li class="our-identity__slide our-identity__slide--photography swiper-slide">
-										<a href="/global/our-brand/brand-visualization/photography/index.jsp">
+										<a href="/global/our-brand/brand-visualization/elements/photography/index.jsp">
 											<h3 class="our-identity__item-title">Photography</h3>
 											<span class="our-identity__move-btn" ></span>
 										</a>
 									</li>
 									<li class="our-identity__slide our-identity__slide--design swiper-slide">
-										<a href="/global/our-brand/brand-visualization/design-system/index.jsp">
+										<a href="/global/our-brand/brand-visualization/elements/design-system/index.jsp">
 											<h3 class="our-identity__item-title">Design System</h3>
 											<span class="our-identity__move-btn"></span>
 										</a>
 									</li>
-									<li class="our-identity__slide our-identity__slide--tagline swiper-slide">
-										<a href="/global/our-brand/brand-visualization/slogan/index.jsp">
-											<h3 class="our-identity__item-title">Slogan</h3>
-											<span class="our-identity__move-btn"></span>
-										</a>
-									</li>
 									<li class="our-identity__slide our-identity__slide--typo swiper-slide">
-										<a href="/global/our-brand/brand-visualization/typography/index.jsp">
+										<a href="/global/our-brand/brand-visualization/elements/typography/index.jsp">
 											<h3 class="our-identity__item-title">Typography</h3>
 											<span class="our-identity__move-btn"></span>
 										</a>
 									</li>
 									<li class="our-identity__slide our-identity__slide--voice swiper-slide">
-										<a href="/global/our-brand/brand-visualization/voice/index.jsp">
+										<a href="/global/our-brand/brand-visualization/elements/voice/index.jsp">
 											<h3 class="our-identity__item-title">Voice</h3>
 											<span class="our-identity__move-btn" ></span>
 										</a>

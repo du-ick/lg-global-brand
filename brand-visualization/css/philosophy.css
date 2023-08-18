@@ -387,7 +387,6 @@ br.mo {display: none;}
     color: #222;
     transition: color .5s cubic-bezier(0.56, 0, 0.28, 1);
 }
-.our-identity__slide--tagline .our-identity__item-title {color: #fff;}
 .our-identity__slide:hover .our-identity__item-title {color: #fff;}
 .our-identity__progressbar {
     margin-top: 64px;
