@@ -7,10 +7,10 @@ const footer = `
                 All Rights Reserved
             </p>
             <ul>
-                <li><a class="icon-sns facebook" href="#"></a></li>
-                <li><a class="icon-sns twitter" href="#"></a></li>
-                <li><a class="icon-sns instagram" href="#"></a></li>
-                <li><a class="icon-sns youtube" href="#"></a></li>
+                <li><a class="icon-sns facebook" href="https://www.facebook.com/LGGlobal"></a></li>
+                <!-- <li><a class="icon-sns twitter" href="#"></a></li> -->
+                <li><a class="icon-sns instagram" href="https://www.instagram.com/lg_global/"></a></li>
+                <li><a class="icon-sns youtube" href="https://www.youtube.com/@LGGlobal"></a></li>
             </ul>
         </div>
     </footer>
