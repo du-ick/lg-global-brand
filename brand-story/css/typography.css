@@ -80,24 +80,32 @@
 }
 
 .fix-text {
-    font-size: 95px;
+    font-size: 4.94vw;
     line-height: 1.1;
     letter-spacing: 0.9px;
     color: #fff;
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    bottom: 120px;
+    bottom: 6.25vw;
 }
 
 
 @media (max-width: 1500px) {
-    
+    /* .fix-text {
+        font-size: 67px;
+        bottom: 85px;
+    } */
 
 }
 
 /* Tablet */
 @media (max-width: 1024px) {
+
+    /* .fix-text {
+        font-size: 40px;
+        bottom: 50px;
+    } */
     
 }
 
@@ -134,6 +142,11 @@
         height: 20px;
         padding: 0 10px;
     }
+
+    .fix-text {
+        font-size: 38px;
+        bottom: 48px;
+    }
 }
 
 /* 4K */
@@ -141,6 +154,11 @@
     /*Bringing it to life*/
     .bring-it-to-life__slide li {
         height: 830px;
+    }
+
+    .fix-text {
+        font-size: 95px;
+        bottom: 120px;
     }
 
 }
