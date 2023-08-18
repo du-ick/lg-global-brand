@@ -124,7 +124,7 @@
                         </div>
                         <div class="visual-innner">
                             <div class="download_assets">
-                                <img src="../../img/elements/slogan/download_assets_slogan.png" alt class="download_assets__thumb"></img>
+                                <img src="/global/our-brand/brand-visualization/img/elements/slogan/download_assets_slogan.png" alt class="download_assets__thumb"></img>
                                 <p class="download_assets__title">
                                     <b>LG Solgan</b>
                                     Download Assets
@@ -190,11 +190,11 @@
                                 <div class="tagline-grid">
                                     <div class="tagline-grid__item">
                                         <p class="tagline-grid__text-info"><b>01</b>Lead message</p>
-                                        <img src="../../img/elements/slogan/brand-elements-tagline-usage-hide-grids-d-01.png" alt="">
+                                        <img src="/global/our-brand/brand-visualization/img/elements/slogan/brand-elements-tagline-usage-hide-grids-d-01.png" alt="">
                                     </div>
                                     <div class="tagline-grid__item">
                                         <p class="tagline-grid__text-info"><b>02</b>Sign-off</p>
-                                        <img src="../../img/elements/slogan/brand-elements-tagline-usage-hide-grids-d-02.png" alt="">
+                                        <img src="/global/our-brand/brand-visualization/img/elements/slogan/brand-elements-tagline-usage-hide-grids-d-02.png" alt="">
                                     </div>
                                 </div>
                             </div> 
@@ -202,11 +202,11 @@
                                 <div class="tagline-grid">
                                     <div class="tagline-grid__item">
                                         <p class="tagline-grid__text-info"><b>01</b>Lead message</p>
-                                        <img src="../../img/elements/slogan/brand-elements-tagline-usage-show-grids-d-01.png" alt="">
+                                        <img src="/global/our-brand/brand-visualization/img/elements/slogan/brand-elements-tagline-usage-show-grids-d-01.png" alt="">
                                     </div>
                                     <div class="tagline-grid__item">
                                         <p class="tagline-grid__text-info"><b>02</b>Sign-off</p>
-                                        <img src="../../img/elements/slogan/brand-elements-tagline-usage-show-grids-d-02.png" alt="">
+                                        <img src="/global/our-brand/brand-visualization/img/elements/slogan/brand-elements-tagline-usage-show-grids-d-02.png" alt="">
                                     </div>
                                 </div>
                                 

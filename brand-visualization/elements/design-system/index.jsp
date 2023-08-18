@@ -132,7 +132,7 @@
 							</p>
 						</div>
 						<div class="percent-view">
-							<img class="all-comes-together__img" srcset="../../img/elements/design-system/brand-elements-design-system-inspired-by-the-form-of-our-products-d.png">
+							<img class="all-comes-together__img" srcset="/global/our-brand/brand-visualization/img/elements/design-system/brand-elements-design-system-inspired-by-the-form-of-our-products-d.png">
 						</div>
 		
 						<div class="brand__header">
@@ -154,18 +154,18 @@
 							<div id="connected-state" class="tab-container__content tab-container__content--active">
 								<div class="percent-view">
 									<picture>
-										<source media="(min-width: 769px)" srcset="../../img/elements/design-system/brand-elements-design-system-a-unique-interative-and-responsive-system-core-state-d.png">
-										<source media="(max-width: 768px)" srcset="../../img/elements/design-system/brand-elements-design-system-a-unique-interative-and-responsive-system-core-state-m.svg">
-										<img src="../../img/elements/design-system/brand-elements-design-system-a-unique-interative-and-responsive-system-core-state-d.png" alt="">
+										<source media="(min-width: 769px)" srcset="/global/our-brand/brand-visualization/img/elements/design-system/brand-elements-design-system-a-unique-interative-and-responsive-system-core-state-d.png">
+										<source media="(max-width: 768px)" srcset="/global/our-brand/brand-visualization/img/elements/design-system/brand-elements-design-system-a-unique-interative-and-responsive-system-core-state-m.svg">
+										<img src="/global/our-brand/brand-visualization/img/elements/design-system/brand-elements-design-system-a-unique-interative-and-responsive-system-core-state-d.png" alt="">
 									</picture>
 								</div>
 							</div>
 							<div id="core-state" class="tab-container__content">
 								<div class="percent-view">
 									<picture>
-										<source media="(min-width: 769px)" srcset="../../img/elements/design-system/brand-elements-design-system-a-unique-interative-and-responsive-system-connected-state-d.png">
-										<source media="(max-width: 768px)" srcset="../../img/elements/design-system/brand-elements-design-system-a-unique-interative-and-responsive-system-connected-state-m.svg">
-										<img src="../../img/elements/design-system/brand-elements-design-system-a-unique-interative-and-responsive-system-connected-state-d.png" alt="">
+										<source media="(min-width: 769px)" srcset="/global/our-brand/brand-visualization/img/elements/design-system/brand-elements-design-system-a-unique-interative-and-responsive-system-connected-state-d.png">
+										<source media="(max-width: 768px)" srcset="/global/our-brand/brand-visualization/img/elements/design-system/brand-elements-design-system-a-unique-interative-and-responsive-system-connected-state-m.svg">
+										<img src="/global/our-brand/brand-visualization/img/elements/design-system/brand-elements-design-system-a-unique-interative-and-responsive-system-connected-state-d.png" alt="">
 									</picture>
 
 								</div>
@@ -191,24 +191,24 @@
 						<div class="tab-container" data-tab="mode">
 							<div id="hero-mode" class="tab-container__content tab-container__content--active">
 								<div class="percent-view">
-									<img src="../../img/elements/design-system/brand-elements-design-system-emotionally-intelligent-form-layouts-hero-mode-d.png" alt="">
+									<img src="/global/our-brand/brand-visualization/img/elements/design-system/brand-elements-design-system-emotionally-intelligent-form-layouts-hero-mode-d.png" alt="">
 								</div>
 							</div>
 							<div id="connect-mode" class="tab-container__content">
 								<div class="percent-view">
 									<picture>
-										<source media="(min-width: 769px)" srcset="../../img/elements/design-system/brand-elements-design-system-emotionally-intelligent-form-layouts-connect-mode-d.png">
-										<source media="(max-width: 768px)" srcset="../../img/elements/design-system/brand-elements-design-system-emotionally-intelligent-form-layouts-connect-mode-m.png">
-										<img src="../../img/elements/design-system/brand-elements-design-system-emotionally-intelligent-form-layouts-connect-mode-d.png" alt="">
+										<source media="(min-width: 769px)" srcset="/global/our-brand/brand-visualization/img/elements/design-system/brand-elements-design-system-emotionally-intelligent-form-layouts-connect-mode-d.png">
+										<source media="(max-width: 768px)" srcset="/global/our-brand/brand-visualization/img/elements/design-system/brand-elements-design-system-emotionally-intelligent-form-layouts-connect-mode-m.png">
+										<img src="/global/our-brand/brand-visualization/img/elements/design-system/brand-elements-design-system-emotionally-intelligent-form-layouts-connect-mode-d.png" alt="">
 									</picture>
 								</div>
 							</div>
 							<div id="focus-mode" class="tab-container__content">
 								<div class="percent-view percent-view--mo-right">
 									<picture>
-										<source media="(min-width: 769px)" srcset="../../img/elements/design-system/brand-elements-design-system-emotionally-intelligent-form-layouts-focus-mode-d.png">
-										<source media="(max-width: 768px)" srcset="../../img/elements/design-system/brand-elements-design-system-emotionally-intelligent-form-layouts-focus-mode-m.png">
-										<img src="../../img/elements/design-system/brand-elements-design-system-emotionally-intelligent-form-layouts-focus-mode-d.png" alt="">
+										<source media="(min-width: 769px)" srcset="/global/our-brand/brand-visualization/img/elements/design-system/brand-elements-design-system-emotionally-intelligent-form-layouts-focus-mode-d.png">
+										<source media="(max-width: 768px)" srcset="/global/our-brand/brand-visualization/img/elements/design-system/brand-elements-design-system-emotionally-intelligent-form-layouts-focus-mode-m.png">
+										<img src="/global/our-brand/brand-visualization/img/elements/design-system/brand-elements-design-system-emotionally-intelligent-form-layouts-focus-mode-d.png" alt="">
 									</picture>
 								</div>
 							</div>
@@ -232,16 +232,16 @@
 							<div id="intelligent" class="tab-container__content tab-container__content--active">
 								<div class="design-system__imagebox design-system__imagebox--intelligent percent-view">
 									<video muted playsinline loop class="percent-view__img">
-										<source src="../../img/elements/design-system/The_EI_lens_circle_intelligent_d.mp4" type="video/mp4" media="(min-width: 769px)"></source>
-										<source src="../../img/elements/design-system/The_EI_lens_circle_intelligent_m.mp4" type="video/mp4"></source>
+										<source src="/global/our-brand/brand-visualization/img/elements/design-system/The_EI_lens_circle_intelligent_d.mp4" type="video/mp4" media="(min-width: 769px)"></source>
+										<source src="/global/our-brand/brand-visualization/img/elements/design-system/The_EI_lens_circle_intelligent_m.mp4" type="video/mp4"></source>
 									</video>
 								</div>
 							</div>
 							<div id="respectful" class="tab-container__content">
 								<div class="design-system__imagebox design-system__imagebox--respectful percent-view">
 									<video muted playsinline loop class="percent-view__img">
-										<source src="../../img/elements/design-system/The_EI_lens_Square_respectful_d.mp4" type="video/mp4" media="(min-width: 769px)"></source>
-										<source src="../../img/elements/design-system/The_EI_lens_Square_respectful_m.mp4" type="video/mp4"></source>
+										<source src="/global/our-brand/brand-visualization/img/elements/design-system/The_EI_lens_Square_respectful_d.mp4" type="video/mp4" media="(min-width: 769px)"></source>
+										<source src="/global/our-brand/brand-visualization/img/elements/design-system/The_EI_lens_Square_respectful_m.mp4" type="video/mp4"></source>
 									</video>
 								</div>
 							</div>
@@ -251,9 +251,9 @@
 						</div>
 						<div class="all-comes-together">
 							<picture>
-								<source media="(min-width: 769px)" class="all-comes-together__img" srcset="../../img/elements/design-system/design_system_how_it_all-d.png">
-								<source media="(max-width: 768px)" class="all-comes-together__img" srcset="../../img/elements/design-system/design_system_how_it_all-m.png">
-								<img class="all-comes-together__img" srcset="../../img/elements/design-system/design_system_how_it_all-d.png">
+								<source media="(min-width: 769px)" class="all-comes-together__img" srcset="/global/our-brand/brand-visualization/img/elements/design-system/design_system_how_it_all-d.png">
+								<source media="(max-width: 768px)" class="all-comes-together__img" srcset="/global/our-brand/brand-visualization/img/elements/design-system/design_system_how_it_all-m.png">
+								<img class="all-comes-together__img" srcset="/global/our-brand/brand-visualization/img/elements/design-system/design_system_how_it_all-d.png">
 							</picture>
 						</div>
 					</div>

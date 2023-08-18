@@ -122,16 +122,16 @@
 					<div id="brand-container">
 						<div class="brand-visual-film visual__top">
 							<!-- <picture class="brand-visual-film__video">
-								<source media="(min-width: 769px)" srcset="../img/philosophy/Expressive_symbol_wink_d.png">
-								<source media="(max-width: 768px)" srcset="../img/philosophy/Expressive_symbol_wink_m.png">
-								<img src="../img/philosophy/Expressive_symbol_wink_d.png" alt="">
+								<source media="(min-width: 769px)" srcset="/global/our-brand/brand-visualization/img/philosophy/Expressive_symbol_wink_d.png">
+								<source media="(max-width: 768px)" srcset="/global/our-brand/brand-visualization/img/philosophy/Expressive_symbol_wink_m.png">
+								<img src="/global/our-brand/brand-visualization/img/philosophy/Expressive_symbol_wink_d.png" alt="">
 							</picture> -->
 							<video muted playsinline autoplay loop class="resolutionVideo">
 								<source 
-									src="../img/philosophy/lifes-good-lg-video.mp4" 
+									src="/global/our-brand/brand-visualization/img/philosophy/lifes-good-lg-video.mp4" 
 									type="video/mp4"
-									data-urlpc="../img/philosophy/lifes-good-lg-video.mp4"
-									data-urlmo="../img/philosophy/lifes-good-lg-video-m.mp4"
+									data-urlpc="/global/our-brand/brand-visualization/img/philosophy/lifes-good-lg-video.mp4"
+									data-urlmo="/global/our-brand/brand-visualization/img/philosophy/lifes-good-lg-video-m.mp4"
 								>
 								</source>
 							</video>
@@ -171,22 +171,22 @@
 								</div>
 								<ul class="imotionally-design__imgwrap">
 									<li class="imotionally-design__item">
-										<video muted playsinline loop autoplay><source src="../img/philosophy/emotionally_intelligent_item_01.mp4" type="video/mp4"/></video>
+										<video muted playsinline loop autoplay><source src="/global/our-brand/brand-visualization/img/philosophy/emotionally_intelligent_item_01.mp4" type="video/mp4"/></video>
 									</li>
 									<li class="imotionally-design__item">
-										<video muted playsinline loop autoplay><source src="../img/philosophy/emotionally_intelligent_item_02.mp4" type="video/mp4"/></video>
+										<video muted playsinline loop autoplay><source src="/global/our-brand/brand-visualization/img/philosophy/emotionally_intelligent_item_02.mp4" type="video/mp4"/></video>
 									</li>
 									<li class="imotionally-design__item">
-										<img src="../img/philosophy/emotionally_intelligent_item_03.png" alt="">
+										<img src="/global/our-brand/brand-visualization/img/philosophy/emotionally_intelligent_item_03.png" alt="">
 									</li>
 									<li class="imotionally-design__item">
-										<video muted playsinline loop autoplay><source src="../img/philosophy/emotionally_intelligent_item_04.mp4" type="video/mp4"/></video>
+										<video muted playsinline loop autoplay><source src="/global/our-brand/brand-visualization/img/philosophy/emotionally_intelligent_item_04.mp4" type="video/mp4"/></video>
 									</li>
 									<li class="imotionally-design__item">
-										<video muted playsinline loop autoplay><source src="../img/philosophy/emotionally_intelligent_item_05.mp4" type="video/mp4"/></video>
+										<video muted playsinline loop autoplay><source src="/global/our-brand/brand-visualization/img/philosophy/emotionally_intelligent_item_05.mp4" type="video/mp4"/></video>
 									</li>
 									<li class="imotionally-design__item">
-										<video muted playsinline loop autoplay><source src="../img/philosophy/emotionally_intelligent_item_06.mp4" type="video/mp4"/></video>
+										<video muted playsinline loop autoplay><source src="/global/our-brand/brand-visualization/img/philosophy/emotionally_intelligent_item_06.mp4" type="video/mp4"/></video>
 									</li>
 								</ul>
 							</div>
@@ -197,7 +197,7 @@
 							</p>
 							<div class="looping-video-content">
 								<video muted playsinline loop autoplay>
-									<source src="../img/philosophy/looping-video-content.mp4" type="video/mp4">
+									<source src="/global/our-brand/brand-visualization/img/philosophy/looping-video-content.mp4" type="video/mp4">
 								</video>
 							</div>
 							<p class="intro-text">
@@ -205,9 +205,9 @@
 								It means every experience we create can help people feel Life’s Good.
 							</p>
 							<ul class="looping-video-multi">
-								<li><video muted playsinline loop autoplay><source src="../img/philosophy/looping-video-multi-01.mp4" type="video/mp4"></source></video></li>
-								<li><img src="../img/philosophy/looping-video-multi-02.png" alt=""></li>
-								<li><video muted playsinline loop autoplay><source src="../img/philosophy/looping-video-multi-03.mp4" type="video/mp4"></source></video></li>
+								<li><video muted playsinline loop autoplay><source src="/global/our-brand/brand-visualization/img/philosophy/looping-video-multi-01.mp4" type="video/mp4"></source></video></li>
+								<li><img src="/global/our-brand/brand-visualization/img/philosophy/looping-video-multi-02.png" alt=""></li>
+								<li><video muted playsinline loop autoplay><source src="/global/our-brand/brand-visualization/img/philosophy/looping-video-multi-03.mp4" type="video/mp4"></source></video></li>
 							</ul>
 						</div>
 						<div class="brand-elements">

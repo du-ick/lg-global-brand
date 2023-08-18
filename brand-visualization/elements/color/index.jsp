@@ -124,7 +124,7 @@
                         </div>
                         <div class="visual-innner">
                             <div class="download_assets">
-                                <img src="../../img/elements/color/download_assets_gradients.png" alt class="download_assets__thumb"></img>
+                                <img src="/global/our-brand/brand-visualization/img/elements/color/download_assets_gradients.png" alt class="download_assets__thumb"></img>
                                 <p class="download_assets__title">
                                     <b>LG gradients</b>
                                     Download Assets

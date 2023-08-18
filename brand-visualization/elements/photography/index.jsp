@@ -181,14 +181,14 @@
                             </p>
                         </div>
                         <ul class="photography__grid photography__grid--everyday">
-                            <li class="photography__grid__item"><img src="../../img/elements/photography/photography__grid__item_01.png" alt=""></li>
-                            <li class="photography__grid__item"><img src="../../img/elements/photography/photography__grid__item_02.png" alt=""></li>
-                            <li class="photography__grid__item"><img src="../../img/elements/photography/photography__grid__item_03.png" alt=""></li>
-                            <li class="photography__grid__item"><img src="../../img/elements/photography/photography__grid__item_04.png" alt=""></li>
-                            <li class="photography__grid__item"><img src="../../img/elements/photography/photography__grid__item_05.png" alt=""></li>
-                            <li class="photography__grid__item"><img src="../../img/elements/photography/photography__grid__item_06.png" alt=""></li>
-                            <li class="photography__grid__item"><img src="../../img/elements/photography/photography__grid__item_07.png" alt=""></li>
-                            <li class="photography__grid__item"><img src="../../img/elements/photography/photography__grid__item_08.png" alt=""></li>
+                            <li class="photography__grid__item"><img src="/global/our-brand/brand-visualization/img/elements/photography/photography__grid__item_01.png" alt=""></li>
+                            <li class="photography__grid__item"><img src="/global/our-brand/brand-visualization/img/elements/photography/photography__grid__item_02.png" alt=""></li>
+                            <li class="photography__grid__item"><img src="/global/our-brand/brand-visualization/img/elements/photography/photography__grid__item_03.png" alt=""></li>
+                            <li class="photography__grid__item"><img src="/global/our-brand/brand-visualization/img/elements/photography/photography__grid__item_04.png" alt=""></li>
+                            <li class="photography__grid__item"><img src="/global/our-brand/brand-visualization/img/elements/photography/photography__grid__item_05.png" alt=""></li>
+                            <li class="photography__grid__item"><img src="/global/our-brand/brand-visualization/img/elements/photography/photography__grid__item_06.png" alt=""></li>
+                            <li class="photography__grid__item"><img src="/global/our-brand/brand-visualization/img/elements/photography/photography__grid__item_07.png" alt=""></li>
+                            <li class="photography__grid__item"><img src="/global/our-brand/brand-visualization/img/elements/photography/photography__grid__item_08.png" alt=""></li>
                         </ul>
                     </div>
 					<div class="brand-elements">

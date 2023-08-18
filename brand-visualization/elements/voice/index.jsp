@@ -145,7 +145,7 @@
 							<div class="voice-slide slideOnlyMo">
 								<ul class="swiper-wrapper">
 									<li class="swiper-slide slide-emotionally">
-										<!-- <img src="../../img/elements/voice/voice-slide-emotionally.svg" alt=""> -->
+										<!-- <img src="/global/our-brand/brand-visualization/img/elements/voice/voice-slide-emotionally.svg" alt=""> -->
 										<span>Emotionally</span>
 										<h3>
 											We write with
@@ -157,7 +157,7 @@
 										</p>
 									</li>
 									<li class="swiper-slide slide-intelligent">
-										<!-- <img src="../../img/elements/voice/voice-slide-intelligent.svg" alt=""> -->
+										<!-- <img src="/global/our-brand/brand-visualization/img/elements/voice/voice-slide-intelligent.svg" alt=""> -->
 										<span>Intelligent</span>
 										<h3>
 											We write with
@@ -169,7 +169,7 @@
 										</p>
 									</li>
 									<li class="swiper-slide slide-design">
-										<!-- <img src="../../img/elements/voice/voice-slide-design.svg" alt=""> -->
+										<!-- <img src="/global/our-brand/brand-visualization/img/elements/voice/voice-slide-design.svg" alt=""> -->
 										<span>Design</span>
 										<h3>
 											We write with
@@ -207,27 +207,27 @@
                             <div id="emotionally" class="tab-container__content tab-container__content--active">
                                 <div class="text-element text-element--headline">
 									<picture>
-										<source media="(min-width: 769px)" srcset="../../img/elements/voice/principles-d-01.png">
-										<source media="(max-width: 768px)" srcset="../../img/elements/voice/principles-m-01.svg">
-										<img src="../../img/elements/voice/principles-d-01.png" alt="">
+										<source media="(min-width: 769px)" srcset="/global/our-brand/brand-visualization/img/elements/voice/principles-d-01.png">
+										<source media="(max-width: 768px)" srcset="/global/our-brand/brand-visualization/img/elements/voice/principles-m-01.svg">
+										<img src="/global/our-brand/brand-visualization/img/elements/voice/principles-d-01.png" alt="">
 									</picture>
                                 </div>
                             </div>
                             <div id="intelligent" class="tab-container__content">
                                 <div class="text-element text-element--body">
 									<picture>
-										<source media="(min-width: 769px)" srcset="../../img/elements/voice/principles-d-02.png">
-										<source media="(max-width: 768px)" srcset="../../img/elements/voice/principles-m-02.svg">
-										<img src="../../img/elements/voice/principles-d-02.png" alt="">
+										<source media="(min-width: 769px)" srcset="/global/our-brand/brand-visualization/img/elements/voice/principles-d-02.png">
+										<source media="(max-width: 768px)" srcset="/global/our-brand/brand-visualization/img/elements/voice/principles-m-02.svg">
+										<img src="/global/our-brand/brand-visualization/img/elements/voice/principles-d-02.png" alt="">
 									</picture>
                                 </div>
                             </div>
                             <div id="design" class="tab-container__content">
                                 <div class="text-element text-element--body">
 									<picture>
-										<source media="(min-width: 769px)" srcset="../../img/elements/voice/principles-d-03.png">
-										<source media="(max-width: 768px)" srcset="../../img/elements/voice/principles-m-03.svg">
-										<img src="../../img/elements/voice/principles-d-03.png" alt="">
+										<source media="(min-width: 769px)" srcset="/global/our-brand/brand-visualization/img/elements/voice/principles-d-03.png">
+										<source media="(max-width: 768px)" srcset="/global/our-brand/brand-visualization/img/elements/voice/principles-m-03.svg">
+										<img src="/global/our-brand/brand-visualization/img/elements/voice/principles-d-03.png" alt="">
 									</picture>
                                 </div>
                             </div>
@@ -250,27 +250,27 @@
                             <div id="emotionally2" class="tab-container__content tab-container__content--active">
                                 <div class="text-element text-element--headline">
 									<picture>
-										<source media="(min-width: 769px)" srcset="../../img/elements/voice/voice-flexes-01-d.png">
-										<source media="(max-width: 768px)" srcset="../../img/elements/voice/voice-flexes-01-m.svg">
-										<img src="../../img/elements/voice/voice-flexes-01-d.png" alt="">
+										<source media="(min-width: 769px)" srcset="/global/our-brand/brand-visualization/img/elements/voice/voice-flexes-01-d.png">
+										<source media="(max-width: 768px)" srcset="/global/our-brand/brand-visualization/img/elements/voice/voice-flexes-01-m.svg">
+										<img src="/global/our-brand/brand-visualization/img/elements/voice/voice-flexes-01-d.png" alt="">
 									</picture>
                                 </div>
                             </div>
                             <div id="intelligent2" class="tab-container__content">
                                 <div class="text-element text-element--body">
 									<picture>
-										<source media="(min-width: 769px)" srcset="../../img/elements/voice/voice-flexes-02-d.png">
-										<source media="(max-width: 768px)" srcset="../../img/elements/voice/voice-flexes-02-m.svg">
-										<img src="../../img/elements/voice/voice-flexes-02-d.png" alt="">
+										<source media="(min-width: 769px)" srcset="/global/our-brand/brand-visualization/img/elements/voice/voice-flexes-02-d.png">
+										<source media="(max-width: 768px)" srcset="/global/our-brand/brand-visualization/img/elements/voice/voice-flexes-02-m.svg">
+										<img src="/global/our-brand/brand-visualization/img/elements/voice/voice-flexes-02-d.png" alt="">
 									</picture>
                                 </div>
                             </div>
                             <div id="design2" class="tab-container__content">
                                 <div class="text-element text-element--body">
 									<picture>
-										<source media="(min-width: 769px)" srcset="../../img/elements/voice/voice-flexes-03-d.png">
-										<source media="(max-width: 768px)" srcset="../../img/elements/voice/voice-flexes-03-m.svg">
-										<img src="../../img/elements/voice/voice-flexes-03-d.png" alt="">
+										<source media="(min-width: 769px)" srcset="/global/our-brand/brand-visualization/img/elements/voice/voice-flexes-03-d.png">
+										<source media="(max-width: 768px)" srcset="/global/our-brand/brand-visualization/img/elements/voice/voice-flexes-03-m.svg">
+										<img src="/global/our-brand/brand-visualization/img/elements/voice/voice-flexes-03-d.png" alt="">
 									</picture>
                                 </div>
                             </div>
@@ -283,9 +283,9 @@
                         </div>
                         <div>
 							<picture>
-								<source media="(min-width: 769px)" srcset="../../img/elements/voice/message-example-smile.png">
-								<source media="(max-width: 768px)" srcset="../../img/elements/voice/message-example-smile-m.svg">
-								<img src="../../img/elements/voice/message-example-smile.png" alt="">
+								<source media="(min-width: 769px)" srcset="/global/our-brand/brand-visualization/img/elements/voice/message-example-smile.png">
+								<source media="(max-width: 768px)" srcset="/global/our-brand/brand-visualization/img/elements/voice/message-example-smile-m.svg">
+								<img src="/global/our-brand/brand-visualization/img/elements/voice/message-example-smile.png" alt="">
 							</picture>
                         </div>
                     </div>

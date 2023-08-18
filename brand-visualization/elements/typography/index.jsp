@@ -124,7 +124,7 @@
 						</div>
 						<div class="visual-innner">
 							<div class="download_assets">
-								<img src="../../img/elements/typography/download_assets_font.png" alt class="download_assets__thumb"></img>
+								<img src="/global/our-brand/brand-visualization/img/elements/typography/download_assets_font.png" alt class="download_assets__thumb"></img>
 								<p class="download_assets__title">
 									<b>LG EI Font</b>
 									Download Assets
@@ -155,8 +155,8 @@
 							<div id="warmth" class="tab-container__content tab-container__content--active">
 								<div class="text-element text-element--headline percent-view">
 									<video muted playsinline autoplay loop class ="percent-view__img">
-										<source src="../../img/elements/typography/our-new-font-wormth-d.mp4" type="video/mp4" media="(min-width: 769px)"></source>
-										<source src="../../img/elements/typography/our-new-font-wormth-m.mp4" type="video/mp4"></source>
+										<source src="/global/our-brand/brand-visualization/img/elements/typography/our-new-font-wormth-d.mp4" type="video/mp4" media="(min-width: 769px)"></source>
+										<source src="/global/our-brand/brand-visualization/img/elements/typography/our-new-font-wormth-m.mp4" type="video/mp4"></source>
 									</video>
 									<p class="fix-text">Warmth</p>
 								</div>
@@ -164,7 +164,7 @@
 							<div id="innovation" class="tab-container__content">
 								<div class="text-element text-element--body percent-view">
 									<video muted playsinline autoplay loop class="percent-view__img">
-										<source src="../../img/elements/typography/our-new-font-innovation-d.mp4" type="video/mp4"></source>
+										<source src="/global/our-brand/brand-visualization/img/elements/typography/our-new-font-innovation-d.mp4" type="video/mp4"></source>
 									</video>
 									<p class="fix-text">Innovation</p>
 								</div>
@@ -179,10 +179,10 @@
 						</div>
 						<div class="text-element text-element--headline percent-view">
 							<picture class="percent-view__img">
-								<source media="(min-width: 1441px)" srcset="../../img/elements/typography/text-element--headline.svg">
-								<source media="(min-width: 769px) and (max-width: 1440px)" srcset="../../img/elements/typography/text-element--headline-t.svg">
-								<source media="(max-width: 768px)" srcset="../../img/elements/typography/text-element--headline-m.svg">
-								<img src="../../img/elements/typography/text-element--headline.svg" alt="">
+								<source media="(min-width: 1441px)" srcset="/global/our-brand/brand-visualization/img/elements/typography/text-element--headline.svg">
+								<source media="(min-width: 769px) and (max-width: 1440px)" srcset="/global/our-brand/brand-visualization/img/elements/typography/text-element--headline-t.svg">
+								<source media="(max-width: 768px)" srcset="/global/our-brand/brand-visualization/img/elements/typography/text-element--headline-m.svg">
+								<img src="/global/our-brand/brand-visualization/img/elements/typography/text-element--headline.svg" alt="">
 							</picture>
 						</div>
 						<div class="brand__header">
@@ -198,30 +198,30 @@
 								<ul class="swiper-wrapper">
 									<li class="swiper-slide percent-view">
 										<picture class="percent-view__img">
-											<source media="(min-width: 789px)" srcset="../../img/elements/typography/bringing_it_to_life_slide_04-d.png">
-											<source media="(max-width: 768px)" srcset="../../img/elements/typography/bringing_it_to_life_slide_04-m.png">
-											<img src="../../img/elements/typography/bringing_it_to_life_slide_04-d.png" alt="">
+											<source media="(min-width: 789px)" srcset="/global/our-brand/brand-visualization/img/elements/typography/bringing_it_to_life_slide_04-d.png">
+											<source media="(max-width: 768px)" srcset="/global/our-brand/brand-visualization/img/elements/typography/bringing_it_to_life_slide_04-m.png">
+											<img src="/global/our-brand/brand-visualization/img/elements/typography/bringing_it_to_life_slide_04-d.png" alt="">
 										</picture>
 									</li>
 									<li class="swiper-slide percent-view">
 										<picture class="percent-view__img">
-											<source media="(min-width: 789px)" srcset="../../img/elements/typography/bringing_it_to_life_slide_02-d.png">
-											<source media="(max-width: 768px)" srcset="../../img/elements/typography/bringing_it_to_life_slide_02-m.png">
-											<img src="../../img/elements/typography/bringing_it_to_life_slide_02-d.png" alt="">
+											<source media="(min-width: 789px)" srcset="/global/our-brand/brand-visualization/img/elements/typography/bringing_it_to_life_slide_02-d.png">
+											<source media="(max-width: 768px)" srcset="/global/our-brand/brand-visualization/img/elements/typography/bringing_it_to_life_slide_02-m.png">
+											<img src="/global/our-brand/brand-visualization/img/elements/typography/bringing_it_to_life_slide_02-d.png" alt="">
 										</picture>
 									</li>
 									<li class="swiper-slide percent-view">
 										<picture class="percent-view__img">
-											<source media="(min-width: 789px)" srcset="../../img/elements/typography/bringing_it_to_life_slide_03-d.png">
-											<source media="(max-width: 768px)" srcset="../../img/elements/typography/bringing_it_to_life_slide_03-m.png">
-											<img src="../../img/elements/typography/bringing_it_to_life_slide_03-d.png" alt="">
+											<source media="(min-width: 789px)" srcset="/global/our-brand/brand-visualization/img/elements/typography/bringing_it_to_life_slide_03-d.png">
+											<source media="(max-width: 768px)" srcset="/global/our-brand/brand-visualization/img/elements/typography/bringing_it_to_life_slide_03-m.png">
+											<img src="/global/our-brand/brand-visualization/img/elements/typography/bringing_it_to_life_slide_03-d.png" alt="">
 										</picture>
 									</li>
 									<li class="swiper-slide percent-view">
 										<picture class="percent-view__img">
-											<source media="(min-width: 789px)" srcset="../../img/elements/typography/bringing_it_to_life_slide_01-d.png">
-											<source media="(max-width: 768px)" srcset="../../img/elements/typography/bringing_it_to_life_slide_01-m.png">
-											<img src="../../img/elements/typography/bringing_it_to_life_slide_01-d.png" alt="">
+											<source media="(min-width: 789px)" srcset="/global/our-brand/brand-visualization/img/elements/typography/bringing_it_to_life_slide_01-d.png">
+											<source media="(max-width: 768px)" srcset="/global/our-brand/brand-visualization/img/elements/typography/bringing_it_to_life_slide_01-m.png">
+											<img src="/global/our-brand/brand-visualization/img/elements/typography/bringing_it_to_life_slide_01-d.png" alt="">
 										</picture>
 									</li>
 								</ul>
