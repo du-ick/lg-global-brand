@@ -274,7 +274,7 @@
 					<div class="pop-inner">
 						<div class="video-wrapper">
 							<video id="video-item" controls class="vjs-matrix video-js" preload="auto">
-								<source src="/global/our-brand/brand-expression/img/philosophy/20230406_LG_BrandfilmMaster_88.mp4" type="video/mp4">
+								<source src="/global/our-brand/brand-expression/img/philosophy/lg_brandfilmmaster.mp4" type="video/mp4">
 							</video>
 						</div>
 					</div>

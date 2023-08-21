@@ -4,7 +4,7 @@
 function visualVideo() {
     let player = videojs('video-item', {
         sources: [
-            {src : '../img/philosophy/20230406_LG_BrandfilmMaster_88.mp4', type: 'video/mp4'}
+            {src : '../img/philosophy/lg_brandfilmmaster.mp4', type: 'video/mp4'}
         ],
         controls : true,
         playsinline : true,
