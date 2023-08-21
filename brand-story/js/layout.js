@@ -78,15 +78,24 @@ function initCommonHeader() {
         }
     }
 
-    btnGnb.onclick = function() {
-        btnGnbBar.forEach(function(item) {
-            if(item.className.indexOf("c-header__btn-gnb__bar--close") < 0) {
+    btnGnb.onclick = function () { //여기
+        var gnbDeps2Bg = document.querySelector(".gnb__deps2__bg");
+        var isOpend = btnGnbBar[0].className.indexOf("c-header__btn-gnb__bar--close") < 0 ? true : false
+        
+        if (isOpend) {
+            gnbDeps2Bg.style.display = "block"
+        } else {
+            gnbDeps2Bg.style.display = "none"
+        }
+        
+        btnGnbBar.forEach(function (item) {
+            if (item.className.indexOf("c-header__btn-gnb__bar--close") < 0) {
                 item.className = item.className.replace("c-header__btn-gnb__bar","c-header__btn-gnb__bar c-header__btn-gnb__bar--close")
                 gnb.style.display = "block"
                 setTimeout(function() {
                     gnb.style.transform = "translateY(0vh)";
                 } ,100)
-            } else if(item.className.indexOf("c-header__btn-gnb__bar--close") >= 0) {
+            } else if (item.className.indexOf("c-header__btn-gnb__bar--close") >= 0) {
                 item.className = item.className.replace("c-header__btn-gnb__bar c-header__btn-gnb__bar--close","c-header__btn-gnb__bar")
                 gnb.style.transform = "translateY(100vh)";
                 setTimeout(function() {
@@ -348,17 +357,25 @@ function brandElememtsSlider() {
 
 /*change video*/
 function resolutionVideo() {
-    const changeVideo = document.querySelector('.resolutionVideo')
+    const changeVideo = document.querySelectorAll('.resolutionVideo')
     if (changeVideo == undefined || null) return
-    const source = changeVideo.querySelector('source')
+
     let winSize = window.innerWidth
     let isMobile = winSize > 768 ? false : true
     let lastSize = ''
 
+
+
+
     function setVideo() {
         if (isMobile !== lastSize) {
-            let currentUrl = winSize > 768 ? source.dataset.urlpc : source.dataset.urlmo
-            changeVideo.setAttribute('src', currentUrl)
+
+            changeVideo.forEach(video => {
+                const source = video.querySelector('source')
+                let currentUrl = winSize > 768 ? source.dataset.urlpc : source.dataset.urlmo
+                video.setAttribute('src', currentUrl)
+            })
+
             lastSize = isMobile
         }
     }
@@ -368,7 +385,7 @@ function resolutionVideo() {
         winSize > 768 ? isMobile = false : isMobile = true
         setVideo()
     })
-
+    
     setVideo()
 }
 

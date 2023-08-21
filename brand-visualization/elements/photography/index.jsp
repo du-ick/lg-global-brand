@@ -255,6 +255,7 @@
 				</div>
 				<script src="https://vjs.zencdn.net/8.3.0/video.min.js"></script>
 				<script src="/global/our-brand/brand-visualization/js/layout.js"></script>
+				<script src="/global/our-brand/brand-visualization/js/photography.js"></script>
             <!-- /CONTENTS -->
             <!-- footer -->
             <%@ include file="/global/our-brand/brand-visualization/inc/footer.jsp" %>
