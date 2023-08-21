@@ -9,6 +9,19 @@ br.mo {display: none;}
     overflow: hidden;
     position: relative;
 }
+.brand-visual-film::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    left: 0;
+    top: 0;
+    background: no-repeat center;
+    background-size: contain;
+    background-image: url(../img/philosophy/lifes-good-lg-video-cover-m.svg);
+    display: none;
+}
 .brand-visual-film__video {width: 100%; height: 100%; border-radius: unset;}
 .brand-visual-film video,
 .brand-visual-film__video img {
@@ -35,6 +48,7 @@ br.mo {display: none;}
     border: 1px solid #CBC8C280;
     cursor: pointer;
     transition: .5s cubic-bezier(0.56, 0, 0.28, 1);
+    z-index: 3;
 }
 .btn-play::before {
     content: '';
@@ -845,6 +859,9 @@ br.mo {display: none;}
         position: absolute;
         width: 64px;
         height: 64px;
+    }
+    .brand-visual-film::after {
+        display: block;
     }
     .brand-story-content {
         margin: 120px 0 0;
