@@ -1,9 +1,9 @@
 <div id="header__wrap" class="c-header__wrap">
     <header id="header" class="c-header">
-        <h1 class="c-header__tit"><a href="/global/our-brand/brand-expression/index.html"><img src="/global/our-brand/brand-expression/img/Logo.svg" alt="LG" loading="lazy" class="c-header__tit__logo" /></a></h1>
+        <h1 class="c-header__tit"><a href="/global/our-brand/brand-expression/philosophy/index.jsp"><img src="/global/our-brand/brand-expression/img/Logo.svg" alt="LG" loading="lazy" class="c-header__tit__logo" /></a></h1>
         <nav class="c-header__gnb">
             <ul class="c-header__gnb__list">
-                <li class="c-header__gnb__list__item"><a href="/global/our-brand/brand-expression/philosophy/index.html" class="c-header__gnb__list__item__anchor">Philosophy</a></li>
+                <li class="c-header__gnb__list__item"><a href="/global/our-brand/brand-expression/philosophy/index.jsp" class="c-header__gnb__list__item__anchor">Philosophy</a></li>
                 <li class="c-header__gnb__list__item"><a href="javascript:void(0)"  onmouseenter="initGnbDeps2(this); return false" onclick="initGnbDeps2(this);  return false" class="c-header__gnb__list__item__anchor c-header__gnb__list__item__anchor--active">Elements</a>
                     <div class="c-header__gnb__list__item__deps2">
                         <ul class="c-header__gnb__list__item__deps2__menu">
@@ -29,7 +29,12 @@
                 </li>
             </ul>
         </nav>
-        <p class="c-header__location">Logo</p>
+        <% if (request.getRequestURI().contains("/elements/")) { %>
+            <p class="c-header__location">
+                <%= request.getRequestURI().substring(request.getRequestURI().lastIndexOf("/elements/") + "/elements/".length()) %>
+            </p>
+        <% } %>
+        <!-- <p class="c-header__location">Logo</p> -->
         <button type="button" class="c-header__btn-gnb">
             <span class="c-header__btn-gnb__bar"></span>
             <span class="c-header__btn-gnb__bar"></span>
