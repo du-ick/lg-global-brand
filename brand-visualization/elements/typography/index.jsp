@@ -13,16 +13,16 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" /> -->
 
 	
-	<title>LG Sustainability Global</title>
-	<meta name="description" content="Our customer service and innovative quality bring a smile to many. We continue to explore sustainability to make the smile last with a better life for people, and a better future for the Earth." />
-	<meta name="keywords" content="sustainability, planet, environmental, people, social, impact, reports" />
+	<title>LG Brand expression | Typography</title>
+	<meta name="description" content="The LG EI font is a dedicated typeface that communicates our design philosophy of ‘Emotionally Intelligent Design’. The overall form of the font is geometric, and the external circle represents the innovative technology we create. The rounded edges inside the font and the strokes inspired by handwriting symbolize the elements of warmth and emotion we aspire to embody." />
+	<meta name="keywords" content="LG, expression, typography, brand" />
 	<meta property="og:locale" content="en_GLOBAL" />
-	<meta property="og:site_name" content="LG Sustainability Global" />
+	<meta property="og:site_name" content="LG Brand expression | Typography" />
 	<meta property="og:type" content="website" />
-	<meta property="og:title" content="LG Sustainability Global" />
-	<meta property="og:url" content="https://www.lg.com/global/sustainability" />
-	<meta property="og:description" content="Our customer service and innovative quality bring a smile to many. We continue to explore sustainability to make the smile last with a better life for people, and a better future for the Earth." />
-	<meta property="og:image" content="https://www.lg.com/global/sustainability/img/og/lg-sustainability-og.jpg" />
+	<meta property="og:title" content="LG Brand expression | Typography" />
+	<meta property="og:url" content="" />
+	<meta property="og:description" content="The LG EI font is a dedicated typeface that communicates our design philosophy of ‘Emotionally Intelligent Design’. The overall form of the font is geometric, and the external circle represents the innovative technology we create. The rounded edges inside the font and the strokes inspired by handwriting symbolize the elements of warmth and emotion we aspire to embody." />
+	<meta property="og:image" content="" />
 
 	<jsp:include page="/WEB-INF/jsp/gp/common/include/head/head-css.jsp" />
 	<jsp:include page="/WEB-INF/jsp/gp/common/include/head/font-woff.jsp" />

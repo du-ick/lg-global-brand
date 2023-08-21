@@ -347,12 +347,14 @@
     width: 52%;
     height: 62%;
     border-radius: 30px;
+    transform-origin: center center; /* 변환 중심을 가운데로 설정 */
+    transition-property: transform;
 }
 .brand-contents .our-identity__slide--photography:hover:before {
-    width: 100%;
-    height: 100%;
+    /* width: 100%;
+    height: 100%; */
     opacity: 1;
-    transform: translate(-50%, -50%) scale(1.1);
+    transform: translate(-50%, -50%) scale(2);
 }
 .brand-contents .our-identity__slide--photography::after {
     display: none;
@@ -665,6 +667,9 @@
         width: 68%;
         height: 48%;
         border-radius: 14px;
+    }
+    .brand-contents .our-identity__slide--photography:hover:before {
+        transform: translate(-50%, -50%) scale(2.2);
     }
 }
 
