@@ -142,10 +142,10 @@
                             </p>
                         </div>
 						<div class="our-voice-slide">
-							<div class="voice-slide slideOnlyMo">
+							<div class="slide-wrap voice slideOnlyMo">
 								<ul class="swiper-wrapper">
 									<li class="swiper-slide slide-emotionally">
-										<!-- <img src="/global/our-brand/brand-visualization/img/elements/voice/voice-slide-emotionally.svg" alt=""> -->
+										<!-- <img src="../../img/elements/voice/voice-slide-emotionally.svg" alt=""> -->
 										<span>Emotionally</span>
 										<h3>
 											We write with
@@ -157,7 +157,7 @@
 										</p>
 									</li>
 									<li class="swiper-slide slide-intelligent">
-										<!-- <img src="/global/our-brand/brand-visualization/img/elements/voice/voice-slide-intelligent.svg" alt=""> -->
+										<!-- <img src="../../img/elements/voice/voice-slide-intelligent.svg" alt=""> -->
 										<span>Intelligent</span>
 										<h3>
 											We write with
@@ -169,7 +169,7 @@
 										</p>
 									</li>
 									<li class="swiper-slide slide-design">
-										<!-- <img src="/global/our-brand/brand-visualization/img/elements/voice/voice-slide-design.svg" alt=""> -->
+										<!-- <img src="../../img/elements/voice/voice-slide-design.svg" alt=""> -->
 										<span>Design</span>
 										<h3>
 											We write with
@@ -187,8 +187,7 @@
 								<button class="next"></button>
 							</div>
 						</div>
-
-        
+						        
                         <div class="brand__header">
                             <h2 class="brand__header-title">Principles</h2>
                             <p class="brand__header-description">
@@ -208,27 +207,27 @@
                             <div id="emotionally" class="tab-container__content tab-container__content--active">
                                 <div class="text-element text-element--headline">
 									<picture>
-										<source media="(min-width: 769px)" srcset="/global/our-brand/brand-visualization/img/elements/voice/principles-d-01.png">
-										<source media="(max-width: 768px)" srcset="/global/our-brand/brand-visualization/img/elements/voice/principles-m-01.svg">
-										<img src="/global/our-brand/brand-visualization/img/elements/voice/principles-d-01.png" alt="">
+										<source media="(min-width: 769px)" srcset="../../img/elements/voice/principles-d-01.png">
+										<source media="(max-width: 768px)" srcset="../../img/elements/voice/principles-m-01.svg">
+										<img src="../../img/elements/voice/principles-d-01.png" alt="">
 									</picture>
                                 </div>
                             </div>
                             <div id="intelligent" class="tab-container__content">
                                 <div class="text-element text-element--body">
 									<picture>
-										<source media="(min-width: 769px)" srcset="/global/our-brand/brand-visualization/img/elements/voice/principles-d-02.png">
-										<source media="(max-width: 768px)" srcset="/global/our-brand/brand-visualization/img/elements/voice/principles-m-02.svg">
-										<img src="/global/our-brand/brand-visualization/img/elements/voice/principles-d-02.png" alt="">
+										<source media="(min-width: 769px)" srcset="../../img/elements/voice/principles-d-02.png">
+										<source media="(max-width: 768px)" srcset="../../img/elements/voice/principles-m-02.svg">
+										<img src="../../img/elements/voice/principles-d-02.png" alt="">
 									</picture>
                                 </div>
                             </div>
                             <div id="design" class="tab-container__content">
                                 <div class="text-element text-element--body">
 									<picture>
-										<source media="(min-width: 769px)" srcset="/global/our-brand/brand-visualization/img/elements/voice/principles-d-03.png">
-										<source media="(max-width: 768px)" srcset="/global/our-brand/brand-visualization/img/elements/voice/principles-m-03.svg">
-										<img src="/global/our-brand/brand-visualization/img/elements/voice/principles-d-03.png" alt="">
+										<source media="(min-width: 769px)" srcset="../../img/elements/voice/principles-d-03.png">
+										<source media="(max-width: 768px)" srcset="../../img/elements/voice/principles-m-03.svg">
+										<img src="../../img/elements/voice/principles-d-03.png" alt="">
 									</picture>
                                 </div>
                             </div>
@@ -239,56 +238,37 @@
                                 We might dial up each principle when we’re
                             </p>
                         </div>
-                        <div class="tab-menu__container">
-                            <div class="tab-menu__list" data-tab="textElement2">
-                                <span class="tab-menu__bg"></span>
-                                <a href="#emotionally2" class="tab-menu__btn tab-menu__btn--active">Emotionally</a>
-                                <a href="#intelligent2" class="tab-menu__btn">Intelligent</a>
-                                <a href="#design2" class="tab-menu__btn">Design</a>
-                            </div>
-                        </div>
-                        <div class="tab-container" data-tab="textElement2">
-                            <div id="emotionally2" class="tab-container__content tab-container__content--active">
-                                <div class="text-element text-element--headline">
-									<picture>
-										<source media="(min-width: 769px)" srcset="/global/our-brand/brand-visualization/img/elements/voice/voice-flexes-01-d.png">
-										<source media="(max-width: 768px)" srcset="/global/our-brand/brand-visualization/img/elements/voice/voice-flexes-01-m.svg">
-										<img src="/global/our-brand/brand-visualization/img/elements/voice/voice-flexes-01-d.png" alt="">
-									</picture>
-                                </div>
-                            </div>
-                            <div id="intelligent2" class="tab-container__content">
-                                <div class="text-element text-element--body">
-									<picture>
-										<source media="(min-width: 769px)" srcset="/global/our-brand/brand-visualization/img/elements/voice/voice-flexes-02-d.png">
-										<source media="(max-width: 768px)" srcset="/global/our-brand/brand-visualization/img/elements/voice/voice-flexes-02-m.svg">
-										<img src="/global/our-brand/brand-visualization/img/elements/voice/voice-flexes-02-d.png" alt="">
-									</picture>
-                                </div>
-                            </div>
-                            <div id="design2" class="tab-container__content">
-                                <div class="text-element text-element--body">
-									<picture>
-										<source media="(min-width: 769px)" srcset="/global/our-brand/brand-visualization/img/elements/voice/voice-flexes-03-d.png">
-										<source media="(max-width: 768px)" srcset="/global/our-brand/brand-visualization/img/elements/voice/voice-flexes-03-m.svg">
-										<img src="/global/our-brand/brand-visualization/img/elements/voice/voice-flexes-03-d.png" alt="">
-									</picture>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="brand__header">
-                            <h2 class="brand__header-title">Message examples</h2>
-                            <p class="brand__header-description">
-                                We can dial our three voice principles up or down
-                            </p>
-                        </div>
-                        <div>
-							<picture>
-								<source media="(min-width: 769px)" srcset="/global/our-brand/brand-visualization/img/elements/voice/message-example-smile.png">
-								<source media="(max-width: 768px)" srcset="/global/our-brand/brand-visualization/img/elements/voice/message-example-smile-m.svg">
-								<img src="/global/our-brand/brand-visualization/img/elements/voice/message-example-smile.png" alt="">
-							</picture>
-                        </div>
+						<div class="our-voice-slide">
+							<div class="slide-wrap flexes slideOnlyMo">
+								<ul class="swiper-wrapper">
+									<li class="swiper-slide">
+										<picture>
+											<source media="(min-width: 769px)" srcset="../../img/elements/voice/voice_flexes_slide-01-d.svg">
+											<source media="(max-width: 768px)" srcset="../../img/elements/voice/voice_flexes_slide-01-m.svg">
+											<img src="../../img/elements/voice/voice_flexes_slide-01-d.svg" alt="">
+										</picture>
+									</li>
+									<li class="swiper-slide">
+										<picture>
+											<source media="(min-width: 769px)" srcset="../../img/elements/voice/voice_flexes_slide-02-d.svg">
+											<source media="(max-width: 768px)" srcset="../../img/elements/voice/voice_flexes_slide-02-m.svg">
+											<img src="../../img/elements/voice/voice_flexes_slide-01-d.svg" alt="">
+										</picture>
+									</li>
+									<li class="swiper-slide">
+										<picture>
+											<source media="(min-width: 769px)" srcset="../../img/elements/voice/voice_flexes_slide-03-d.svg">
+											<source media="(max-width: 768px)" srcset="../../img/elements/voice/voice_flexes_slide-03-m.svg">
+											<img src="../../img/elements/voice/voice_flexes_slide-01-d.svg" alt="">
+										</picture>
+									</li>
+								</ul>
+							</div>
+							<div class="slide-contorller">
+								<button class="prev"></button>
+								<button class="next"></button>
+							</div>
+						</div>
                     </div>
 					<div class="brand-elements">
 						<div class="brand-element__inner" >
@@ -303,43 +283,44 @@
 							<div class="our-identity__slider">
 								<ul class="our-identity__slides swiper-wrapper">
 									<li class="our-identity__slide our-identity__slide--logo swiper-slide">
-										<a href="/global/our-brand/brand-visualization/elements/logo/index.jsp">
+										<a href="../logo/index.html">
 											<h3 class="our-identity__item-title">Logo</h3>
 											<span class="our-identity__move-btn"></span>
 										</a>
 									</li>
 									<li class="our-identity__slide our-identity__slide--color swiper-slide">
-										<a href="/global/our-brand/brand-visualization/elements/color/index.jsp">
+										<a href="../color/index.html">
 											<h3 class="our-identity__item-title">Color & Gradients</h3>
 											<span class="our-identity__move-btn"></span>
 										</a>
 									</li>
 									<li class="our-identity__slide our-identity__slide--tagline swiper-slide">
-										<a href="/global/our-brand/brand-visualization/elements/slogan/index.jsp">
+										<a href="../slogan/index.html">
 											<h3 class="our-identity__item-title">Slogan</h3>
 											<span class="our-identity__move-btn"></span>
 										</a>
 									</li>
 									<li class="our-identity__slide our-identity__slide--photography swiper-slide">
-										<a href="/global/our-brand/brand-visualization/elements/photography/index.jsp">
+										<a href="../photography/index.html">
 											<h3 class="our-identity__item-title">Photography</h3>
 											<span class="our-identity__move-btn" ></span>
 										</a>
 									</li>
 									<li class="our-identity__slide our-identity__slide--design swiper-slide">
-										<a href="/global/our-brand/brand-visualization/elements/design-system/index.jsp">
+										<a href="../design-system/index.html">
 											<h3 class="our-identity__item-title">Design System</h3>
 											<span class="our-identity__move-btn"></span>
 										</a>
 									</li>
+
 									<li class="our-identity__slide our-identity__slide--typo swiper-slide">
-										<a href="/global/our-brand/brand-visualization/elements/typography/index.jsp">
+										<a href="../typography/index.html">
 											<h3 class="our-identity__item-title">Typography</h3>
 											<span class="our-identity__move-btn"></span>
 										</a>
 									</li>
 									<li class="our-identity__slide our-identity__slide--voice swiper-slide">
-										<a href="/global/our-brand/brand-visualization/elements/voice/index.jsp">
+										<a href="../voice/index.html">
 											<h3 class="our-identity__item-title">Voice</h3>
 											<span class="our-identity__move-btn" ></span>
 										</a>
