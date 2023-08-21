@@ -145,7 +145,6 @@
 							<div class="slide-wrap voice slideOnlyMo">
 								<ul class="swiper-wrapper">
 									<li class="swiper-slide slide-emotionally">
-										<!-- <img src="/global/our-brand/brand-expression/img/elements/voice/voice-slide-emotionally.svg" alt=""> -->
 										<span>Emotionally</span>
 										<h3>
 											We write with
@@ -157,7 +156,6 @@
 										</p>
 									</li>
 									<li class="swiper-slide slide-intelligent">
-										<!-- <img src="/global/our-brand/brand-expression/img/elements/voice/voice-slide-intelligent.svg" alt=""> -->
 										<span>Intelligent</span>
 										<h3>
 											We write with
@@ -169,7 +167,6 @@
 										</p>
 									</li>
 									<li class="swiper-slide slide-design">
-										<!-- <img src="/global/our-brand/brand-expression/img/elements/voice/voice-slide-design.svg" alt=""> -->
 										<span>Design</span>
 										<h3>
 											We write with
@@ -217,7 +214,7 @@
                                 <div class="text-element text-element--body">
 									<picture>
 										<source media="(min-width: 769px)" srcset="/global/our-brand/brand-expression/img/elements/voice/principles-d-02.png">
-										<source media="(max-width: 768px)" srcset="/global/our-brand/brand-expression/img/elements/voice/principles-m-02.svg">
+										<source media="(max-width: 768px)" srcset="/global/our-brand/brand-expression/img/elements/voice/principles-m-02.png">
 										<img src="/global/our-brand/brand-expression/img/elements/voice/principles-d-02.png" alt="">
 									</picture>
                                 </div>
@@ -226,7 +223,7 @@
                                 <div class="text-element text-element--body">
 									<picture>
 										<source media="(min-width: 769px)" srcset="/global/our-brand/brand-expression/img/elements/voice/principles-d-03.png">
-										<source media="(max-width: 768px)" srcset="/global/our-brand/brand-expression/img/elements/voice/principles-m-03.svg">
+										<source media="(max-width: 768px)" srcset="/global/our-brand/brand-expression/img/elements/voice/principles-m-03.png">
 										<img src="/global/our-brand/brand-expression/img/elements/voice/principles-d-03.png" alt="">
 									</picture>
                                 </div>
@@ -243,23 +240,23 @@
 								<ul class="swiper-wrapper">
 									<li class="swiper-slide">
 										<picture>
-											<source media="(min-width: 769px)" srcset="/global/our-brand/brand-expression/img/elements/voice/voice_flexes_slide-01-d.svg">
-											<source media="(max-width: 768px)" srcset="/global/our-brand/brand-expression/img/elements/voice/voice_flexes_slide-01-m.svg">
-											<img src="/global/our-brand/brand-expression/img/elements/voice/voice_flexes_slide-01-d.svg" alt="">
+											<source media="(min-width: 769px)" srcset="/global/our-brand/brand-expression/img/elements/voice/voice_flexes_slide-01-d.png">
+											<source media="(max-width: 768px)" srcset="/global/our-brand/brand-expression/img/elements/voice/voice_flexes_slide-01-m.png">
+											<img src="/global/our-brand/brand-expression/img/elements/voice/voice_flexes_slide-01-d.png" alt="">
 										</picture>
 									</li>
 									<li class="swiper-slide">
 										<picture>
-											<source media="(min-width: 769px)" srcset="/global/our-brand/brand-expression/img/elements/voice/voice_flexes_slide-02-d.svg">
-											<source media="(max-width: 768px)" srcset="/global/our-brand/brand-expression/img/elements/voice/voice_flexes_slide-02-m.svg">
-											<img src="/global/our-brand/brand-expression/img/elements/voice/voice_flexes_slide-01-d.svg" alt="">
+											<source media="(min-width: 769px)" srcset="/global/our-brand/brand-expression/img/elements/voice/voice_flexes_slide-02-d.png">
+											<source media="(max-width: 768px)" srcset="/global/our-brand/brand-expression/img/elements/voice/voice_flexes_slide-02-m.png">
+											<img src="/global/our-brand/brand-expression/img/elements/voice/voice_flexes_slide-01-d.png" alt="">
 										</picture>
 									</li>
 									<li class="swiper-slide">
 										<picture>
-											<source media="(min-width: 769px)" srcset="/global/our-brand/brand-expression/img/elements/voice/voice_flexes_slide-03-d.svg">
-											<source media="(max-width: 768px)" srcset="/global/our-brand/brand-expression/img/elements/voice/voice_flexes_slide-03-m.svg">
-											<img src="/global/our-brand/brand-expression/img/elements/voice/voice_flexes_slide-01-d.svg" alt="">
+											<source media="(min-width: 769px)" srcset="/global/our-brand/brand-expression/img/elements/voice/voice_flexes_slide-03-d.png">
+											<source media="(max-width: 768px)" srcset="/global/our-brand/brand-expression/img/elements/voice/voice_flexes_slide-03-m.png">
+											<img src="/global/our-brand/brand-expression/img/elements/voice/voice_flexes_slide-01-d.png" alt="">
 										</picture>
 									</li>
 								</ul>
