@@ -29,14 +29,7 @@
                 </li>
             </ul>
         </nav>
-        <% 
-            String requestURI = request.getRequestURI();
-            String[] uriParts = requestURI.split("/");
-            String dynamicText = uriParts[uriParts.length - 2]; // Get the second-to-last part
-        %>
-        <% if (dynamicText.equals("elements")) { %>
-            <p class="c-header__location"><%= dynamicText %></p>
-        <% } %>
+        <p class="c-header__location">Logo</p>
         <button type="button" class="c-header__btn-gnb">
             <span class="c-header__btn-gnb__bar"></span>
             <span class="c-header__btn-gnb__bar"></span>

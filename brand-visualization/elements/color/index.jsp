@@ -318,7 +318,7 @@
 						</div>
 					</div>
 				</div>
-				<script src="https://vjs.zencdn.net/8.3.0/video.min.js"></script>
+				<script src="../../js/vjs.zencdn.net_8.3.0_video.min.js"></script>
 				<script src="/global/our-brand/brand-visualization/js/layout.js"></script>
 				<script src="/global/our-brand/brand-visualization/js/colors.js"></script>
             <!-- /CONTENTS -->

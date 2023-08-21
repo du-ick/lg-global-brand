@@ -176,6 +176,9 @@
 /*tab*/
 .brand-contents .tab-menu__container {
     text-align: center;
+    margin-top: calc(120px + 0.9375vw);
+}
+.brand-contents .brand__header + .brand-contents .tab-menu__container {
     margin-top: -3px;
 }
 .brand-contents .tab-menu__list {
@@ -456,7 +459,15 @@
         padding: 0 120px 80px;
     }
 
+
     /*tab*/
+    .brand-contents .tab-menu__container {
+        text-align: center;
+        margin-top: calc(80px + 9px);
+    }
+    .brand-contents .brand__header + .brand-contents .tab-menu__container {
+        margin-top: -3px;
+    }
     .brand-contents .tab-menu__list {
         height: 49px;
     }
@@ -706,7 +717,13 @@
     }
 
     /*tab*/
+
+    /*tab*/
     .brand-contents .tab-menu__container {
+        text-align: center;
+        margin-top: calc(80px + 8px);
+    }
+    .brand-contents .brand__header + .brand-contents .tab-menu__container {
         margin-top: 56px;
     }
     .brand-contents .tab-menu__list {
@@ -756,6 +773,10 @@
     }
 
     /*tab*/
+    .brand-contents .tab-menu__container {
+        text-align: center;
+        margin-top: 129px;
+    }
     .brand-contents .tab-menu__list {
         height: 48px;
     }
@@ -796,6 +817,7 @@
         width: 22px;
         height: 22px;
     }
+
     .brand-contents .our-identity__item-title {
         font-size: 24px;
         line-height: 32px;

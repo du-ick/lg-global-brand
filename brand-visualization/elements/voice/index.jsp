@@ -269,6 +269,43 @@
 								<button class="next"></button>
 							</div>
 						</div>
+                        <div class="tab-menu__container">
+                            <div class="tab-menu__list" data-tab="voice-flexes">
+                                <span class="tab-menu__bg"></span>
+                                <a href="#with-a-smile" class="tab-menu__btn tab-menu__btn--active">With a smile</a>
+                                <a href="#with-insight" class="tab-menu__btn">With insight</a>
+                                <a href="#with-design" class="tab-menu__btn">With design</a>
+                            </div>
+                        </div>
+                        <div class="tab-container" data-tab="voice-flexes">
+                            <div id="with-a-smile" class="tab-container__content tab-container__content--active">
+                                <div class="text-element text-element--headline">
+									<picture>
+										<source media="(min-width: 769px)" srcset="../../img/elements/voice/voice_flexes_tab-01-d.png">
+										<source media="(max-width: 768px)" srcset="../../img/elements/voice/voice_flexes_tab-01-m.png">
+										<img src="../../img/elements/voice/voice_flexes_tab-01-d.png" alt="">
+									</picture>
+                                </div>
+                            </div>
+                            <div id="with-insight" class="tab-container__content">
+                                <div class="text-element text-element--body">
+									<picture>
+										<source media="(min-width: 769px)" srcset="../../img/elements/voice/voice_flexes_tab-02-d.png">
+										<source media="(max-width: 768px)" srcset="../../img/elements/voice/voice_flexes_tab-02-m.png">
+										<img src="../../img/elements/voice/voice_flexes_tab-02-d.png" alt="">
+									</picture>
+                                </div>
+                            </div>
+                            <div id="with-design" class="tab-container__content">
+                                <div class="text-element text-element--body">
+									<picture>
+										<source media="(min-width: 769px)" srcset="../../img/elements/voice/voice_flexes_tab-03-d.png">
+										<source media="(max-width: 768px)" srcset="../../img/elements/voice/voice_flexes_tab-03-m.png">
+										<img src="../../img/elements/voice/voice_flexes_tab-03-d.png" alt="">
+									</picture>
+                                </div>
+                            </div>
+                        </div>
                     </div>
 					<div class="brand-elements">
 						<div class="brand-element__inner" >
@@ -333,7 +370,7 @@
 						</div>
 					</div>
 				</div>
-				<script src="https://vjs.zencdn.net/8.3.0/video.min.js"></script>
+				<script src="../../js/vjs.zencdn.net_8.3.0_video.min.js"></script>
 				<script src="/global/our-brand/brand-visualization/js/layout.js"></script>
 				<script src="/global/our-brand/brand-visualization/js/voice.js"></script>
             <!-- /CONTENTS -->
