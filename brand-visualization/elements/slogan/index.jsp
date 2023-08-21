@@ -129,7 +129,7 @@
                                     <b>LG Solgan</b>
                                     Download Assets
                                 </p>
-                                <a class="download_assets__btn" href="#" download></a>
+                                <a class="download_assets__btn" href="/global/our-brand/brand-expression/downloads/lge-core-brand-assets-slogan.zip" download></a>
                             </div>
                         </div>
                     </div>

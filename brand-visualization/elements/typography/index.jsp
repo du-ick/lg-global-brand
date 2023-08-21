@@ -129,7 +129,7 @@
 									<b>LG EI Font</b>
 									Download Assets
 								</p>
-								<a class="download_assets__btn" href="#" download></a>
+								<a class="download_assets__btn" href="/global/our-brand/brand-expression/downloads/lge-core-brand-assets-lg-ei-font.zip" download></a>
 							</div>
 						</div>
 					</div>
