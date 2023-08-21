@@ -113,7 +113,7 @@
 					var gnbDep1 = 1; //GNB 1depth
 				</script>
 			    <link href="../../css/video-js.css" rel="stylesheet" />
-		        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+		        <link rel="stylesheet" href="/global/our-brand/brand-visualization/css/swiper-bundle.min.css"/>
 				<link rel="stylesheet" href="/global/our-brand/brand-visualization/css/common.css" />
 				<link rel="stylesheet" href="/global/our-brand/brand-visualization/css/voice.css" />
 
@@ -371,6 +371,7 @@
 					</div>
 				</div>
 				<script src="/global/our-brand/brand-visualization/js/vjs.zencdn.net_8.3.0_video.min.js"></script>
+				<script src="/global/our-brand/brand-visualization/js/swiper-bundle.min.js"></script>
 				<script src="/global/our-brand/brand-visualization/js/layout.js"></script>
 				<script src="/global/our-brand/brand-visualization/js/voice.js"></script>
             <!-- /CONTENTS -->

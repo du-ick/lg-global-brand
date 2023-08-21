@@ -41,6 +41,7 @@ br.mo {display: none;}
     width: unset;
     height: unset;
     background: unset;
+    display: block;
 }
 .c-header__tit__logo {
     width: 63px;
