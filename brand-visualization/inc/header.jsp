@@ -31,7 +31,7 @@
         </nav>
         <% if (request.getRequestURI().contains("/elements/")) { %>
             <p class="c-header__location">
-                <%= request.getRequestURI().substring(request.getRequestURI().lastIndexOf("/elements/") + "/elements/".length()) %>
+                <%= request.getRequestURI().split("/elements/")[1].split("/")[0] %>
             </p>
         <% } %>
         <!-- <p class="c-header__location">Logo</p> -->
