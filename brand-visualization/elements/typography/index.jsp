@@ -198,9 +198,9 @@
 								<ul class="swiper-wrapper">
 									<li class="swiper-slide percent-view">
 										<picture class="percent-view__img">
-											<source media="(min-width: 789px)" srcset="/global/our-brand/brand-expression/img/elements/typography/bringing_it_to_life_slide_04-d.png">
-											<source media="(max-width: 768px)" srcset="/global/our-brand/brand-expression/img/elements/typography/bringing_it_to_life_slide_04-m.png">
-											<img src="/global/our-brand/brand-expression/img/elements/typography/bringing_it_to_life_slide_04-d.png" alt="">
+											<source media="(min-width: 789px)" srcset="/global/our-brand/brand-expression/img/elements/typography/bringing_it_to_life_slide_01-d.png">
+											<source media="(max-width: 768px)" srcset="/global/our-brand/brand-expression/img/elements/typography/bringing_it_to_life_slide_01-m.png">
+											<img src="/global/our-brand/brand-expression/img/elements/typography/bringing_it_to_life_slide_01-d.png" alt="">
 										</picture>
 									</li>
 									<li class="swiper-slide percent-view">
@@ -219,9 +219,9 @@
 									</li>
 									<li class="swiper-slide percent-view">
 										<picture class="percent-view__img">
-											<source media="(min-width: 789px)" srcset="/global/our-brand/brand-expression/img/elements/typography/bringing_it_to_life_slide_01-d.png">
-											<source media="(max-width: 768px)" srcset="/global/our-brand/brand-expression/img/elements/typography/bringing_it_to_life_slide_01-m.png">
-											<img src="/global/our-brand/brand-expression/img/elements/typography/bringing_it_to_life_slide_01-d.png" alt="">
+											<source media="(min-width: 789px)" srcset="/global/our-brand/brand-expression/img/elements/typography/bringing_it_to_life_slide_04-d.png">
+											<source media="(max-width: 768px)" srcset="/global/our-brand/brand-expression/img/elements/typography/bringing_it_to_life_slide_04-m.png">
+											<img src="/global/our-brand/brand-expression/img/elements/typography/bringing_it_to_life_slide_04-d.png" alt="">
 										</picture>
 									</li>
 								</ul>
