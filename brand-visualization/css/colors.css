@@ -613,6 +613,10 @@
         font-size: 15px;
     }
 
+    .btmdot-slide__slide {
+        border-radius: 30px;
+    }
+
     /*colour-system*/
     .colour-system {
         padding: 40px 40px 48px;

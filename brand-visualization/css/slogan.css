@@ -274,6 +274,7 @@
         flex-direction: column;
         height: auto;
         max-height: unset;
+        border-radius: 10px;
     }
     .taglien__item.taglien__item.taglien__item--text {
         height: 89.33vw;
@@ -351,7 +352,14 @@
 
 /* 4K */
 @media (min-width: 2560px) {
-    
+    /*tagline slide*/
+    .taglien__content {
+        border-radius: 30px;
+    }
+
+    .btmdot-slide__slide {
+        border-radius: 30px;
+    }
 
     /*tagline grid*/
     .tagline-grid__item {

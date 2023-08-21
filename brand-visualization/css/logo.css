@@ -373,7 +373,9 @@
 /* 4K */
 @media (min-width: 2560px) {
 
-
+    .btmdot-slide__slide {
+        border-radius: 30px;
+    }
 
     .brand__content-inner {
         max-width: 1680px;

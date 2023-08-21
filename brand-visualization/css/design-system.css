@@ -83,6 +83,7 @@
 .percent-view picture,
 .percent-view .percent-view__img,
 .percent-view img {
+    border-radius: inherit;
     position: absolute;
     width: 100%;
     height: 100%;
