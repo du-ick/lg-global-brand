@@ -29,7 +29,7 @@
                 </li>
             </ul>
         </nav>
-        <p class="c-header__location">Logo</p>
+        <!-- <p class="c-header__location">Logo</p> -->
         <button type="button" class="c-header__btn-gnb">
             <span class="c-header__btn-gnb__bar"></span>
             <span class="c-header__btn-gnb__bar"></span>
