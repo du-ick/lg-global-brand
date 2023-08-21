@@ -105,7 +105,7 @@
 			</div>
 
 			<!-- header -->
-			<%@ include file="/global/our-brand/brand-visualization/inc/header.jsp" %>
+			<%@ include file="/global/our-brand/brand-expression/inc/header.jsp" %>
 			<!-- //header -->
 
             <!-- CONTENTS -->
@@ -113,9 +113,9 @@
 					var gnbDep1 = 1; //GNB 1depth
 				</script>
 			    <link href="../../css/video-js.css" rel="stylesheet" />
-		        <link rel="stylesheet" href="/global/our-brand/brand-visualization/css/swiper-bundle.min.css"/>
-				<link rel="stylesheet" href="/global/our-brand/brand-visualization/css/common.css" />
-				<link rel="stylesheet" href="/global/our-brand/brand-visualization/css/logo.css" />
+		        <link rel="stylesheet" href="/global/our-brand/brand-expression/css/swiper-bundle.min.css"/>
+				<link rel="stylesheet" href="/global/our-brand/brand-expression/css/common.css" />
+				<link rel="stylesheet" href="/global/our-brand/brand-expression/css/logo.css" />
 
 				<div id="contents">
 					<div id="visual-logo" class="visual__top">
@@ -124,7 +124,7 @@
 						</div>
 						<div class="visual-innner">
 							<div class="download_assets">
-								<img src="/global/our-brand/brand-visualization/img/elements/logo/download_assets_logo.png" alt class="download_assets__thumb"></img>
+								<img src="/global/our-brand/brand-expression/img/elements/logo/download_assets_logo.png" alt class="download_assets__thumb"></img>
 								<p class="download_assets__title">
 									<b>LG Logo</b>
 									Download Assets
@@ -144,9 +144,9 @@
 						</div>
 						<div class="percent-v-box">
 							<picture>
-								<source media="(min-width: 769px)" srcset="/global/our-brand/brand-visualization/img/elements/logo/brand-elements-logo-primary-d.svg">
-								<source media="(max-width: 768px)" srcset="/global/our-brand/brand-visualization/img/elements/logo/brand-elements-logo-primary-m.svg">
-								<img src="/global/our-brand/brand-visualization/img/elements/logo/brand-elements-logo-primary-d.svg" alt="">
+								<source media="(min-width: 769px)" srcset="/global/our-brand/brand-expression/img/elements/logo/brand-elements-logo-primary-d.svg">
+								<source media="(max-width: 768px)" srcset="/global/our-brand/brand-expression/img/elements/logo/brand-elements-logo-primary-m.svg">
+								<img src="/global/our-brand/brand-expression/img/elements/logo/brand-elements-logo-primary-d.svg" alt="">
 							</picture>
 							<div class="v-box-bottom">
 								<p class="tit">Primary Logo</p>
@@ -202,14 +202,14 @@
 						<div class="tab-container" data-tab="partnership">
 							<div id="clearspace" class="tab-container__content tab-container__content--active">
 								<div class="logo__container logo__container--spacing">
-									<img class="logo__container__spacing-img logo__container__spacing-img--pc" src="/global/our-brand/brand-visualization/img/elements/logo/brand-elements-logo-spacing-clearspace-d.png" alt="">
-									<img class="logo__container__spacing-img logo__container__spacing-img--mo" src="/global/our-brand/brand-visualization/img/elements/logo/brand-elements-logo-spacing-clearspace-m.png" alt="">
+									<img class="logo__container__spacing-img logo__container__spacing-img--pc" src="/global/our-brand/brand-expression/img/elements/logo/brand-elements-logo-spacing-clearspace-d.png" alt="">
+									<img class="logo__container__spacing-img logo__container__spacing-img--mo" src="/global/our-brand/brand-expression/img/elements/logo/brand-elements-logo-spacing-clearspace-m.png" alt="">
 								</div>
 							</div>
 							<div id="partnerships" class="tab-container__content">
 								<div class="logo__container logo__container--spacing">
-									<img class="logo__container__spacing-img logo__container__spacing-img--pc" src="/global/our-brand/brand-visualization/img/elements/logo/brand-elements-logo-spacing-brand-partnerships-d.png" alt="">
-									<img class="logo__container__spacing-img logo__container__spacing-img--mo" src="/global/our-brand/brand-visualization/img/elements/logo/brand-elements-logo-spacing-brand-partnerships-m.png" alt="">
+									<img class="logo__container__spacing-img logo__container__spacing-img--pc" src="/global/our-brand/brand-expression/img/elements/logo/brand-elements-logo-spacing-brand-partnerships-d.png" alt="">
+									<img class="logo__container__spacing-img logo__container__spacing-img--mo" src="/global/our-brand/brand-expression/img/elements/logo/brand-elements-logo-spacing-brand-partnerships-m.png" alt="">
 								</div>
 							</div>
 						</div>
@@ -231,7 +231,7 @@
 						<div class="tab-container" data-tab="logoPlay">
 							<div id="logoplay" class="tab-container__content tab-container__content--active">
 								<div class="logo__container logo__container--logoplay">
-									<img class="logo__container__logoplay-image" src="/global/our-brand/brand-visualization/img/elements/logo/LG_Electronics_Expressive_Symbol-d.gif" alt="">
+									<img class="logo__container__logoplay-image" src="/global/our-brand/brand-expression/img/elements/logo/LG_Electronics_Expressive_Symbol-d.gif" alt="">
 									<div class="v-box-bottom wt">
 										<p class="tit">Digital Logo Play</p>
 										<span class="desc">Allows us to engage and tell stories</span>
@@ -243,35 +243,35 @@
 									<ul class="logosuite">
 										<li class="logosuite__item">
 											<p class="logosuite__label">Appearing</p>
-											<img class="logosuite__img" src="/global/our-brand/brand-visualization/img/elements/logo/LG_Electronics_Expressive_Symbol_Transparent_White_Appearing.gif" alt="">
+											<img class="logosuite__img" src="/global/our-brand/brand-expression/img/elements/logo/LG_Electronics_Expressive_Symbol_Transparent_White_Appearing.gif" alt="">
 										</li>
 										<li class="logosuite__item">
 											<p class="logosuite__label">Bobbing to music</p>
-											<img class="logosuite__img" src="/global/our-brand/brand-visualization/img/elements/logo/LG_Electronics_Expressive_Symbol_Transparent_White_BobtoMusic.gif" alt="">
+											<img class="logosuite__img" src="/global/our-brand/brand-expression/img/elements/logo/LG_Electronics_Expressive_Symbol_Transparent_White_BobtoMusic.gif" alt="">
 										</li>
 										<li class="logosuite__item">
 											<p class="logosuite__label">Bowing</p>
-											<img class="logosuite__img" src="/global/our-brand/brand-visualization/img/elements/logo/LG_Electronics_Expressive_Symbol_Transparent_White_Bowing.gif" alt="">
+											<img class="logosuite__img" src="/global/our-brand/brand-expression/img/elements/logo/LG_Electronics_Expressive_Symbol_Transparent_White_Bowing.gif" alt="">
 										</li>
 										<li class="logosuite__item">
 											<p class="logosuite__label">Look around</p>
-											<img class="logosuite__img" src="/global/our-brand/brand-visualization/img/elements/logo/LG_Electronics_Expressive_Symbol_Transparent_White_LookingAround.gif" alt="">
+											<img class="logosuite__img" src="/global/our-brand/brand-expression/img/elements/logo/LG_Electronics_Expressive_Symbol_Transparent_White_LookingAround.gif" alt="">
 										</li>
 										<li class="logosuite__item">
 											<p class="logosuite__label">Amazed</p>
-											<img class="logosuite__img" src="/global/our-brand/brand-visualization/img/elements/logo/LG_Electronics_Expressive_Symbol_Transparent_White_Amazed.gif" alt="">
+											<img class="logosuite__img" src="/global/our-brand/brand-expression/img/elements/logo/LG_Electronics_Expressive_Symbol_Transparent_White_Amazed.gif" alt="">
 										</li>
 										<li class="logosuite__item">
 											<p class="logosuite__label">Spinning</p>
-											<img class="logosuite__img" src="/global/our-brand/brand-visualization/img/elements/logo/LG_Electronics_Expressive_Symbol_Transparent_White_Scrolling.gif" alt="">
+											<img class="logosuite__img" src="/global/our-brand/brand-expression/img/elements/logo/LG_Electronics_Expressive_Symbol_Transparent_White_Scrolling.gif" alt="">
 										</li>
 										<li class="logosuite__item">
 											<p class="logosuite__label">Nodding</p>
-											<img class="logosuite__img" src="/global/our-brand/brand-visualization/img/elements/logo/LG_Electronics_Expressive_Symbol_Transparent_White_Nodding.gif" alt="">
+											<img class="logosuite__img" src="/global/our-brand/brand-expression/img/elements/logo/LG_Electronics_Expressive_Symbol_Transparent_White_Nodding.gif" alt="">
 										</li>
 										<li class="logosuite__item">
 											<p class="logosuite__label">Wink</p>
-											<img class="logosuite__img" src="/global/our-brand/brand-visualization/img/elements/logo/LG_Electronics_Expressive_Symbol_Transparent_White_Wink.gif" alt="">
+											<img class="logosuite__img" src="/global/our-brand/brand-expression/img/elements/logo/LG_Electronics_Expressive_Symbol_Transparent_White_Wink.gif" alt="">
 										</li>
 									</ul>
 								</div>
@@ -291,43 +291,43 @@
 							<div class="our-identity__slider">
 								<ul class="our-identity__slides swiper-wrapper">
 									<li class="our-identity__slide our-identity__slide--logo swiper-slide">
-										<a href="/global/our-brand/brand-visualization/elements/logo/index.jsp">
+										<a href="/global/our-brand/brand-expression/elements/logo/index.jsp">
 											<h3 class="our-identity__item-title">Logo</h3>
 											<span class="our-identity__move-btn"></span>
 										</a>
 									</li>
 									<li class="our-identity__slide our-identity__slide--color swiper-slide">
-										<a href="/global/our-brand/brand-visualization/elements/color/index.jsp">
+										<a href="/global/our-brand/brand-expression/elements/color/index.jsp">
 											<h3 class="our-identity__item-title">Color & Gradients</h3>
 											<span class="our-identity__move-btn"></span>
 										</a>
 									</li>
 									<li class="our-identity__slide our-identity__slide--tagline swiper-slide">
-										<a href="/global/our-brand/brand-visualization/elements/slogan/index.jsp">
+										<a href="/global/our-brand/brand-expression/elements/slogan/index.jsp">
 											<h3 class="our-identity__item-title">Slogan</h3>
 											<span class="our-identity__move-btn"></span>
 										</a>
 									</li>
 									<li class="our-identity__slide our-identity__slide--photography swiper-slide">
-										<a href="/global/our-brand/brand-visualization/elements/photography/index.jsp">
+										<a href="/global/our-brand/brand-expression/elements/photography/index.jsp">
 											<h3 class="our-identity__item-title">Photography</h3>
 											<span class="our-identity__move-btn" ></span>
 										</a>
 									</li>
 									<li class="our-identity__slide our-identity__slide--design swiper-slide">
-										<a href="/global/our-brand/brand-visualization/elements/design-system/index.jsp">
+										<a href="/global/our-brand/brand-expression/elements/design-system/index.jsp">
 											<h3 class="our-identity__item-title">Design System</h3>
 											<span class="our-identity__move-btn"></span>
 										</a>
 									</li>
 									<li class="our-identity__slide our-identity__slide--typo swiper-slide">
-										<a href="/global/our-brand/brand-visualization/elements/typography/index.jsp">
+										<a href="/global/our-brand/brand-expression/elements/typography/index.jsp">
 											<h3 class="our-identity__item-title">Typography</h3>
 											<span class="our-identity__move-btn"></span>
 										</a>
 									</li>
 									<li class="our-identity__slide our-identity__slide--voice swiper-slide">
-										<a href="/global/our-brand/brand-visualization/elements/voice/index.jsp">
+										<a href="/global/our-brand/brand-expression/elements/voice/index.jsp">
 											<h3 class="our-identity__item-title">Voice</h3>
 											<span class="our-identity__move-btn" ></span>
 										</a>
@@ -340,13 +340,13 @@
 						</div>
 					</div>
 				</div>
-				<script src="/global/our-brand/brand-visualization/js/vjs.zencdn.net_8.3.0_video.min.js"></script>
-				<script src="/global/our-brand/brand-visualization/js/swiper-bundle.min.js"></script>
-				<script src="/global/our-brand/brand-visualization/js/layout.js"></script>
-				<script src="/global/our-brand/brand-visualization/js/logo.js"></script>
+				<script src="/global/our-brand/brand-expression/js/vjs.zencdn.net_8.3.0_video.min.js"></script>
+				<script src="/global/our-brand/brand-expression/js/swiper-bundle.min.js"></script>
+				<script src="/global/our-brand/brand-expression/js/layout.js"></script>
+				<script src="/global/our-brand/brand-expression/js/logo.js"></script>
             <!-- /CONTENTS -->
             <!-- footer -->
-            <%@ include file="/global/our-brand/brand-visualization/inc/footer.jsp" %>
+            <%@ include file="/global/our-brand/brand-expression/inc/footer.jsp" %>
             <!-- //footer -->
 	    </div>
 	</div>

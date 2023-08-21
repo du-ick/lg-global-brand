@@ -105,7 +105,7 @@
 			</div>
 
 			<!-- header -->
-			<%@ include file="/global/our-brand/brand-visualization/inc/header.jsp" %>
+			<%@ include file="/global/our-brand/brand-expression/inc/header.jsp" %>
 			<!-- //header -->
 
             <!-- CONTENTS -->
@@ -113,9 +113,9 @@
 					var gnbDep1 = 1; //GNB 1depth
 				</script>
 			    <link href="../../css/video-js.css" rel="stylesheet" />
-		        <link rel="stylesheet" href="/global/our-brand/brand-visualization/css/swiper-bundle.min.css"/>
-				<link rel="stylesheet" href="/global/our-brand/brand-visualization/css/common.css" />
-				<link rel="stylesheet" href="/global/our-brand/brand-visualization/css/photography.css" />
+		        <link rel="stylesheet" href="/global/our-brand/brand-expression/css/swiper-bundle.min.css"/>
+				<link rel="stylesheet" href="/global/our-brand/brand-expression/css/common.css" />
+				<link rel="stylesheet" href="/global/our-brand/brand-expression/css/photography.css" />
 				
 				<div id="contents">
                     <div id="visual-photography" class="visual__top">
@@ -181,14 +181,14 @@
                             </p>
                         </div>
                         <ul class="photography__grid photography__grid--everyday">
-                            <li class="photography__grid__item"><img src="/global/our-brand/brand-visualization/img/elements/photography/photography__grid__item_01.png" alt=""></li>
-                            <li class="photography__grid__item"><img src="/global/our-brand/brand-visualization/img/elements/photography/photography__grid__item_02.png" alt=""></li>
-                            <li class="photography__grid__item"><img src="/global/our-brand/brand-visualization/img/elements/photography/photography__grid__item_03.png" alt=""></li>
-                            <li class="photography__grid__item"><img src="/global/our-brand/brand-visualization/img/elements/photography/photography__grid__item_04.png" alt=""></li>
-                            <li class="photography__grid__item"><img src="/global/our-brand/brand-visualization/img/elements/photography/photography__grid__item_05.png" alt=""></li>
-                            <li class="photography__grid__item"><img src="/global/our-brand/brand-visualization/img/elements/photography/photography__grid__item_06.png" alt=""></li>
-                            <li class="photography__grid__item"><img src="/global/our-brand/brand-visualization/img/elements/photography/photography__grid__item_07.png" alt=""></li>
-                            <li class="photography__grid__item"><img src="/global/our-brand/brand-visualization/img/elements/photography/photography__grid__item_08.png" alt=""></li>
+                            <li class="photography__grid__item"><img src="/global/our-brand/brand-expression/img/elements/photography/photography__grid__item_01.png" alt=""></li>
+                            <li class="photography__grid__item"><img src="/global/our-brand/brand-expression/img/elements/photography/photography__grid__item_02.png" alt=""></li>
+                            <li class="photography__grid__item"><img src="/global/our-brand/brand-expression/img/elements/photography/photography__grid__item_03.png" alt=""></li>
+                            <li class="photography__grid__item"><img src="/global/our-brand/brand-expression/img/elements/photography/photography__grid__item_04.png" alt=""></li>
+                            <li class="photography__grid__item"><img src="/global/our-brand/brand-expression/img/elements/photography/photography__grid__item_05.png" alt=""></li>
+                            <li class="photography__grid__item"><img src="/global/our-brand/brand-expression/img/elements/photography/photography__grid__item_06.png" alt=""></li>
+                            <li class="photography__grid__item"><img src="/global/our-brand/brand-expression/img/elements/photography/photography__grid__item_07.png" alt=""></li>
+                            <li class="photography__grid__item"><img src="/global/our-brand/brand-expression/img/elements/photography/photography__grid__item_08.png" alt=""></li>
                         </ul>
                     </div>
 					<div class="brand-elements">
@@ -204,43 +204,43 @@
 							<div class="our-identity__slider">
 								<ul class="our-identity__slides swiper-wrapper">
 									<li class="our-identity__slide our-identity__slide--logo swiper-slide">
-										<a href="/global/our-brand/brand-visualization/elements/logo/index.jsp">
+										<a href="/global/our-brand/brand-expression/elements/logo/index.jsp">
 											<h3 class="our-identity__item-title">Logo</h3>
 											<span class="our-identity__move-btn"></span>
 										</a>
 									</li>
 									<li class="our-identity__slide our-identity__slide--color swiper-slide">
-										<a href="/global/our-brand/brand-visualization/elements/color/index.jsp">
+										<a href="/global/our-brand/brand-expression/elements/color/index.jsp">
 											<h3 class="our-identity__item-title">Color & Gradients</h3>
 											<span class="our-identity__move-btn"></span>
 										</a>
 									</li>
 									<li class="our-identity__slide our-identity__slide--tagline swiper-slide">
-										<a href="/global/our-brand/brand-visualization/elements/slogan/index.jsp">
+										<a href="/global/our-brand/brand-expression/elements/slogan/index.jsp">
 											<h3 class="our-identity__item-title">Slogan</h3>
 											<span class="our-identity__move-btn"></span>
 										</a>
 									</li>
 									<li class="our-identity__slide our-identity__slide--photography swiper-slide">
-										<a href="/global/our-brand/brand-visualization/elements/photography/index.jsp">
+										<a href="/global/our-brand/brand-expression/elements/photography/index.jsp">
 											<h3 class="our-identity__item-title">Photography</h3>
 											<span class="our-identity__move-btn" ></span>
 										</a>
 									</li>
 									<li class="our-identity__slide our-identity__slide--design swiper-slide">
-										<a href="/global/our-brand/brand-visualization/elements/design-system/index.jsp">
+										<a href="/global/our-brand/brand-expression/elements/design-system/index.jsp">
 											<h3 class="our-identity__item-title">Design System</h3>
 											<span class="our-identity__move-btn"></span>
 										</a>
 									</li>
 									<li class="our-identity__slide our-identity__slide--typo swiper-slide">
-										<a href="/global/our-brand/brand-visualization/elements/typography/index.jsp">
+										<a href="/global/our-brand/brand-expression/elements/typography/index.jsp">
 											<h3 class="our-identity__item-title">Typography</h3>
 											<span class="our-identity__move-btn"></span>
 										</a>
 									</li>
 									<li class="our-identity__slide our-identity__slide--voice swiper-slide">
-										<a href="/global/our-brand/brand-visualization/elements/voice/index.jsp">
+										<a href="/global/our-brand/brand-expression/elements/voice/index.jsp">
 											<h3 class="our-identity__item-title">Voice</h3>
 											<span class="our-identity__move-btn" ></span>
 										</a>
@@ -253,13 +253,13 @@
 						</div>
 					</div>
 				</div>
-				<script src="/global/our-brand/brand-visualization/js/vjs.zencdn.net_8.3.0_video.min.js"></script>
-				<script src="/global/our-brand/brand-visualization/js/swiper-bundle.min.js"></script>
-				<script src="/global/our-brand/brand-visualization/js/layout.js"></script>
-				<script src="/global/our-brand/brand-visualization/js/photography.js"></script>
+				<script src="/global/our-brand/brand-expression/js/vjs.zencdn.net_8.3.0_video.min.js"></script>
+				<script src="/global/our-brand/brand-expression/js/swiper-bundle.min.js"></script>
+				<script src="/global/our-brand/brand-expression/js/layout.js"></script>
+				<script src="/global/our-brand/brand-expression/js/photography.js"></script>
             <!-- /CONTENTS -->
             <!-- footer -->
-            <%@ include file="/global/our-brand/brand-visualization/inc/footer.jsp" %>
+            <%@ include file="/global/our-brand/brand-expression/inc/footer.jsp" %>
             <!-- //footer -->
 	    </div>
 	</div>

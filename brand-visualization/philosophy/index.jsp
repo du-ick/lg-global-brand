@@ -105,33 +105,33 @@
 			</div>
 
 			<!-- header -->
-			<%@ include file="/global/our-brand/brand-visualization/inc/header.jsp" %>
+			<%@ include file="/global/our-brand/brand-expression/inc/header.jsp" %>
 			<!-- //header -->
 
             <!-- CONTENTS -->
 				<script>
 					var gnbDep1 = 1; //GNB 1depth
 				</script>
-			    <link href="/global/our-brand/brand-visualization/css/video-js.css" rel="stylesheet" />
-		        <link rel="stylesheet" href="/global/our-brand/brand-visualization/css/swiper-bundle.min.css"/>
-				<link rel="stylesheet" href="/global/our-brand/brand-visualization/css/fontface.css" />
-				<link rel="stylesheet" href="/global/our-brand/brand-visualization/css/layout.css" />
-				<link rel="stylesheet" href="/global/our-brand/brand-visualization/css/philosophy.css" />
+			    <link href="/global/our-brand/brand-expression/css/video-js.css" rel="stylesheet" />
+		        <link rel="stylesheet" href="/global/our-brand/brand-expression/css/swiper-bundle.min.css"/>
+				<link rel="stylesheet" href="/global/our-brand/brand-expression/css/fontface.css" />
+				<link rel="stylesheet" href="/global/our-brand/brand-expression/css/layout.css" />
+				<link rel="stylesheet" href="/global/our-brand/brand-expression/css/philosophy.css" />
 
 				<div id="contents">
 					<div id="brand-container">
 						<div class="brand-visual-film visual__top">
 							<!-- <picture class="brand-visual-film__video">
-								<source media="(min-width: 769px)" srcset="/global/our-brand/brand-visualization/img/philosophy/Expressive_symbol_wink_d.png">
-								<source media="(max-width: 768px)" srcset="/global/our-brand/brand-visualization/img/philosophy/Expressive_symbol_wink_m.png">
-								<img src="/global/our-brand/brand-visualization/img/philosophy/Expressive_symbol_wink_d.png" alt="">
+								<source media="(min-width: 769px)" srcset="/global/our-brand/brand-expression/img/philosophy/Expressive_symbol_wink_d.png">
+								<source media="(max-width: 768px)" srcset="/global/our-brand/brand-expression/img/philosophy/Expressive_symbol_wink_m.png">
+								<img src="/global/our-brand/brand-expression/img/philosophy/Expressive_symbol_wink_d.png" alt="">
 							</picture> -->
 							<video muted playsinline autoplay loop class="resolutionVideo">
 								<source 
-									src="/global/our-brand/brand-visualization/img/philosophy/lifes-good-lg-video.mp4" 
+									src="/global/our-brand/brand-expression/img/philosophy/lifes-good-lg-video.mp4" 
 									type="video/mp4"
-									data-urlpc="/global/our-brand/brand-visualization/img/philosophy/lifes-good-lg-video.mp4"
-									data-urlmo="/global/our-brand/brand-visualization/img/philosophy/lifes-good-lg-video-m.mp4"
+									data-urlpc="/global/our-brand/brand-expression/img/philosophy/lifes-good-lg-video.mp4"
+									data-urlmo="/global/our-brand/brand-expression/img/philosophy/lifes-good-lg-video-m.mp4"
 								>
 								</source>
 							</video>
@@ -171,22 +171,22 @@
 								</div>
 								<ul class="imotionally-design__imgwrap">
 									<li class="imotionally-design__item">
-										<video muted playsinline loop autoplay><source src="/global/our-brand/brand-visualization/img/philosophy/emotionally_intelligent_item_01.mp4" type="video/mp4"/></video>
+										<video muted playsinline loop autoplay><source src="/global/our-brand/brand-expression/img/philosophy/emotionally_intelligent_item_01.mp4" type="video/mp4"/></video>
 									</li>
 									<li class="imotionally-design__item">
-										<video muted playsinline loop autoplay><source src="/global/our-brand/brand-visualization/img/philosophy/emotionally_intelligent_item_02.mp4" type="video/mp4"/></video>
+										<video muted playsinline loop autoplay><source src="/global/our-brand/brand-expression/img/philosophy/emotionally_intelligent_item_02.mp4" type="video/mp4"/></video>
 									</li>
 									<li class="imotionally-design__item">
-										<img src="/global/our-brand/brand-visualization/img/philosophy/emotionally_intelligent_item_03.png" alt="">
+										<img src="/global/our-brand/brand-expression/img/philosophy/emotionally_intelligent_item_03.png" alt="">
 									</li>
 									<li class="imotionally-design__item">
-										<video muted playsinline loop autoplay><source src="/global/our-brand/brand-visualization/img/philosophy/emotionally_intelligent_item_04.mp4" type="video/mp4"/></video>
+										<video muted playsinline loop autoplay><source src="/global/our-brand/brand-expression/img/philosophy/emotionally_intelligent_item_04.mp4" type="video/mp4"/></video>
 									</li>
 									<li class="imotionally-design__item">
-										<video muted playsinline loop autoplay><source src="/global/our-brand/brand-visualization/img/philosophy/emotionally_intelligent_item_05.mp4" type="video/mp4"/></video>
+										<video muted playsinline loop autoplay><source src="/global/our-brand/brand-expression/img/philosophy/emotionally_intelligent_item_05.mp4" type="video/mp4"/></video>
 									</li>
 									<li class="imotionally-design__item">
-										<video muted playsinline loop autoplay><source src="/global/our-brand/brand-visualization/img/philosophy/emotionally_intelligent_item_06.mp4" type="video/mp4"/></video>
+										<video muted playsinline loop autoplay><source src="/global/our-brand/brand-expression/img/philosophy/emotionally_intelligent_item_06.mp4" type="video/mp4"/></video>
 									</li>
 								</ul>
 							</div>
@@ -197,7 +197,7 @@
 							</p>
 							<div class="looping-video-content">
 								<video muted playsinline loop autoplay>
-									<source src="/global/our-brand/brand-visualization/img/philosophy/looping-video-content.mp4" type="video/mp4">
+									<source src="/global/our-brand/brand-expression/img/philosophy/looping-video-content.mp4" type="video/mp4">
 								</video>
 							</div>
 							<p class="intro-text">
@@ -205,9 +205,9 @@
 								It means every experience we create can help people feel Life’s Good.
 							</p>
 							<ul class="looping-video-multi">
-								<li><video muted playsinline loop autoplay><source src="/global/our-brand/brand-visualization/img/philosophy/looping-video-multi-01.mp4" type="video/mp4"></source></video></li>
-								<li><img src="/global/our-brand/brand-visualization/img/philosophy/looping-video-multi-02.png" alt=""></li>
-								<li><video muted playsinline loop autoplay><source src="/global/our-brand/brand-visualization/img/philosophy/looping-video-multi-03.mp4" type="video/mp4"></source></video></li>
+								<li><video muted playsinline loop autoplay><source src="/global/our-brand/brand-expression/img/philosophy/looping-video-multi-01.mp4" type="video/mp4"></source></video></li>
+								<li><img src="/global/our-brand/brand-expression/img/philosophy/looping-video-multi-02.png" alt=""></li>
+								<li><video muted playsinline loop autoplay><source src="/global/our-brand/brand-expression/img/philosophy/looping-video-multi-03.mp4" type="video/mp4"></source></video></li>
 							</ul>
 						</div>
 						<div class="brand-elements">
@@ -219,43 +219,43 @@
 								<div class="our-identity__slider">
 									<ul class="our-identity__slides swiper-wrapper">
 										<li class="our-identity__slide our-identity__slide--logo swiper-slide">
-											<a href="/global/our-brand/brand-visualization/elements/logo/index.jsp">
+											<a href="/global/our-brand/brand-expression/elements/logo/index.jsp">
 												<h3 class="our-identity__item-title">Logo</h3>
 												<span class="our-identity__move-btn"></span>
 											</a>
 										</li>
 										<li class="our-identity__slide our-identity__slide--color swiper-slide">
-											<a href="/global/our-brand/brand-visualization/elements/color/index.jsp">
+											<a href="/global/our-brand/brand-expression/elements/color/index.jsp">
 												<h3 class="our-identity__item-title">Color & Gradients</h3>
 												<span class="our-identity__move-btn"></span>
 											</a>
 										</li>
 										<li class="our-identity__slide our-identity__slide--tagline swiper-slide">
-											<a href="/global/our-brand/brand-visualization/elements/slogan/index.jsp">
+											<a href="/global/our-brand/brand-expression/elements/slogan/index.jsp">
 												<h3 class="our-identity__item-title">Slogan</h3>
 												<span class="our-identity__move-btn"></span>
 											</a>
 										</li>
 										<li class="our-identity__slide our-identity__slide--photography swiper-slide">
-											<a href="/global/our-brand/brand-visualization/elements/photography/index.jsp">
+											<a href="/global/our-brand/brand-expression/elements/photography/index.jsp">
 												<h3 class="our-identity__item-title">Photography</h3>
 												<span class="our-identity__move-btn" ></span>
 											</a>
 										</li>
 										<li class="our-identity__slide our-identity__slide--design swiper-slide">
-											<a href="/global/our-brand/brand-visualization/elements/design-system/index.jsp">
+											<a href="/global/our-brand/brand-expression/elements/design-system/index.jsp">
 												<h3 class="our-identity__item-title">Design System</h3>
 												<span class="our-identity__move-btn"></span>
 											</a>
 										</li>
 										<li class="our-identity__slide our-identity__slide--typo swiper-slide">
-											<a href="/global/our-brand/brand-visualization/elements/typography/index.jsp">
+											<a href="/global/our-brand/brand-expression/elements/typography/index.jsp">
 												<h3 class="our-identity__item-title">Typography</h3>
 												<span class="our-identity__move-btn"></span>
 											</a>
 										</li>
 										<li class="our-identity__slide our-identity__slide--voice swiper-slide">
-											<a href="/global/our-brand/brand-visualization/elements/voice/index.jsp">
+											<a href="/global/our-brand/brand-expression/elements/voice/index.jsp">
 												<h3 class="our-identity__item-title">Voice</h3>
 												<span class="our-identity__move-btn" ></span>
 											</a>
@@ -274,18 +274,18 @@
 					<div class="pop-inner">
 						<div class="video-wrapper">
 							<video id="video-item" controls class="vjs-matrix video-js" preload="auto">
-								<source src="/global/our-brand/brand-visualization/img/philosophy/20230406_LG_BrandfilmMaster_88.mp4" type="video/mp4">
+								<source src="/global/our-brand/brand-expression/img/philosophy/20230406_LG_BrandfilmMaster_88.mp4" type="video/mp4">
 							</video>
 						</div>
 					</div>
 				</div>
-				<script src="/global/our-brand/brand-visualization/js/vjs.zencdn.net_8.3.0_video.min.js"></script>
-				<script src="/global/our-brand/brand-visualization/js/swiper-bundle.min.js"></script>
-				<script src="/global/our-brand/brand-visualization/js/layout.js"></script>
-				<script src="/global/our-brand/brand-visualization/js/philosophy.js"></script>
+				<script src="/global/our-brand/brand-expression/js/vjs.zencdn.net_8.3.0_video.min.js"></script>
+				<script src="/global/our-brand/brand-expression/js/swiper-bundle.min.js"></script>
+				<script src="/global/our-brand/brand-expression/js/layout.js"></script>
+				<script src="/global/our-brand/brand-expression/js/philosophy.js"></script>
             <!-- /CONTENTS -->
             <!-- footer -->
-            <%@ include file="/global/our-brand/brand-visualization/inc/footer.jsp" %>
+            <%@ include file="/global/our-brand/brand-expression/inc/footer.jsp" %>
             <!-- //footer -->
 	    </div>
 	</div>

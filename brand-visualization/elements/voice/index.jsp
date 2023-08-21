@@ -105,7 +105,7 @@
 			</div>
 
 			<!-- header -->
-			<%@ include file="/global/our-brand/brand-visualization/inc/header.jsp" %>
+			<%@ include file="/global/our-brand/brand-expression/inc/header.jsp" %>
 			<!-- //header -->
 
             <!-- CONTENTS -->
@@ -113,9 +113,9 @@
 					var gnbDep1 = 1; //GNB 1depth
 				</script>
 			    <link href="../../css/video-js.css" rel="stylesheet" />
-		        <link rel="stylesheet" href="/global/our-brand/brand-visualization/css/swiper-bundle.min.css"/>
-				<link rel="stylesheet" href="/global/our-brand/brand-visualization/css/common.css" />
-				<link rel="stylesheet" href="/global/our-brand/brand-visualization/css/voice.css" />
+		        <link rel="stylesheet" href="/global/our-brand/brand-expression/css/swiper-bundle.min.css"/>
+				<link rel="stylesheet" href="/global/our-brand/brand-expression/css/common.css" />
+				<link rel="stylesheet" href="/global/our-brand/brand-expression/css/voice.css" />
 
 				<div id="contents">
                     <div id="visual-voice" class="visual__top">
@@ -124,7 +124,7 @@
                         </div>
                         <!-- <div class="visual-innner">
                             <div class="download_assets">
-                                <img src="/global/our-brand/brand-visualization/mocks/BS0007/download_assets_font.png" alt class="download_assets__thumb"></img>
+                                <img src="/global/our-brand/brand-expression/mocks/BS0007/download_assets_font.png" alt class="download_assets__thumb"></img>
                                 <p class="download_assets__title">
                                     <b>LG EI Font</b>
                                     Download Assets
@@ -145,7 +145,7 @@
 							<div class="slide-wrap voice slideOnlyMo">
 								<ul class="swiper-wrapper">
 									<li class="swiper-slide slide-emotionally">
-										<!-- <img src="/global/our-brand/brand-visualization/img/elements/voice/voice-slide-emotionally.svg" alt=""> -->
+										<!-- <img src="/global/our-brand/brand-expression/img/elements/voice/voice-slide-emotionally.svg" alt=""> -->
 										<span>Emotionally</span>
 										<h3>
 											We write with
@@ -157,7 +157,7 @@
 										</p>
 									</li>
 									<li class="swiper-slide slide-intelligent">
-										<!-- <img src="/global/our-brand/brand-visualization/img/elements/voice/voice-slide-intelligent.svg" alt=""> -->
+										<!-- <img src="/global/our-brand/brand-expression/img/elements/voice/voice-slide-intelligent.svg" alt=""> -->
 										<span>Intelligent</span>
 										<h3>
 											We write with
@@ -169,7 +169,7 @@
 										</p>
 									</li>
 									<li class="swiper-slide slide-design">
-										<!-- <img src="/global/our-brand/brand-visualization/img/elements/voice/voice-slide-design.svg" alt=""> -->
+										<!-- <img src="/global/our-brand/brand-expression/img/elements/voice/voice-slide-design.svg" alt=""> -->
 										<span>Design</span>
 										<h3>
 											We write with
@@ -207,27 +207,27 @@
                             <div id="emotionally" class="tab-container__content tab-container__content--active">
                                 <div class="text-element text-element--headline">
 									<picture>
-										<source media="(min-width: 769px)" srcset="/global/our-brand/brand-visualization/img/elements/voice/principles-d-01.png">
-										<source media="(max-width: 768px)" srcset="/global/our-brand/brand-visualization/img/elements/voice/principles-m-01.svg">
-										<img src="/global/our-brand/brand-visualization/img/elements/voice/principles-d-01.png" alt="">
+										<source media="(min-width: 769px)" srcset="/global/our-brand/brand-expression/img/elements/voice/principles-d-01.png">
+										<source media="(max-width: 768px)" srcset="/global/our-brand/brand-expression/img/elements/voice/principles-m-01.svg">
+										<img src="/global/our-brand/brand-expression/img/elements/voice/principles-d-01.png" alt="">
 									</picture>
                                 </div>
                             </div>
                             <div id="intelligent" class="tab-container__content">
                                 <div class="text-element text-element--body">
 									<picture>
-										<source media="(min-width: 769px)" srcset="/global/our-brand/brand-visualization/img/elements/voice/principles-d-02.png">
-										<source media="(max-width: 768px)" srcset="/global/our-brand/brand-visualization/img/elements/voice/principles-m-02.svg">
-										<img src="/global/our-brand/brand-visualization/img/elements/voice/principles-d-02.png" alt="">
+										<source media="(min-width: 769px)" srcset="/global/our-brand/brand-expression/img/elements/voice/principles-d-02.png">
+										<source media="(max-width: 768px)" srcset="/global/our-brand/brand-expression/img/elements/voice/principles-m-02.svg">
+										<img src="/global/our-brand/brand-expression/img/elements/voice/principles-d-02.png" alt="">
 									</picture>
                                 </div>
                             </div>
                             <div id="design" class="tab-container__content">
                                 <div class="text-element text-element--body">
 									<picture>
-										<source media="(min-width: 769px)" srcset="/global/our-brand/brand-visualization/img/elements/voice/principles-d-03.png">
-										<source media="(max-width: 768px)" srcset="/global/our-brand/brand-visualization/img/elements/voice/principles-m-03.svg">
-										<img src="/global/our-brand/brand-visualization/img/elements/voice/principles-d-03.png" alt="">
+										<source media="(min-width: 769px)" srcset="/global/our-brand/brand-expression/img/elements/voice/principles-d-03.png">
+										<source media="(max-width: 768px)" srcset="/global/our-brand/brand-expression/img/elements/voice/principles-m-03.svg">
+										<img src="/global/our-brand/brand-expression/img/elements/voice/principles-d-03.png" alt="">
 									</picture>
                                 </div>
                             </div>
@@ -243,23 +243,23 @@
 								<ul class="swiper-wrapper">
 									<li class="swiper-slide">
 										<picture>
-											<source media="(min-width: 769px)" srcset="/global/our-brand/brand-visualization/img/elements/voice/voice_flexes_slide-01-d.svg">
-											<source media="(max-width: 768px)" srcset="/global/our-brand/brand-visualization/img/elements/voice/voice_flexes_slide-01-m.svg">
-											<img src="/global/our-brand/brand-visualization/img/elements/voice/voice_flexes_slide-01-d.svg" alt="">
+											<source media="(min-width: 769px)" srcset="/global/our-brand/brand-expression/img/elements/voice/voice_flexes_slide-01-d.svg">
+											<source media="(max-width: 768px)" srcset="/global/our-brand/brand-expression/img/elements/voice/voice_flexes_slide-01-m.svg">
+											<img src="/global/our-brand/brand-expression/img/elements/voice/voice_flexes_slide-01-d.svg" alt="">
 										</picture>
 									</li>
 									<li class="swiper-slide">
 										<picture>
-											<source media="(min-width: 769px)" srcset="/global/our-brand/brand-visualization/img/elements/voice/voice_flexes_slide-02-d.svg">
-											<source media="(max-width: 768px)" srcset="/global/our-brand/brand-visualization/img/elements/voice/voice_flexes_slide-02-m.svg">
-											<img src="/global/our-brand/brand-visualization/img/elements/voice/voice_flexes_slide-01-d.svg" alt="">
+											<source media="(min-width: 769px)" srcset="/global/our-brand/brand-expression/img/elements/voice/voice_flexes_slide-02-d.svg">
+											<source media="(max-width: 768px)" srcset="/global/our-brand/brand-expression/img/elements/voice/voice_flexes_slide-02-m.svg">
+											<img src="/global/our-brand/brand-expression/img/elements/voice/voice_flexes_slide-01-d.svg" alt="">
 										</picture>
 									</li>
 									<li class="swiper-slide">
 										<picture>
-											<source media="(min-width: 769px)" srcset="/global/our-brand/brand-visualization/img/elements/voice/voice_flexes_slide-03-d.svg">
-											<source media="(max-width: 768px)" srcset="/global/our-brand/brand-visualization/img/elements/voice/voice_flexes_slide-03-m.svg">
-											<img src="/global/our-brand/brand-visualization/img/elements/voice/voice_flexes_slide-01-d.svg" alt="">
+											<source media="(min-width: 769px)" srcset="/global/our-brand/brand-expression/img/elements/voice/voice_flexes_slide-03-d.svg">
+											<source media="(max-width: 768px)" srcset="/global/our-brand/brand-expression/img/elements/voice/voice_flexes_slide-03-m.svg">
+											<img src="/global/our-brand/brand-expression/img/elements/voice/voice_flexes_slide-01-d.svg" alt="">
 										</picture>
 									</li>
 								</ul>
@@ -281,27 +281,27 @@
                             <div id="with-a-smile" class="tab-container__content tab-container__content--active">
                                 <div class="text-element text-element--headline">
 									<picture>
-										<source media="(min-width: 769px)" srcset="/global/our-brand/brand-visualization/img/elements/voice/voice_flexes_tab-01-d.png">
-										<source media="(max-width: 768px)" srcset="/global/our-brand/brand-visualization/img/elements/voice/voice_flexes_tab-01-m.png">
-										<img src="/global/our-brand/brand-visualization/img/elements/voice/voice_flexes_tab-01-d.png" alt="">
+										<source media="(min-width: 769px)" srcset="/global/our-brand/brand-expression/img/elements/voice/voice_flexes_tab-01-d.png">
+										<source media="(max-width: 768px)" srcset="/global/our-brand/brand-expression/img/elements/voice/voice_flexes_tab-01-m.png">
+										<img src="/global/our-brand/brand-expression/img/elements/voice/voice_flexes_tab-01-d.png" alt="">
 									</picture>
                                 </div>
                             </div>
                             <div id="with-insight" class="tab-container__content">
                                 <div class="text-element text-element--body">
 									<picture>
-										<source media="(min-width: 769px)" srcset="/global/our-brand/brand-visualization/img/elements/voice/voice_flexes_tab-02-d.png">
-										<source media="(max-width: 768px)" srcset="/global/our-brand/brand-visualization/img/elements/voice/voice_flexes_tab-02-m.png">
-										<img src="/global/our-brand/brand-visualization/img/elements/voice/voice_flexes_tab-02-d.png" alt="">
+										<source media="(min-width: 769px)" srcset="/global/our-brand/brand-expression/img/elements/voice/voice_flexes_tab-02-d.png">
+										<source media="(max-width: 768px)" srcset="/global/our-brand/brand-expression/img/elements/voice/voice_flexes_tab-02-m.png">
+										<img src="/global/our-brand/brand-expression/img/elements/voice/voice_flexes_tab-02-d.png" alt="">
 									</picture>
                                 </div>
                             </div>
                             <div id="with-design" class="tab-container__content">
                                 <div class="text-element text-element--body">
 									<picture>
-										<source media="(min-width: 769px)" srcset="/global/our-brand/brand-visualization/img/elements/voice/voice_flexes_tab-03-d.png">
-										<source media="(max-width: 768px)" srcset="/global/our-brand/brand-visualization/img/elements/voice/voice_flexes_tab-03-m.png">
-										<img src="/global/our-brand/brand-visualization/img/elements/voice/voice_flexes_tab-03-d.png" alt="">
+										<source media="(min-width: 769px)" srcset="/global/our-brand/brand-expression/img/elements/voice/voice_flexes_tab-03-d.png">
+										<source media="(max-width: 768px)" srcset="/global/our-brand/brand-expression/img/elements/voice/voice_flexes_tab-03-m.png">
+										<img src="/global/our-brand/brand-expression/img/elements/voice/voice_flexes_tab-03-d.png" alt="">
 									</picture>
                                 </div>
                             </div>
@@ -370,13 +370,13 @@
 						</div>
 					</div>
 				</div>
-				<script src="/global/our-brand/brand-visualization/js/vjs.zencdn.net_8.3.0_video.min.js"></script>
-				<script src="/global/our-brand/brand-visualization/js/swiper-bundle.min.js"></script>
-				<script src="/global/our-brand/brand-visualization/js/layout.js"></script>
-				<script src="/global/our-brand/brand-visualization/js/voice.js"></script>
+				<script src="/global/our-brand/brand-expression/js/vjs.zencdn.net_8.3.0_video.min.js"></script>
+				<script src="/global/our-brand/brand-expression/js/swiper-bundle.min.js"></script>
+				<script src="/global/our-brand/brand-expression/js/layout.js"></script>
+				<script src="/global/our-brand/brand-expression/js/voice.js"></script>
             <!-- /CONTENTS -->
             <!-- footer -->
-            <%@ include file="/global/our-brand/brand-visualization/inc/footer.jsp" %>
+            <%@ include file="/global/our-brand/brand-expression/inc/footer.jsp" %>
             <!-- //footer -->
 	    </div>
 	</div>

@@ -105,7 +105,7 @@
 			</div>
 
 			<!-- header -->
-			<%@ include file="/global/our-brand/brand-visualization/inc/header.jsp" %>
+			<%@ include file="/global/our-brand/brand-expression/inc/header.jsp" %>
 			<!-- //header -->
 
             <!-- CONTENTS -->
@@ -113,9 +113,9 @@
 					var gnbDep1 = 1; //GNB 1depth
 				</script>
 			    <link href="../../css/video-js.css" rel="stylesheet" />
-		        <link rel="stylesheet" href="/global/our-brand/brand-visualization/css/swiper-bundle.min.css"/>
-				<link rel="stylesheet" href="/global/our-brand/brand-visualization/css/common.css" />
-				<link rel="stylesheet" href="/global/our-brand/brand-visualization/css/typography.css" />
+		        <link rel="stylesheet" href="/global/our-brand/brand-expression/css/swiper-bundle.min.css"/>
+				<link rel="stylesheet" href="/global/our-brand/brand-expression/css/common.css" />
+				<link rel="stylesheet" href="/global/our-brand/brand-expression/css/typography.css" />
 				
 				<div id="contents">
 					<div id="visual-design-system" class="visual__top">
@@ -124,7 +124,7 @@
 						</div>
 						<div class="visual-innner">
 							<div class="download_assets">
-								<img src="/global/our-brand/brand-visualization/img/elements/typography/download_assets_font.png" alt class="download_assets__thumb"></img>
+								<img src="/global/our-brand/brand-expression/img/elements/typography/download_assets_font.png" alt class="download_assets__thumb"></img>
 								<p class="download_assets__title">
 									<b>LG EI Font</b>
 									Download Assets
@@ -155,8 +155,8 @@
 							<div id="warmth" class="tab-container__content tab-container__content--active">
 								<div class="text-element text-element--headline percent-view">
 									<video muted playsinline autoplay loop class ="percent-view__img">
-										<source src="/global/our-brand/brand-visualization/img/elements/typography/our-new-font-wormth-d.mp4" type="video/mp4" media="(min-width: 769px)"></source>
-										<source src="/global/our-brand/brand-visualization/img/elements/typography/our-new-font-wormth-m.mp4" type="video/mp4"></source>
+										<source src="/global/our-brand/brand-expression/img/elements/typography/our-new-font-wormth-d.mp4" type="video/mp4" media="(min-width: 769px)"></source>
+										<source src="/global/our-brand/brand-expression/img/elements/typography/our-new-font-wormth-m.mp4" type="video/mp4"></source>
 									</video>
 									<p class="fix-text">Warmth</p>
 								</div>
@@ -164,7 +164,7 @@
 							<div id="innovation" class="tab-container__content">
 								<div class="text-element text-element--body percent-view">
 									<video muted playsinline autoplay loop class="percent-view__img">
-										<source src="/global/our-brand/brand-visualization/img/elements/typography/our-new-font-innovation-d.mp4" type="video/mp4"></source>
+										<source src="/global/our-brand/brand-expression/img/elements/typography/our-new-font-innovation-d.mp4" type="video/mp4"></source>
 									</video>
 									<p class="fix-text">Innovation</p>
 								</div>
@@ -179,10 +179,10 @@
 						</div>
 						<div class="text-element text-element--headline percent-view">
 							<picture class="percent-view__img">
-								<source media="(min-width: 1441px)" srcset="/global/our-brand/brand-visualization/img/elements/typography/text-element--headline.svg">
-								<source media="(min-width: 769px) and (max-width: 1440px)" srcset="/global/our-brand/brand-visualization/img/elements/typography/text-element--headline-t.svg">
-								<source media="(max-width: 768px)" srcset="/global/our-brand/brand-visualization/img/elements/typography/text-element--headline-m.svg">
-								<img src="/global/our-brand/brand-visualization/img/elements/typography/text-element--headline.svg" alt="">
+								<source media="(min-width: 1441px)" srcset="/global/our-brand/brand-expression/img/elements/typography/text-element--headline.svg">
+								<source media="(min-width: 769px) and (max-width: 1440px)" srcset="/global/our-brand/brand-expression/img/elements/typography/text-element--headline-t.svg">
+								<source media="(max-width: 768px)" srcset="/global/our-brand/brand-expression/img/elements/typography/text-element--headline-m.svg">
+								<img src="/global/our-brand/brand-expression/img/elements/typography/text-element--headline.svg" alt="">
 							</picture>
 						</div>
 						<div class="brand__header">
@@ -198,30 +198,30 @@
 								<ul class="swiper-wrapper">
 									<li class="swiper-slide percent-view">
 										<picture class="percent-view__img">
-											<source media="(min-width: 789px)" srcset="/global/our-brand/brand-visualization/img/elements/typography/bringing_it_to_life_slide_04-d.png">
-											<source media="(max-width: 768px)" srcset="/global/our-brand/brand-visualization/img/elements/typography/bringing_it_to_life_slide_04-m.png">
-											<img src="/global/our-brand/brand-visualization/img/elements/typography/bringing_it_to_life_slide_04-d.png" alt="">
+											<source media="(min-width: 789px)" srcset="/global/our-brand/brand-expression/img/elements/typography/bringing_it_to_life_slide_04-d.png">
+											<source media="(max-width: 768px)" srcset="/global/our-brand/brand-expression/img/elements/typography/bringing_it_to_life_slide_04-m.png">
+											<img src="/global/our-brand/brand-expression/img/elements/typography/bringing_it_to_life_slide_04-d.png" alt="">
 										</picture>
 									</li>
 									<li class="swiper-slide percent-view">
 										<picture class="percent-view__img">
-											<source media="(min-width: 789px)" srcset="/global/our-brand/brand-visualization/img/elements/typography/bringing_it_to_life_slide_02-d.png">
-											<source media="(max-width: 768px)" srcset="/global/our-brand/brand-visualization/img/elements/typography/bringing_it_to_life_slide_02-m.png">
-											<img src="/global/our-brand/brand-visualization/img/elements/typography/bringing_it_to_life_slide_02-d.png" alt="">
+											<source media="(min-width: 789px)" srcset="/global/our-brand/brand-expression/img/elements/typography/bringing_it_to_life_slide_02-d.png">
+											<source media="(max-width: 768px)" srcset="/global/our-brand/brand-expression/img/elements/typography/bringing_it_to_life_slide_02-m.png">
+											<img src="/global/our-brand/brand-expression/img/elements/typography/bringing_it_to_life_slide_02-d.png" alt="">
 										</picture>
 									</li>
 									<li class="swiper-slide percent-view">
 										<picture class="percent-view__img">
-											<source media="(min-width: 789px)" srcset="/global/our-brand/brand-visualization/img/elements/typography/bringing_it_to_life_slide_03-d.png">
-											<source media="(max-width: 768px)" srcset="/global/our-brand/brand-visualization/img/elements/typography/bringing_it_to_life_slide_03-m.png">
-											<img src="/global/our-brand/brand-visualization/img/elements/typography/bringing_it_to_life_slide_03-d.png" alt="">
+											<source media="(min-width: 789px)" srcset="/global/our-brand/brand-expression/img/elements/typography/bringing_it_to_life_slide_03-d.png">
+											<source media="(max-width: 768px)" srcset="/global/our-brand/brand-expression/img/elements/typography/bringing_it_to_life_slide_03-m.png">
+											<img src="/global/our-brand/brand-expression/img/elements/typography/bringing_it_to_life_slide_03-d.png" alt="">
 										</picture>
 									</li>
 									<li class="swiper-slide percent-view">
 										<picture class="percent-view__img">
-											<source media="(min-width: 789px)" srcset="/global/our-brand/brand-visualization/img/elements/typography/bringing_it_to_life_slide_01-d.png">
-											<source media="(max-width: 768px)" srcset="/global/our-brand/brand-visualization/img/elements/typography/bringing_it_to_life_slide_01-m.png">
-											<img src="/global/our-brand/brand-visualization/img/elements/typography/bringing_it_to_life_slide_01-d.png" alt="">
+											<source media="(min-width: 789px)" srcset="/global/our-brand/brand-expression/img/elements/typography/bringing_it_to_life_slide_01-d.png">
+											<source media="(max-width: 768px)" srcset="/global/our-brand/brand-expression/img/elements/typography/bringing_it_to_life_slide_01-m.png">
+											<img src="/global/our-brand/brand-expression/img/elements/typography/bringing_it_to_life_slide_01-d.png" alt="">
 										</picture>
 									</li>
 								</ul>
@@ -245,43 +245,43 @@
 							<div class="our-identity__slider">
 								<ul class="our-identity__slides swiper-wrapper">
 									<li class="our-identity__slide our-identity__slide--logo swiper-slide">
-										<a href="/global/our-brand/brand-visualization/elements/logo/index.jsp">
+										<a href="/global/our-brand/brand-expression/elements/logo/index.jsp">
 											<h3 class="our-identity__item-title">Logo</h3>
 											<span class="our-identity__move-btn"></span>
 										</a>
 									</li>
 									<li class="our-identity__slide our-identity__slide--color swiper-slide">
-										<a href="/global/our-brand/brand-visualization/elements/color/index.jsp">
+										<a href="/global/our-brand/brand-expression/elements/color/index.jsp">
 											<h3 class="our-identity__item-title">Color & Gradients</h3>
 											<span class="our-identity__move-btn"></span>
 										</a>
 									</li>
 									<li class="our-identity__slide our-identity__slide--tagline swiper-slide">
-										<a href="/global/our-brand/brand-visualization/elements/slogan/index.jsp">
+										<a href="/global/our-brand/brand-expression/elements/slogan/index.jsp">
 											<h3 class="our-identity__item-title">Slogan</h3>
 											<span class="our-identity__move-btn"></span>
 										</a>
 									</li>
 									<li class="our-identity__slide our-identity__slide--photography swiper-slide">
-										<a href="/global/our-brand/brand-visualization/elements/photography/index.jsp">
+										<a href="/global/our-brand/brand-expression/elements/photography/index.jsp">
 											<h3 class="our-identity__item-title">Photography</h3>
 											<span class="our-identity__move-btn" ></span>
 										</a>
 									</li>
 									<li class="our-identity__slide our-identity__slide--design swiper-slide">
-										<a href="/global/our-brand/brand-visualization/elements/design-system/index.jsp">
+										<a href="/global/our-brand/brand-expression/elements/design-system/index.jsp">
 											<h3 class="our-identity__item-title">Design System</h3>
 											<span class="our-identity__move-btn"></span>
 										</a>
 									</li>
 									<li class="our-identity__slide our-identity__slide--typo swiper-slide">
-										<a href="/global/our-brand/brand-visualization/elements/typography/index.jsp">
+										<a href="/global/our-brand/brand-expression/elements/typography/index.jsp">
 											<h3 class="our-identity__item-title">Typography</h3>
 											<span class="our-identity__move-btn"></span>
 										</a>
 									</li>
 									<li class="our-identity__slide our-identity__slide--voice swiper-slide">
-										<a href="/global/our-brand/brand-visualization/elements/voice/index.jsp">
+										<a href="/global/our-brand/brand-expression/elements/voice/index.jsp">
 											<h3 class="our-identity__item-title">Voice</h3>
 											<span class="our-identity__move-btn" ></span>
 										</a>
@@ -294,13 +294,13 @@
 						</div>
 					</div>
 				</div>
-				<script src="/global/our-brand/brand-visualization/js/vjs.zencdn.net_8.3.0_video.min.js"></script>
-				<script src="/global/our-brand/brand-visualization/js/swiper-bundle.min.js"></script>
-				<script src="/global/our-brand/brand-visualization/js/layout.js"></script>
-				<script src="/global/our-brand/brand-visualization/js/typography.js"></script>
+				<script src="/global/our-brand/brand-expression/js/vjs.zencdn.net_8.3.0_video.min.js"></script>
+				<script src="/global/our-brand/brand-expression/js/swiper-bundle.min.js"></script>
+				<script src="/global/our-brand/brand-expression/js/layout.js"></script>
+				<script src="/global/our-brand/brand-expression/js/typography.js"></script>
             <!-- /CONTENTS -->
             <!-- footer -->
-            <%@ include file="/global/our-brand/brand-visualization/inc/footer.jsp" %>
+            <%@ include file="/global/our-brand/brand-expression/inc/footer.jsp" %>
             <!-- //footer -->
 	    </div>
 	</div>

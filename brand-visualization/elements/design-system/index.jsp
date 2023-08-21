@@ -105,7 +105,7 @@
 			</div>
 
 			<!-- header -->
-			<%@ include file="/global/our-brand/brand-visualization/inc/header.jsp" %>
+			<%@ include file="/global/our-brand/brand-expression/inc/header.jsp" %>
 			<!-- //header -->
 
             <!-- CONTENTS -->
@@ -113,9 +113,9 @@
 					var gnbDep1 = 1; //GNB 1depth
 				</script>
 			    <link href="../../css/video-js.css" rel="stylesheet" />
-		        <link rel="stylesheet" href="/global/our-brand/brand-visualization/css/swiper-bundle.min.css"/>
-				<link rel="stylesheet" href="/global/our-brand/brand-visualization/css/common.css" />
-				<link rel="stylesheet" href="/global/our-brand/brand-visualization/css/design-system.css" />
+		        <link rel="stylesheet" href="/global/our-brand/brand-expression/css/swiper-bundle.min.css"/>
+				<link rel="stylesheet" href="/global/our-brand/brand-expression/css/common.css" />
+				<link rel="stylesheet" href="/global/our-brand/brand-expression/css/design-system.css" />
 
 				<div id="contents">
 					<div id="visual-design-system" class="visual__top">
@@ -132,7 +132,7 @@
 							</p>
 						</div>
 						<div class="percent-view">
-							<img class="all-comes-together__img" srcset="/global/our-brand/brand-visualization/img/elements/design-system/brand-elements-design-system-inspired-by-the-form-of-our-products-d.png">
+							<img class="all-comes-together__img" srcset="/global/our-brand/brand-expression/img/elements/design-system/brand-elements-design-system-inspired-by-the-form-of-our-products-d.png">
 						</div>
 		
 						<div class="brand__header">
@@ -154,18 +154,18 @@
 							<div id="connected-state" class="tab-container__content tab-container__content--active">
 								<div class="percent-view">
 									<picture>
-										<source media="(min-width: 769px)" srcset="/global/our-brand/brand-visualization/img/elements/design-system/brand-elements-design-system-a-unique-interative-and-responsive-system-core-state-d.png">
-										<source media="(max-width: 768px)" srcset="/global/our-brand/brand-visualization/img/elements/design-system/brand-elements-design-system-a-unique-interative-and-responsive-system-core-state-m.svg">
-										<img src="/global/our-brand/brand-visualization/img/elements/design-system/brand-elements-design-system-a-unique-interative-and-responsive-system-core-state-d.png" alt="">
+										<source media="(min-width: 769px)" srcset="/global/our-brand/brand-expression/img/elements/design-system/brand-elements-design-system-a-unique-interative-and-responsive-system-core-state-d.png">
+										<source media="(max-width: 768px)" srcset="/global/our-brand/brand-expression/img/elements/design-system/brand-elements-design-system-a-unique-interative-and-responsive-system-core-state-m.svg">
+										<img src="/global/our-brand/brand-expression/img/elements/design-system/brand-elements-design-system-a-unique-interative-and-responsive-system-core-state-d.png" alt="">
 									</picture>
 								</div>
 							</div>
 							<div id="core-state" class="tab-container__content">
 								<div class="percent-view">
 									<picture>
-										<source media="(min-width: 769px)" srcset="/global/our-brand/brand-visualization/img/elements/design-system/brand-elements-design-system-a-unique-interative-and-responsive-system-connected-state-d.png">
-										<source media="(max-width: 768px)" srcset="/global/our-brand/brand-visualization/img/elements/design-system/brand-elements-design-system-a-unique-interative-and-responsive-system-connected-state-m.svg">
-										<img src="/global/our-brand/brand-visualization/img/elements/design-system/brand-elements-design-system-a-unique-interative-and-responsive-system-connected-state-d.png" alt="">
+										<source media="(min-width: 769px)" srcset="/global/our-brand/brand-expression/img/elements/design-system/brand-elements-design-system-a-unique-interative-and-responsive-system-connected-state-d.png">
+										<source media="(max-width: 768px)" srcset="/global/our-brand/brand-expression/img/elements/design-system/brand-elements-design-system-a-unique-interative-and-responsive-system-connected-state-m.svg">
+										<img src="/global/our-brand/brand-expression/img/elements/design-system/brand-elements-design-system-a-unique-interative-and-responsive-system-connected-state-d.png" alt="">
 									</picture>
 
 								</div>
@@ -191,24 +191,24 @@
 						<div class="tab-container" data-tab="mode">
 							<div id="hero-mode" class="tab-container__content tab-container__content--active">
 								<div class="percent-view">
-									<img src="/global/our-brand/brand-visualization/img/elements/design-system/brand-elements-design-system-emotionally-intelligent-form-layouts-hero-mode-d.png" alt="">
+									<img src="/global/our-brand/brand-expression/img/elements/design-system/brand-elements-design-system-emotionally-intelligent-form-layouts-hero-mode-d.png" alt="">
 								</div>
 							</div>
 							<div id="connect-mode" class="tab-container__content">
 								<div class="percent-view">
 									<picture>
-										<source media="(min-width: 769px)" srcset="/global/our-brand/brand-visualization/img/elements/design-system/brand-elements-design-system-emotionally-intelligent-form-layouts-connect-mode-d.png">
-										<source media="(max-width: 768px)" srcset="/global/our-brand/brand-visualization/img/elements/design-system/brand-elements-design-system-emotionally-intelligent-form-layouts-connect-mode-m.png">
-										<img src="/global/our-brand/brand-visualization/img/elements/design-system/brand-elements-design-system-emotionally-intelligent-form-layouts-connect-mode-d.png" alt="">
+										<source media="(min-width: 769px)" srcset="/global/our-brand/brand-expression/img/elements/design-system/brand-elements-design-system-emotionally-intelligent-form-layouts-connect-mode-d.png">
+										<source media="(max-width: 768px)" srcset="/global/our-brand/brand-expression/img/elements/design-system/brand-elements-design-system-emotionally-intelligent-form-layouts-connect-mode-m.png">
+										<img src="/global/our-brand/brand-expression/img/elements/design-system/brand-elements-design-system-emotionally-intelligent-form-layouts-connect-mode-d.png" alt="">
 									</picture>
 								</div>
 							</div>
 							<div id="focus-mode" class="tab-container__content">
 								<div class="percent-view percent-view--mo-right">
 									<picture>
-										<source media="(min-width: 769px)" srcset="/global/our-brand/brand-visualization/img/elements/design-system/brand-elements-design-system-emotionally-intelligent-form-layouts-focus-mode-d.png">
-										<source media="(max-width: 768px)" srcset="/global/our-brand/brand-visualization/img/elements/design-system/brand-elements-design-system-emotionally-intelligent-form-layouts-focus-mode-m.png">
-										<img src="/global/our-brand/brand-visualization/img/elements/design-system/brand-elements-design-system-emotionally-intelligent-form-layouts-focus-mode-d.png" alt="">
+										<source media="(min-width: 769px)" srcset="/global/our-brand/brand-expression/img/elements/design-system/brand-elements-design-system-emotionally-intelligent-form-layouts-focus-mode-d.png">
+										<source media="(max-width: 768px)" srcset="/global/our-brand/brand-expression/img/elements/design-system/brand-elements-design-system-emotionally-intelligent-form-layouts-focus-mode-m.png">
+										<img src="/global/our-brand/brand-expression/img/elements/design-system/brand-elements-design-system-emotionally-intelligent-form-layouts-focus-mode-d.png" alt="">
 									</picture>
 								</div>
 							</div>
@@ -261,9 +261,9 @@
 						</div>
 						<div class="all-comes-together">
 							<picture>
-								<source media="(min-width: 769px)" class="all-comes-together__img" srcset="/global/our-brand/brand-visualization/img/elements/design-system/design_system_how_it_all-d.png">
-								<source media="(max-width: 768px)" class="all-comes-together__img" srcset="/global/our-brand/brand-visualization/img/elements/design-system/design_system_how_it_all-m.png">
-								<img class="all-comes-together__img" srcset="/global/our-brand/brand-visualization/img/elements/design-system/design_system_how_it_all-d.png">
+								<source media="(min-width: 769px)" class="all-comes-together__img" srcset="/global/our-brand/brand-expression/img/elements/design-system/design_system_how_it_all-d.png">
+								<source media="(max-width: 768px)" class="all-comes-together__img" srcset="/global/our-brand/brand-expression/img/elements/design-system/design_system_how_it_all-m.png">
+								<img class="all-comes-together__img" srcset="/global/our-brand/brand-expression/img/elements/design-system/design_system_how_it_all-d.png">
 							</picture>
 						</div>
 					</div>
@@ -280,43 +280,43 @@
 							<div class="our-identity__slider">
 								<ul class="our-identity__slides swiper-wrapper">
 									<li class="our-identity__slide our-identity__slide--logo swiper-slide">
-										<a href="/global/our-brand/brand-visualization/elements/logo/index.jsp">
+										<a href="/global/our-brand/brand-expression/elements/logo/index.jsp">
 											<h3 class="our-identity__item-title">Logo</h3>
 											<span class="our-identity__move-btn"></span>
 										</a>
 									</li>
 									<li class="our-identity__slide our-identity__slide--color swiper-slide">
-										<a href="/global/our-brand/brand-visualization/elements/color/index.jsp">
+										<a href="/global/our-brand/brand-expression/elements/color/index.jsp">
 											<h3 class="our-identity__item-title">Color & Gradients</h3>
 											<span class="our-identity__move-btn"></span>
 										</a>
 									</li>
 									<li class="our-identity__slide our-identity__slide--tagline swiper-slide">
-										<a href="/global/our-brand/brand-visualization/elements/slogan/index.jsp">
+										<a href="/global/our-brand/brand-expression/elements/slogan/index.jsp">
 											<h3 class="our-identity__item-title">Slogan</h3>
 											<span class="our-identity__move-btn"></span>
 										</a>
 									</li>
 									<li class="our-identity__slide our-identity__slide--photography swiper-slide">
-										<a href="/global/our-brand/brand-visualization/elements/photography/index.jsp">
+										<a href="/global/our-brand/brand-expression/elements/photography/index.jsp">
 											<h3 class="our-identity__item-title">Photography</h3>
 											<span class="our-identity__move-btn" ></span>
 										</a>
 									</li>
 									<li class="our-identity__slide our-identity__slide--design swiper-slide">
-										<a href="/global/our-brand/brand-visualization/elements/design-system/index.jsp">
+										<a href="/global/our-brand/brand-expression/elements/design-system/index.jsp">
 											<h3 class="our-identity__item-title">Design System</h3>
 											<span class="our-identity__move-btn"></span>
 										</a>
 									</li>
 									<li class="our-identity__slide our-identity__slide--typo swiper-slide">
-										<a href="/global/our-brand/brand-visualization/elements/typography/index.jsp">
+										<a href="/global/our-brand/brand-expression/elements/typography/index.jsp">
 											<h3 class="our-identity__item-title">Typography</h3>
 											<span class="our-identity__move-btn"></span>
 										</a>
 									</li>
 									<li class="our-identity__slide our-identity__slide--voice swiper-slide">
-										<a href="/global/our-brand/brand-visualization/elements/voice/index.jsp">
+										<a href="/global/our-brand/brand-expression/elements/voice/index.jsp">
 											<h3 class="our-identity__item-title">Voice</h3>
 											<span class="our-identity__move-btn" ></span>
 										</a>
@@ -329,12 +329,12 @@
 						</div>
 					</div>
 				</div>
-				<script src="/global/our-brand/brand-visualization/js/vjs.zencdn.net_8.3.0_video.min.js"></script>
-				<script src="/global/our-brand/brand-visualization/js/swiper-bundle.min.js"></script>
-				<script src="/global/our-brand/brand-visualization/js/layout.js"></script>
+				<script src="/global/our-brand/brand-expression/js/vjs.zencdn.net_8.3.0_video.min.js"></script>
+				<script src="/global/our-brand/brand-expression/js/swiper-bundle.min.js"></script>
+				<script src="/global/our-brand/brand-expression/js/layout.js"></script>
             <!-- /CONTENTS -->
             <!-- footer -->
-            <%@ include file="/global/our-brand/brand-visualization/inc/footer.jsp" %>
+            <%@ include file="/global/our-brand/brand-expression/inc/footer.jsp" %>
             <!-- //footer -->
 	    </div>
 	</div>
