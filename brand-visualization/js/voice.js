@@ -1,32 +1,42 @@
 function onlyMobileSlide() {
-    const slideTarget = document.querySelector('.slideOnlyMo')
     let ww = window.innerWidth;
-    let slider = undefined;
-    
+    let futureSwiper = [];
+    let target = '.slideOnlyMo';
+    const targetEL = document.querySelectorAll(target);
+
+    for (let i = 0; i < targetEL.length; i++) {
+        futureSwiper[i] = undefined;
+    }
+
     function initSwiper() {
-    
-      if (ww <= 768 && slider == undefined) {
-        slider = new Swiper(slideTarget, {
-            slidesPerView: 1,
-            simulateTouch: true,
-            navigation: {
-                nextEl: '.our-voice-slide button.next',
-                prevEl: '.our-voice-slide button.prev',
+        targetEL.forEach(function (el, idx) {
+            if (ww < 769 && futureSwiper[idx] == undefined) {
+                el.classList.add(`slide-mo-${idx}`);
+
+                futureSwiper[idx] = new Swiper(`.slide-mo-${idx}`, {
+                    slidesPerView: 1,
+                    simulateTouch: true,
+                    navigation: {
+                        nextEl: `.slide-mo-${idx} + .slide-contorller button.next`,
+                        prevEl: `.slide-mo-${idx} + .slide-contorller button.prev`,
+                    },
+                });
+            } else if (ww >= 769 && futureSwiper[idx] != undefined) {
+                futureSwiper[idx].destroy();
+                futureSwiper[idx] = undefined;
             }
         });
-      } else if (ww > 768 && slider != undefined) {
-        slider.destroy();
-        slider = undefined;
-      }
     }
-    
-    initSwiper();
 
     window.addEventListener('resize', function () {
-        ww = window.innerWidth
+        ww = window.innerWidth;
+
         initSwiper();
-    })
+    });
+
+    initSwiper();
 }
+
 
 function outOfHomeSlider() {
     const slider = document.querySelector('.bring-it-to-life__slide')

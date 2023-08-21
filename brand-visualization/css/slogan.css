@@ -263,6 +263,7 @@
 /* Mobile */
 @media (max-width: 768px) {
 
+
     /*top visual*/
     #visual-tagline.visual__top {
         background-image: url(../img/elements/slogan/brand-elements-tagline-m.png);

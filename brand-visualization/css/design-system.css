@@ -199,11 +199,16 @@
         background-image: url(../img/elements/design-system/brand-elements-design-system-m.png);
     }
 
-
-    /*랜딩비주얼 스크롤다운 버튼*/
-    .landing-visual__scrolldown {
-        display: none;
+    /*contents ------*/
+    .percent-view {
+        border-radius: 10px;
+        padding-bottom: 100%;
     }
+
+    .percent-view--mo-right img {
+        object-position: right;
+    }
+
 }
 
 /* 4K */

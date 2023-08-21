@@ -58,12 +58,11 @@
     opacity: 0;
     transition: .5s;
 }
-.brand-colors__item:hover .btn-copy-hexcode:not(.btn-copy-hexcode--dark) {color: #fff;}
-
 .brand-colors__item:hover .btn-copy-hexcode {
     top: 50%;
     opacity: 1;
 }
+.brand-colors__item:hover .btn-copy-hexcode:not(.btn-copy-hexcode--dark) {color: #fff;}
 .btn-copy-hexcode--dark {
     background-color: #00000014;
     border-color: #CBC8C280;
