@@ -231,7 +231,7 @@
 						<div class="tab-container" data-tab="logoPlay">
 							<div id="logoplay" class="tab-container__content tab-container__content--active">
 								<div class="logo__container logo__container--logoplay">
-									<img class="logo__container__logoplay-image" src="/global/our-brand/brand-expression/img/elements/logo/LG_Electronics_Expressive_Symbol-d.gif" alt="">
+									<img class="logo__container__logoplay-image" src="/global/our-brand/brand-expression/img/elements/logo/lg_electronics_expressive_symbol-d.gif" alt="">
 									<div class="v-box-bottom wt">
 										<p class="tit">Digital Logo Play</p>
 										<span class="desc">Allows us to engage and tell stories</span>
@@ -243,35 +243,35 @@
 									<ul class="logosuite">
 										<li class="logosuite__item">
 											<p class="logosuite__label">Appearing</p>
-											<img class="logosuite__img" src="/global/our-brand/brand-expression/img/elements/logo/LG_Electronics_Expressive_Symbol_Transparent_White_Appearing.gif" alt="">
+											<img class="logosuite__img" src="/global/our-brand/brand-expression/img/elements/logo/lg_electronics_expressive_symbol_transparent_white_Appearing.gif" alt="">
 										</li>
 										<li class="logosuite__item">
 											<p class="logosuite__label">Bobbing to music</p>
-											<img class="logosuite__img" src="/global/our-brand/brand-expression/img/elements/logo/LG_Electronics_Expressive_Symbol_Transparent_White_BobtoMusic.gif" alt="">
+											<img class="logosuite__img" src="/global/our-brand/brand-expression/img/elements/logo/lg_electronics_expressive_symbol_transparent_white_BobtoMusic.gif" alt="">
 										</li>
 										<li class="logosuite__item">
 											<p class="logosuite__label">Bowing</p>
-											<img class="logosuite__img" src="/global/our-brand/brand-expression/img/elements/logo/LG_Electronics_Expressive_Symbol_Transparent_White_Bowing.gif" alt="">
+											<img class="logosuite__img" src="/global/our-brand/brand-expression/img/elements/logo/lg_electronics_expressive_symbol_transparent_white_Bowing.gif" alt="">
 										</li>
 										<li class="logosuite__item">
 											<p class="logosuite__label">Look around</p>
-											<img class="logosuite__img" src="/global/our-brand/brand-expression/img/elements/logo/LG_Electronics_Expressive_Symbol_Transparent_White_LookingAround.gif" alt="">
+											<img class="logosuite__img" src="/global/our-brand/brand-expression/img/elements/logo/lg_electronics_expressive_symbol_transparent_white_LookingAround.gif" alt="">
 										</li>
 										<li class="logosuite__item">
 											<p class="logosuite__label">Amazed</p>
-											<img class="logosuite__img" src="/global/our-brand/brand-expression/img/elements/logo/LG_Electronics_Expressive_Symbol_Transparent_White_Amazed.gif" alt="">
+											<img class="logosuite__img" src="/global/our-brand/brand-expression/img/elements/logo/lg_electronics_expressive_symbol_transparent_white_Amazed.gif" alt="">
 										</li>
 										<li class="logosuite__item">
 											<p class="logosuite__label">Spinning</p>
-											<img class="logosuite__img" src="/global/our-brand/brand-expression/img/elements/logo/LG_Electronics_Expressive_Symbol_Transparent_White_Scrolling.gif" alt="">
+											<img class="logosuite__img" src="/global/our-brand/brand-expression/img/elements/logo/lg_electronics_expressive_symbol_transparent_white_Scrolling.gif" alt="">
 										</li>
 										<li class="logosuite__item">
 											<p class="logosuite__label">Nodding</p>
-											<img class="logosuite__img" src="/global/our-brand/brand-expression/img/elements/logo/LG_Electronics_Expressive_Symbol_Transparent_White_Nodding.gif" alt="">
+											<img class="logosuite__img" src="/global/our-brand/brand-expression/img/elements/logo/lg_electronics_expressive_symbol_transparent_white_Nodding.gif" alt="">
 										</li>
 										<li class="logosuite__item">
 											<p class="logosuite__label">Wink</p>
-											<img class="logosuite__img" src="/global/our-brand/brand-expression/img/elements/logo/LG_Electronics_Expressive_Symbol_Transparent_White_Wink.gif" alt="">
+											<img class="logosuite__img" src="/global/our-brand/brand-expression/img/elements/logo/lg_electronics_expressive_symbol_transparent_white_Wink.gif" alt="">
 										</li>
 									</ul>
 								</div>

@@ -233,10 +233,10 @@
 								<div class="design-system__imagebox design-system__imagebox--intelligent percent-view">
 									<video muted playsinline autoplay loop class="resolutionVideo percent-view__img">
 										<source 
-											src="../../img/elements/design-system/The_EI_lens_circle_intelligent_d.mp4" 
+											src="../../img/elements/design-system/the_el_lens_circle_intelligent_d.mp4" 
 											type="video/mp4"
-											data-urlpc="../../img/elements/design-system/The_EI_lens_circle_intelligent_d.mp4"
-											data-urlmo="../../img/elements/design-system/The_EI_lens_circle_intelligent_m.mp4"
+											data-urlpc="../../img/elements/design-system/the_el_lens_circle_intelligent_d.mp4"
+											data-urlmo="../../img/elements/design-system/the_el_lens_circle_intelligent_m.mp4"
 										>
 										</source>
 									</video>
@@ -246,10 +246,10 @@
 								<div class="design-system__imagebox design-system__imagebox--respectful percent-view">
 									<video muted playsinline autoplay loop class="resolutionVideo percent-view__img">
 										<source 
-											src="../../img/elements/design-system/The_EI_lens_Square_respectful_d.mp4" 
+											src="../../img/elements/design-system/the_el_lens_square_respectful_d.mp4" 
 											type="video/mp4"
-											data-urlpc="../../img/elements/design-system/The_EI_lens_Square_respectful_d.mp4"
-											data-urlmo="../../img/elements/design-system/The_EI_lens_Square_respectful_m.mp4"
+											data-urlpc="../../img/elements/design-system/the_el_lens_Square_respectful_d.mp4"
+											data-urlmo="../../img/elements/design-system/the_el_lens_Square_respectful_m.mp4"
 										>
 										</source>
 									</video>
