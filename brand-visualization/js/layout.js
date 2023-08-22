@@ -65,9 +65,7 @@ function initCommonHeader() {
         var winScrollTop = document.documentElement.scrollTop || window.scrollY
 
         oldScrTop = winScrollTop
-
         if(winScrollTop >= vtHeight()) {
-            //console.log("test")
             if(newScrTop < oldScrTop) {
                 cHeader.style.top = "-"+cHeader.offsetHeight*2+"px"
                 newScrTop = oldScrTop
@@ -79,14 +77,19 @@ function initCommonHeader() {
     }
 
     btnGnb.onclick = function () { //여기
+        var header = document.querySelector('#header__wrap')
         var gnbDeps2Bg = document.querySelector(".gnb__deps2__bg");
-        var isOpend = btnGnbBar[0].className.indexOf("c-header__btn-gnb__bar--close") < 0 ? true : false
-        
-        if (isOpend) {
-            gnbDeps2Bg.style.display = "block"
+        var isOpend = false
+
+        if (!header.classList.contains('isOpen')) {
+            !header.classList.add('isOpen')
+            isOpend = true
         } else {
-            gnbDeps2Bg.style.display = "none"
+            !header.classList.remove('isOpen')
+            isOpend = false
         }
+
+        isOpend ? gnbDeps2Bg.style.display = "block" : gnbDeps2Bg.style.display = "none"
         
         btnGnbBar.forEach(function (item) {
             if (item.className.indexOf("c-header__btn-gnb__bar--close") < 0) {
@@ -120,7 +123,8 @@ function initGnbDeps2(tAnchor) {
         tDeps2VisualItem[tDeps2MenuItemOrgIndex].classList.add("c-header__gnb__list__item__deps2__visual__item--active");
     var tDeps2MenuBtnBack = tDeps2.querySelector(".c-header__gnb__list__item__deps2__btn-back")
     var gnbDeps2Bg = document.querySelector(".gnb__deps2__bg");
-    var deviceMode = function() {
+    
+    var deviceMode = function () {
         if(window.innerWidth > 768) {
             return "pc"
         } else if(window.innerWidth <= 768) {
@@ -209,7 +213,7 @@ function initGnbDeps2(tAnchor) {
         }
     })
 
-    tDeps2Menu.onmouseleave = function() {
+    tDeps2Menu.onmouseleave = function () {
         tDeps2MenuItem.forEach(function(rest,k) {
             rest.querySelector("a").classList.remove("c-header__gnb__list__item__deps2__menu__item__anchor--active")
             tDeps2VisualItem[k].classList.remove("c-header__gnb__list__item__deps2__visual__item--active")
@@ -241,6 +245,113 @@ function initGnbDeps2(tAnchor) {
         },100)
     }
 }
+
+
+/*header 기능 정리*/
+//2. *백그라운드 설정 (PC, 모바일 공통)
+
+
+//3. PC에서 마우스 hover시, *2뎁스 영역 열림
+//4. 모바일에서 click 시, *2뎁스 영역 열림
+
+//5. 2뎁스 영역 열리는 함수
+//5-1. 2뎁스 열렸을 때 *백그라운드 설정
+//5-2. PC에서만, 2뎁스 호버 시, *bg 영역 세팅
+
+//6. 2뎁스 bg 영역 세팅
+
+
+// function headerInit() {
+//     const cHeader = document.querySelector("#header.c-header");
+//     const cFooterWrap = document.querySelector("#footer__wrap.c-footer__wrap");
+//     const gnb = cHeader.querySelector(".c-header__gnb");
+//     const btnGnb = cHeader.querySelector(".c-header__btn-gnb");
+//     const btnGnbBar = btnGnb.querySelectorAll(".c-header__btn-gnb__bar");
+//     const visualTop = document.querySelector(".visual__top");
+
+//     const deps1Items = document.querySelectorAll('.c-header__gnb__list__item')
+
+//     let cfwOffsetTop = cFooterWrap.offsetTop;
+//     let vtHeight = function () { if(!visualTop) {return 0 } else {return visualTop.offsetHeight} }
+
+
+//     /* util --- */
+//     /*dimmed 세팅 */
+//     function setDimmed(isOpend) {
+//         const bg = document.querySelector('.gnb__deps2__bg')
+//         isOpend ? bg.style.display = 'block' : bg.style.display = 'block'
+//     }
+
+//     /*PC일 때 서브BG 세팅 */
+//     function setSubBg(idx) {
+//         const visualWrap = document.querySelector('.c-header__gnb__list__item__deps2__visual')
+//         const visualItems = visualWrap.querySelectorAll('li')
+
+//         setClass(visualItems[idx], 'c-header__gnb__list__item__deps2__visual__item--active')
+//     }
+
+//     /*func */
+//     function onScrollHeaderSet() {
+//         let scrollTopVal = 0;
+//         let lastScrollTop = 0;
+        
+//         window.addEventListener('scroll', function () {
+//             let winScrollTop = document.documentElement.scrollTop || window.scrollY
+//             scrollTopVal = winScrollTop
+//             if(winScrollTop >= vtHeight()) {
+//                 if(lastScrollTop < scrollTopVal) {
+//                     cHeader.style.top = "-"+cHeader.offsetHeight*2+"px"
+//                     lastScrollTop = scrollTopVal
+//                 } else if(lastScrollTop >= scrollTopVal) {
+//                     cHeader.style.top = "0px"
+//                     lastScrollTop = scrollTopVal
+//                 }
+//             }
+//         })
+//     }
+
+//     function onlyPCHover() {
+//         deps1Items.forEach(item => {
+//             if (item.querySelector('.c-header__gnb__list__item__deps2')) {
+//                 item.addEventListener('mouseenter', function () {
+                   
+//                 })
+//             } else {
+//                 return
+//             }
+//         })
+//     }
+//     function onlyMoClicked() {
+
+//     }
+//     function resizeSet() {   
+//         window.onresize = window.onorientationchange = function() {
+//             cfwOffsetTop = cFooterWrap.offsetTop;
+//             chPosTop = cHeader.offsetTop - (document.documentElement.scrollTop || window.scrollY)
+
+//             if(window.innerWidth <= 768) {
+//                 deviceWidth = "mobile";
+//             } else if(window.innerWidth > 768) {
+//                 cHeader.removeAttribute("style")
+//                 gnb.removeAttribute("style");
+//                 btnGnbBar.forEach(function(item) {
+//                     item.className = item.className.replace("c-header__btn-gnb__bar c-header__btn-gnb__bar--close","c-header__btn-gnb__bar")
+//                 })
+//                 deviceWidth = "pc";
+//             }
+//         }
+//     }
+
+
+
+//     /*init */
+//     onScrollHeaderSet()
+//     onlyPCHover()
+//     resizeSet()
+// }
+
+
+
 
 /*tab*/
 function tabFunc() {
@@ -329,7 +440,6 @@ function tabFunc() {
         })
     })
 }
-
 function brandElememtsSlider() {
     const brandElements = document.querySelector('.our-identity__slider')
     const swiper = new Swiper(brandElements, {
@@ -391,6 +501,7 @@ function resolutionVideo() {
 
 window.addEventListener('DOMContentLoaded', function () {
     initCommonHeader();
+    // headerInit()
     tabFunc() //tab content 
     brandElememtsSlider() //what's next slide
     resolutionVideo()

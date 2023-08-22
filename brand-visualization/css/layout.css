@@ -29,6 +29,7 @@ br.mo {display: none;}
     background: transparent;
     backdrop-filter: unset;
     -webkit-backdrop-filter: unset;
+    margin: unset !important;
 }
 .c-header__tit {
     position: absolute;
