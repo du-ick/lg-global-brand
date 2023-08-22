@@ -24,6 +24,8 @@ function setClass(el, currentClass) {
     })
 }
 
+
+
 function setLocations() {
     const currentURL = window.location.href;
     const list = document.querySelectorAll('.c-header__gnb__list__item__anchor')
@@ -56,6 +58,7 @@ function setLocations() {
 
     isLoding = true
 }
+
 
 /*header*/
 function initCommonHeader() {
@@ -418,8 +421,8 @@ function resolutionVideo() {
 }
 
 window.addEventListener('DOMContentLoaded', function () {
-    initCommonHeader();
     // setLocations()
+    initCommonHeader();
     // headerInit()
     tabFunc() //tab content 
     brandElememtsSlider() //what's next slide

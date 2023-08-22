@@ -19,12 +19,10 @@
 }
 
 picture.percent-view__img {border-radius: inherit;}
-.text-element {
+
+.text-element picture {
     border-radius: 1.5625vw;
     overflow: hidden;
-}
-.text-element picture {
-    border-radius: inherit;
 }
 
 /*Bringing it to life*/
@@ -130,7 +128,7 @@ picture.percent-view__img {border-radius: inherit;}
         border-radius: 10px;
         padding-bottom: 100%;
     }
-    .text-element {
+    .text-element picture {
         border-radius: 10px;
     }
 
@@ -164,7 +162,7 @@ picture.percent-view__img {border-radius: inherit;}
 
 /* 4K */
 @media (min-width: 2560px) {
-    .text-element {
+    .text-element picture {
         border-radius: 30px;
     }
     
