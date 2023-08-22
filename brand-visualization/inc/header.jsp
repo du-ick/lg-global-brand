@@ -32,7 +32,9 @@
             </ul>
         </nav>
         <% if (request.getRequestURI().contains("/elements/")) { %>
-            <p class="c-header__location"></p>
+            <p class="c-header__location">
+                <%= request.getRequestURI().split("/elements/")[1].split("/")[0] %>
+            </p>
         <% } %>
         <!-- <p class="c-header__location">Logo</p> -->
         <button type="button" class="c-header__btn-gnb">

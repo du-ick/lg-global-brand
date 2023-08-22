@@ -25,6 +25,8 @@ function setClass(el, currentClass) {
 }
 
 
+let isLoding = false
+
 function setLocations() {
     const currentURL = window.location.href;
     const list = document.querySelectorAll('.c-header__gnb__list__item__anchor')
@@ -54,6 +56,8 @@ function setLocations() {
             document.querySelector('.c-header__gnb__list__item__deps2__menu__item__anchor').classList.add('c-header__gnb__list__item__deps2__menu__item__anchor--active')
         }
     }
+
+    isLoding = true
 }
 
 
@@ -419,7 +423,9 @@ function resolutionVideo() {
 
 window.addEventListener('DOMContentLoaded', function () {
     setLocations()
-    initCommonHeader();
+    if (isLoding) {
+        initCommonHeader();
+    }
     // headerInit()
     tabFunc() //tab content 
     brandElememtsSlider() //what's next slide
