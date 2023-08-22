@@ -46,16 +46,15 @@ function setLocations() {
             const linkElement = document.querySelector(".c-header__gnb__list__item__deps2__menu__item__anchor[href*='" + targetText + "']");
             const linkText = linkElement.textContent;
 
-            linkElement.classList.add('c-header__gnb__list__item__deps2__menu__item__anchor--active')
+            setClass(linkElement, 'c-header__gnb__list__item__deps2__menu__item__anchor--active')
             locationEl.innerText = linkText
 
         } else {
             list[0].classList.add('c-header__gnb__list__item__anchor--active')
-
+            document.querySelector('.c-header__gnb__list__item__deps2__menu__item__anchor').classList.add('c-header__gnb__list__item__deps2__menu__item__anchor--active')
         }
     }
 }
-
 
 
 /*header*/
@@ -78,19 +77,20 @@ function initCommonHeader() {
     }
     var oldScrTop = 0;
     var newScrTop = 0;
+    var gnbDeps2Bg = document.querySelector(".gnb__deps2__bg");
     
     window.onresize = window.onorientationchange = function() {
+        gnbDeps2Bg.style.display = "none"
         cfwOffsetTop = cFooterWrap.offsetTop;
         chPosTop = cHeader.offsetTop - (document.documentElement.scrollTop || window.scrollY)
-
+        cHeader.removeAttribute("style")
+        gnb.removeAttribute("style");
+        btnGnbBar.forEach(function(item) {
+            item.classList.remove("c-header__btn-gnb__bar--close")
+        })
         if(window.innerWidth <= 768) {
             deviceWidth = "mobile";
         } else if(window.innerWidth > 768) {
-            cHeader.removeAttribute("style")
-            gnb.removeAttribute("style");
-            btnGnbBar.forEach(function(item) {
-                item.className = item.className.replace("c-header__btn-gnb__bar c-header__btn-gnb__bar--close","c-header__btn-gnb__bar")
-            })
             deviceWidth = "pc";
         }
     }
@@ -99,7 +99,9 @@ function initCommonHeader() {
         var winScrollTop = document.documentElement.scrollTop || window.scrollY
 
         oldScrTop = winScrollTop
+
         if(winScrollTop >= vtHeight()) {
+            //console.log("test")
             if(newScrTop < oldScrTop) {
                 cHeader.style.top = "-"+cHeader.offsetHeight*2+"px"
                 newScrTop = oldScrTop
@@ -110,33 +112,21 @@ function initCommonHeader() {
         }
     }
 
-    btnGnb.onclick = function () { //여기
-        var header = document.querySelector('#header__wrap')
-        var gnbDeps2Bg = document.querySelector(".gnb__deps2__bg");
-        var isOpend = false
-
-        if (!header.classList.contains('isOpen')) {
-            !header.classList.add('isOpen')
-            isOpend = true
-        } else {
-            !header.classList.remove('isOpen')
-            isOpend = false
-        }
-
-        isOpend ? gnbDeps2Bg.style.display = "block" : gnbDeps2Bg.style.display = "none"
-        
-        btnGnbBar.forEach(function (item) {
-            if (item.className.indexOf("c-header__btn-gnb__bar--close") < 0) {
+    btnGnb.onclick = function() {
+        btnGnbBar.forEach(function(item) {
+            if(item.className.indexOf("c-header__btn-gnb__bar--close") < 0) {
+                gnbDeps2Bg.style.display = "block"
                 item.className = item.className.replace("c-header__btn-gnb__bar","c-header__btn-gnb__bar c-header__btn-gnb__bar--close")
                 gnb.style.display = "block"
                 setTimeout(function() {
                     gnb.style.transform = "translateY(0vh)";
                 } ,100)
-            } else if (item.className.indexOf("c-header__btn-gnb__bar--close") >= 0) {
+            } else if(item.className.indexOf("c-header__btn-gnb__bar--close") >= 0) {
                 item.className = item.className.replace("c-header__btn-gnb__bar c-header__btn-gnb__bar--close","c-header__btn-gnb__bar")
                 gnb.style.transform = "translateY(100vh)";
                 setTimeout(function() {
                     gnb.removeAttribute("style")
+                    gnbDeps2Bg.style.display = "none"
                 },300)
             }
         })
@@ -146,6 +136,7 @@ function initGnbDeps2(tAnchor) {
     var tAnchor = tAnchor;
     var tItem = tAnchor.parentNode;
     var tList = tItem.parentNode;
+    var gnb = tList.parentNode;
     var gdItem = tList.getElementsByTagName("li");
     var gOrgIndex = getElementIndex(document.querySelector(".c-header__gnb__list__item__anchor--active").parentNode);
     var tDeps2 = tItem.querySelector(".c-header__gnb__list__item__deps2");
@@ -157,8 +148,7 @@ function initGnbDeps2(tAnchor) {
         tDeps2VisualItem[tDeps2MenuItemOrgIndex].classList.add("c-header__gnb__list__item__deps2__visual__item--active");
     var tDeps2MenuBtnBack = tDeps2.querySelector(".c-header__gnb__list__item__deps2__btn-back")
     var gnbDeps2Bg = document.querySelector(".gnb__deps2__bg");
-    
-    var deviceMode = function () {
+    var deviceMode = function() {
         if(window.innerWidth > 768) {
             return "pc"
         } else if(window.innerWidth <= 768) {
@@ -179,8 +169,8 @@ function initGnbDeps2(tAnchor) {
                 tItem.removeAttribute("style")
                 tItem.removeAttribute("style")
                 tAnchor.removeAttribute("style")
-                gnbDeps2Bg.style.display = "block"
                 tDeps2MenuBtnBack.removeAttribute("style")
+            } else if(tAnchor.className.indexOf("--on") <= -1) {
             }
         } else if(deviceMode() == "mo") {
             tList.style.display = "block"
@@ -194,7 +184,7 @@ function initGnbDeps2(tAnchor) {
                 tItem.style.display = "block"
                 tItem.style.marginTop = "0px"
                 tAnchor.style.display = "none"
-                gnbDeps2Bg.removeAttribute("style")
+                gnbDeps2Bg.style.display = "block"
                 setTimeout(function() {
                     tDeps2MenuBtnBack.style.opacity = 1
                 },300)
@@ -247,7 +237,7 @@ function initGnbDeps2(tAnchor) {
         }
     })
 
-    tDeps2Menu.onmouseleave = function () {
+    tDeps2Menu.onmouseleave = function() {
         tDeps2MenuItem.forEach(function(rest,k) {
             rest.querySelector("a").classList.remove("c-header__gnb__list__item__deps2__menu__item__anchor--active")
             tDeps2VisualItem[k].classList.remove("c-header__gnb__list__item__deps2__visual__item--active")
@@ -258,11 +248,13 @@ function initGnbDeps2(tAnchor) {
     }
 
     tDeps2.onmouseleave = function() {
-        tAnchor.classList.remove("c-header__gnb__list__item__anchor--active")
-        tList.querySelectorAll(".c-header__gnb__list__item")[gOrgIndex].querySelector("a").classList.add("c-header__gnb__list__item__anchor--active")
-        gnbDeps2Bg.style.display = "none"
+        if(deviceMode() == "pc") {
+            tAnchor.classList.remove("c-header__gnb__list__item__anchor--active")
+            tList.querySelectorAll(".c-header__gnb__list__item")[gOrgIndex].querySelector("a").classList.add("c-header__gnb__list__item__anchor--active")
+            gnbDeps2Bg.style.display = "none"
+            tAnchor.classList.remove("c-header__gnb__list__item__anchor--on")
+        }
 
-        tAnchor.classList.remove("c-header__gnb__list__item__anchor--on")
     }
 
     tDeps2MenuBtnBack.onclick = function() {
@@ -279,22 +271,6 @@ function initGnbDeps2(tAnchor) {
         },100)
     }
 }
-
-
-/*header 기능 정리*/
-//2. *백그라운드 설정 (PC, 모바일 공통)
-
-
-//3. PC에서 마우스 hover시, *2뎁스 영역 열림
-//4. 모바일에서 click 시, *2뎁스 영역 열림
-
-//5. 2뎁스 영역 열리는 함수
-//5-1. 2뎁스 열렸을 때 *백그라운드 설정
-//5-2. PC에서만, 2뎁스 호버 시, *bg 영역 세팅
-
-//6. 2뎁스 bg 영역 세팅
-
-
 /*tab*/
 function tabFunc() {
     const tabIndexAll = document.querySelectorAll('.tab-menu__list')
