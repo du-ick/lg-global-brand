@@ -144,46 +144,73 @@
 								symbolize the elements of warmth and emotion we aspire to embody.
 							</p>
 						</div>
-						<div class="tab-menu__container">
-							<div class="tab-menu__list" data-tab="newFont">
-								<span class="tab-menu__bg"></span>
-								<a href="#warmth" class="tab-menu__btn tab-menu__btn--active">Warmth</a>
-								<a href="#innovation" class="tab-menu__btn">Innovation</a>
-							</div>
+						<div class="text-element text-element--headline percent-view">
+							<video muted playsinline autoplay loop class ="percent-view__img">
+								<source src="/global/our-brand/brand-expression/img/elements/typography/our-new-font-wormth-d.mp4" type="video/mp4" media="(min-width: 769px)"></source>
+								<source src="/global/our-brand/brand-expression/img/elements/typography/our-new-font-wormth-m.mp4" type="video/mp4"></source>
+							</video>
+							<p class="fix-text">Warmth</p>
 						</div>
-						<div class="tab-container" data-tab="newFont">
-							<div id="warmth" class="tab-container__content tab-container__content--active">
-								<div class="text-element text-element--headline percent-view">
-									<video muted playsinline autoplay loop class ="percent-view__img">
-										<source src="/global/our-brand/brand-expression/img/elements/typography/our-new-font-wormth-d.mp4" type="video/mp4" media="(min-width: 769px)"></source>
-										<source src="/global/our-brand/brand-expression/img/elements/typography/our-new-font-wormth-m.mp4" type="video/mp4"></source>
-									</video>
-									<p class="fix-text">Warmth</p>
-								</div>
-							</div>
-							<div id="innovation" class="tab-container__content">
-								<div class="text-element text-element--body percent-view">
-									<video muted playsinline autoplay loop class="percent-view__img">
-										<source src="/global/our-brand/brand-expression/img/elements/typography/our-new-font-innovation-d.mp4" type="video/mp4"></source>
-									</video>
-									<p class="fix-text">Innovation</p>
-								</div>
-							</div>
-						</div>
-	
 						<div class="brand__header">
-							<h2 class="brand__header-title">LG EI Headline<br>and LG EI Text</h2>
+							<h2 class="brand__header-title">LG EI Headline</h2>
 							<p class="brand__header-description">
-								We have LG EI Headline for headlines and LG EI text for body copy.
+								The LG EI Headline font has been developed to inherit elements from the new design <br>
+								philosophy (Emotionally Intelligent) and LG Smart font, while also addressing the <br>
+								shortcomings of the existing font by increasing visibility and incorporating design trends.
 							</p>
 						</div>
-						<div class="text-element text-element--headline percent-view">
-							<picture class="percent-view__img">
-								<source media="(min-width: 1441px)" srcset="/global/our-brand/brand-expression/img/elements/typography/text-element--headline.svg">
-								<source media="(min-width: 769px) and (max-width: 1440px)" srcset="/global/our-brand/brand-expression/img/elements/typography/text-element--headline-t.svg">
-								<source media="(max-width: 768px)" srcset="/global/our-brand/brand-expression/img/elements/typography/text-element--headline-m.svg">
-								<img src="/global/our-brand/brand-expression/img/elements/typography/text-element--headline.svg" alt="">
-							</picture>
+						<div class="tab-menu__container">
+							<div class="tab-menu__list" data-tab="newFontHeadline">
+								<span class="tab-menu__bg"></span>
+								<a href="#anatomy" class="tab-menu__btn tab-menu__btn--active">Anatomy</a>
+								<a href="#weights" class="tab-menu__btn">Weights</a>
+							</div>
+						</div>
+						<div class="tab-container" data-tab="newFontHeadline">
+							<div id="anatomy" class="tab-container__content tab-container__content--active">
+								<div class="text-element text-element--body">
+									<picture class="percent-view__img">
+										<source media="(min-width: 789px)" srcset="/global/our-brand/brand-expression/img/elements/typography/el_headline-01-d.png">
+										<source media="(max-width: 768px)" srcset="/global/our-brand/brand-expression/img/elements/typography/el_headline-01-m.png">
+										<img src="/global/our-brand/brand-expression/img/elements/typography/el_headline-01-d.png" alt="">
+									</picture>
+								</div>
+							</div>
+							<div id="weights" class="tab-container__content">
+								<div class="text-element text-element--body percent-view">
+									<img src="/global/our-brand/brand-expression/img/elements/typography/el_headline-02-d.png" alt="">
+								</div>
+							</div>
+						</div>
+						<div class="brand__header">
+							<h2 class="brand__header-title">LG EI Text</h2>
+							<p class="brand__header-description">
+								The LG EI Text is the replaced name for the LG Smart UI font. The new LG EI text <br>
+								addresses the shortcomings of the existing Smart font with better legibility.
+							</p>
+						</div>
+						<div class="tab-menu__container">
+							<div class="tab-menu__list" data-tab="newFontEl">
+								<span class="tab-menu__bg"></span>
+								<a href="#el-anatomy" class="tab-menu__btn tab-menu__btn--active">Anatomy</a>
+								<a href="#el-weights" class="tab-menu__btn">Weights</a>
+							</div>
+						</div>
+						<div class="tab-container" data-tab="newFontEl">
+							<div id="el-anatomy" class="tab-container__content tab-container__content--active">
+								<div class="text-element text-element--body">
+									<picture class="percent-view__img">
+										<source media="(min-width: 789px)" srcset="/global/our-brand/brand-expression/img/elements/typography/el_text-01-d.png">
+										<source media="(max-width: 768px)" srcset="/global/our-brand/brand-expression/img/elements/typography/el_text-01-m.png">
+										<img src="/global/our-brand/brand-expression/img/elements/typography/el_text-01-d.png" alt="">
+									</picture>
+								</div>
+							</div>
+							<div id="el-weights" class="tab-container__content">
+								<div class="text-element text-element--body percent-view">
+									<img src="/global/our-brand/brand-expression/img/elements/typography/el_text-02-d.png" alt="">
+								</div>
+							</div>
 						</div>
 						<div class="brand__header">
 							<h2 class="brand__header-title">Bringing it to life</h2>
@@ -200,7 +227,7 @@
 										<picture class="percent-view__img">
 											<source media="(min-width: 789px)" srcset="/global/our-brand/brand-expression/img/elements/typography/bringing_it_to_life_slide_01-d.png">
 											<source media="(max-width: 768px)" srcset="/global/our-brand/brand-expression/img/elements/typography/bringing_it_to_life_slide_01-m.png">
-											<img src="/global/our-brand/brand-expression/img/elements/typography/bringing_it_to_life_slide_01-d.png" alt="">
+											<img src="/global/our-brand/brand-expression/img/elements/typography/bringing_it_to_life_slide_04-d.png" alt="">
 										</picture>
 									</li>
 									<li class="swiper-slide percent-view">
@@ -221,7 +248,7 @@
 										<picture class="percent-view__img">
 											<source media="(min-width: 789px)" srcset="/global/our-brand/brand-expression/img/elements/typography/bringing_it_to_life_slide_04-d.png">
 											<source media="(max-width: 768px)" srcset="/global/our-brand/brand-expression/img/elements/typography/bringing_it_to_life_slide_04-m.png">
-											<img src="/global/our-brand/brand-expression/img/elements/typography/bringing_it_to_life_slide_04-d.png" alt="">
+											<img src="/global/our-brand/brand-expression/img/elements/typography/bringing_it_to_life_slide_01-d.png" alt="">
 										</picture>
 									</li>
 								</ul>
