@@ -103,6 +103,7 @@ br.mo {display: none;}
 }
 /*info text*/
 .intro-text {
+    font-family: "LG_EI_Headline";
     margin: 120px 0 180px;
     text-align: center;
     color: #fff;
@@ -143,6 +144,7 @@ br.mo {display: none;}
     color: #7E7C77;
     padding-bottom: 136px;
     transition: .3s cubic-bezier(0.56, 0, 0.28, 1);
+    font-family: "LG_EI_Headline";
 }
 .imotionally-design__headline li p {
     position: absolute;
@@ -150,6 +152,7 @@ br.mo {display: none;}
     font-size: 36px;
     line-height: 1.2;
     white-space: nowrap;
+    font-family: "LG_EI_Headline";
 }
 .imotionally-design__headline li p::before {
     content: '';
@@ -322,6 +325,7 @@ br.mo {display: none;}
     font-size: 70px;
     letter-spacing: 0.7px;
     line-height: 1.1;
+    font-family: "LG_EI_Headline";
 }
 
 

@@ -24,8 +24,6 @@ function setClass(el, currentClass) {
     })
 }
 
-
-
 function setLocations() {
     const currentURL = window.location.href;
     const list = document.querySelectorAll('.c-header__gnb__list__item__anchor')
@@ -58,7 +56,6 @@ function setLocations() {
 
     isLoding = true
 }
-
 
 /*header*/
 function initCommonHeader() {
@@ -274,6 +271,8 @@ function initGnbDeps2(tAnchor) {
         },100)
     }
 }
+
+
 /*tab*/
 function tabFunc() {
     const tabIndexAll = document.querySelectorAll('.tab-menu__list')
@@ -312,8 +311,6 @@ function tabFunc() {
     function toggleVideo(targetVideo) {
         targetVideo.currentTime = 0;
 
-        console.log('aaa')
-        
         const tabContainer = targetVideo.closest('.tab-container');
         const siblingVideos = tabContainer.querySelectorAll('video:not(.target)');
 
@@ -423,8 +420,8 @@ function resolutionVideo() {
 window.addEventListener('DOMContentLoaded', function () {
     // setLocations()
     initCommonHeader();
-    // headerInit()
     tabFunc() //tab content 
     brandElememtsSlider() //what's next slide
     resolutionVideo()
+
 })
