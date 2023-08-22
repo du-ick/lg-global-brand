@@ -24,6 +24,40 @@ function setClass(el, currentClass) {
     })
 }
 
+
+function setLocations() {
+    const currentURL = window.location.href;
+    const list = document.querySelectorAll('.c-header__gnb__list__item__anchor')
+    const locationEl = document.querySelector('.c-header__location')
+    
+    const regex = /\/brand-visualization\/([^/]+)/;
+    const matches = currentURL.match(regex);
+
+    if (matches) { 
+        const extractedString = matches[1];
+
+        if (extractedString === "elements") {
+            list[1].classList.add('c-header__gnb__list__item__anchor--active')
+
+            const nextPathRegex = /elements\/([^/]+)/;
+            const nextPathMatches = currentURL.match(nextPathRegex);
+
+            const targetText = nextPathMatches[1];
+            const linkElement = document.querySelector(".c-header__gnb__list__item__deps2__menu__item__anchor[href*='" + targetText + "']");
+            const linkText = linkElement.textContent;
+
+            linkElement.classList.add('c-header__gnb__list__item__deps2__menu__item__anchor--active')
+            locationEl.innerText = linkText
+
+        } else {
+            list[0].classList.add('c-header__gnb__list__item__anchor--active')
+
+        }
+    }
+}
+
+
+
 /*header*/
 function initCommonHeader() {
     var cHeader = document.querySelector("#header.c-header");
@@ -260,14 +294,6 @@ function initGnbDeps2(tAnchor) {
 
 //6. 2뎁스 bg 영역 세팅
 
-function setLocations() {
-    const header = ''
-    const location = ''
-
-    
-}
-
-
 
 /*tab*/
 function tabFunc() {
@@ -416,6 +442,7 @@ function resolutionVideo() {
 }
 
 window.addEventListener('DOMContentLoaded', function () {
+    setLocations()
     initCommonHeader();
     // headerInit()
     tabFunc() //tab content 
