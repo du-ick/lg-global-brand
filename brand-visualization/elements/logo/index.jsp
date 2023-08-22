@@ -247,7 +247,7 @@
 										</li>
 										<li class="logosuite__item">
 											<p class="logosuite__label">Bobbing to music</p>
-											<img class="logosuite__img" src="/global/our-brand/brand-expression/img/elements/logo/lg_electronics_expressive_symbol_transparent_white_bobtoMusic.gif" alt="">
+											<img class="logosuite__img" src="/global/our-brand/brand-expression/img/elements/logo/lg_electronics_expressive_symbol_transparent_white_bobtomusic.gif" alt="">
 										</li>
 										<li class="logosuite__item">
 											<p class="logosuite__label">Bowing</p>
