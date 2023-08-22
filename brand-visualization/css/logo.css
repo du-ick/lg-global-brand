@@ -7,7 +7,7 @@
 }
 
 .logo__container--primary {
-    background: no-repeat center url(../img/elements/logo/brand-elements-logo-primary-d.svg);
+    background: no-repeat center url(../img/elements/logo/brand-elements-logo-primary-d.png);
     background-size: cover;
 }
 
@@ -302,7 +302,7 @@
         height: 90vw;
     }
     .logo__container--primary {
-        background-image: url(../img/elements/logo/brand-elements-logo-primary-m.svg);
+        background-image: url(../img/elements/logo/brand-elements-logo-primary-m.png);
     }
     .btmdot-slide__slide {
         border-radius: 10px;

@@ -260,96 +260,12 @@ function initGnbDeps2(tAnchor) {
 
 //6. 2뎁스 bg 영역 세팅
 
+function setLocations() {
+    const header = ''
+    const location = ''
 
-// function headerInit() {
-//     const cHeader = document.querySelector("#header.c-header");
-//     const cFooterWrap = document.querySelector("#footer__wrap.c-footer__wrap");
-//     const gnb = cHeader.querySelector(".c-header__gnb");
-//     const btnGnb = cHeader.querySelector(".c-header__btn-gnb");
-//     const btnGnbBar = btnGnb.querySelectorAll(".c-header__btn-gnb__bar");
-//     const visualTop = document.querySelector(".visual__top");
-
-//     const deps1Items = document.querySelectorAll('.c-header__gnb__list__item')
-
-//     let cfwOffsetTop = cFooterWrap.offsetTop;
-//     let vtHeight = function () { if(!visualTop) {return 0 } else {return visualTop.offsetHeight} }
-
-
-//     /* util --- */
-//     /*dimmed 세팅 */
-//     function setDimmed(isOpend) {
-//         const bg = document.querySelector('.gnb__deps2__bg')
-//         isOpend ? bg.style.display = 'block' : bg.style.display = 'block'
-//     }
-
-//     /*PC일 때 서브BG 세팅 */
-//     function setSubBg(idx) {
-//         const visualWrap = document.querySelector('.c-header__gnb__list__item__deps2__visual')
-//         const visualItems = visualWrap.querySelectorAll('li')
-
-//         setClass(visualItems[idx], 'c-header__gnb__list__item__deps2__visual__item--active')
-//     }
-
-//     /*func */
-//     function onScrollHeaderSet() {
-//         let scrollTopVal = 0;
-//         let lastScrollTop = 0;
-        
-//         window.addEventListener('scroll', function () {
-//             let winScrollTop = document.documentElement.scrollTop || window.scrollY
-//             scrollTopVal = winScrollTop
-//             if(winScrollTop >= vtHeight()) {
-//                 if(lastScrollTop < scrollTopVal) {
-//                     cHeader.style.top = "-"+cHeader.offsetHeight*2+"px"
-//                     lastScrollTop = scrollTopVal
-//                 } else if(lastScrollTop >= scrollTopVal) {
-//                     cHeader.style.top = "0px"
-//                     lastScrollTop = scrollTopVal
-//                 }
-//             }
-//         })
-//     }
-
-//     function onlyPCHover() {
-//         deps1Items.forEach(item => {
-//             if (item.querySelector('.c-header__gnb__list__item__deps2')) {
-//                 item.addEventListener('mouseenter', function () {
-                   
-//                 })
-//             } else {
-//                 return
-//             }
-//         })
-//     }
-//     function onlyMoClicked() {
-
-//     }
-//     function resizeSet() {   
-//         window.onresize = window.onorientationchange = function() {
-//             cfwOffsetTop = cFooterWrap.offsetTop;
-//             chPosTop = cHeader.offsetTop - (document.documentElement.scrollTop || window.scrollY)
-
-//             if(window.innerWidth <= 768) {
-//                 deviceWidth = "mobile";
-//             } else if(window.innerWidth > 768) {
-//                 cHeader.removeAttribute("style")
-//                 gnb.removeAttribute("style");
-//                 btnGnbBar.forEach(function(item) {
-//                     item.className = item.className.replace("c-header__btn-gnb__bar c-header__btn-gnb__bar--close","c-header__btn-gnb__bar")
-//                 })
-//                 deviceWidth = "pc";
-//             }
-//         }
-//     }
-
-
-
-//     /*init */
-//     onScrollHeaderSet()
-//     onlyPCHover()
-//     resizeSet()
-// }
-
+    
+}
 
 
 
