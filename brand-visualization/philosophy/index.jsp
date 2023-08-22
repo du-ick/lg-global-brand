@@ -206,7 +206,7 @@
 							</p>
 							<ul class="looping-video-multi">
 								<li><video muted playsinline loop autoplay><source src="/global/our-brand/brand-expression/img/philosophy/looping-video-multi-01.mp4" type="video/mp4"></source></video></li>
-								<li><img src="/global/our-brand/brand-expression/img/philosophy/looping-video-multi-02.png" alt=""></li>
+								<li><video muted playsinline loop autoplay><source src="/global/our-brand/brand-expression/img/philosophy/looping-video-multi-02.mp4" type="video/mp4"></source></video></li>
 								<li><video muted playsinline loop autoplay><source src="/global/our-brand/brand-expression/img/philosophy/looping-video-multi-03.mp4" type="video/mp4"></source></video></li>
 							</ul>
 						</div>
