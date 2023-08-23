@@ -103,7 +103,7 @@ function initCommonHeader() {
         }
     }
 
-    window.onscroll = function() {
+    window.onscroll = function(e) {
         var winScrollTop = document.documentElement.scrollTop || window.scrollY
 
         oldScrTop = winScrollTop
@@ -118,6 +118,8 @@ function initCommonHeader() {
                 newScrTop = oldScrTop
             }
         }
+
+        e.stopPropagation();
     }
 
     btnGnb.onclick = function() {
@@ -278,70 +280,6 @@ function initGnbDeps2(tAnchor) {
             tAnchor.classList.remove("c-header__gnb__list__item__anchor--on")
         },100)
     }
-}
-
-function commonHeader() {
-    let currentTar = ''
-
-    function setSubDepsBg(idx) {
-        const visualItems = document.querySelectorAll('.c-header__gnb__list__item__deps2__visual > li')
-
-        setClass(visualItems[idx], 'c-header__gnb__list__item__deps2__visual__item--active')
-    }
-
-    function viewDeps(isOpen) {
-        const bgs = document.querySelector('.gnb__deps2__bg')
-
-        if (isOpen) {
-            bgs.style.display = 'block'
-            currentTar.classList.add('c-header__gnb__list__item__anchor--on')
-        } else {
-            bgs.style.display = 'none'
-            currentTar.classList.remove('c-header__gnb__list__item__anchor--on')
-        }
-    }
-
-    function setDeps(e, opend) {
-        opend ? e.preventDefault : ''
-
-        viewDeps(opend)
-    }
-
-    function setEvent() {
-        const deps1All = document.querySelectorAll('.c-header__gnb__list__item__anchor')
-        let subDeps = document.querySelector('.c-header__gnb__list__item__deps2')
-        const subItems = subDeps.querySelectorAll('li')
-        
-        const deps1ActiveClass = 'c-header__gnb__list__item__anchor--active'
-
-        //deps 1 event
-        deps1All.forEach(item => {
-            currentTar = item
-            const target = item.parentElement.querySelector('.c-header__gnb__list__item__deps2')
-            
-            item.addEventListener('mouseenter', (e) => {
-                for (let i = 0; i < deps1All.length; i++) {
-                    deps1All[i].classList.remove(deps1ActiveClass)
-                }
-                item.classList.add(deps1ActiveClass)
-
-                if (target !== null) {
-                    subDeps = document.querySelector('.c-header__gnb__list__item__deps2')
-                    setDeps(e, true)
-                } else {
-                    setDeps(e, false)
-                }
-            })
-
-        })
-
-        //deps 2 event - mouseleave
-        subDeps.addEventListener('mouseleave', (e) => setDeps(e, false))
-        subItems.forEach((sub, idx) => setSubDepsBg(idx))
-
-    }
-
-    setEvent()
 }
 
 /*tab*/

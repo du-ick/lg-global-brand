@@ -248,8 +248,8 @@
 										<source 
 											src="../../img/elements/design-system/the_el_lens_square_respectful_d.mp4" 
 											type="video/mp4"
-											data-urlpc="../../img/elements/design-system/the_ei_lens_Square_respectful_d.mp4"
-											data-urlmo="../../img/elements/design-system/the_ei_lens_Square_respectful_m.mp4"
+											data-urlpc="../../img/elements/design-system/the_ei_lens_square_respectful_d.mp4"
+											data-urlmo="../../img/elements/design-system/the_ei_lens_square_respectful_m.mp4"
 										>
 										</source>
 									</video>
