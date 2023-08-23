@@ -28,8 +28,9 @@ function setLocations() {
     const currentURL = window.location.href;
     const list = document.querySelectorAll('.c-header__gnb__list__item__anchor')
     const locationEl = document.querySelector('.c-header__location')
+    console.log(currentURL)
     
-    const regex = /\/brand-visualization\/([^/]+)/;
+    const regex = /\/brand-expression\/([^/]+)/;
     const matches = currentURL.match(regex);
 
     if (matches) { 
@@ -45,12 +46,19 @@ function setLocations() {
             const linkElement = document.querySelector(".c-header__gnb__list__item__deps2__menu__item__anchor[href*='" + targetText + "']");
             const linkText = linkElement.textContent;
 
-            setClass(linkElement, 'c-header__gnb__list__item__deps2__menu__item__anchor--active')
+            let allDeps2Anchor = document.querySelectorAll('.c-header__gnb__list__item__deps2__menu__item__anchor')
+            for (let i = 0; i < allDeps2Anchor.length; i++) {
+                allDeps2Anchor[i].classList.remove('c-header__gnb__list__item__deps2__menu__item__anchor--active')
+            }
+            linkElement.classList.add('c-header__gnb__list__item__deps2__menu__item__anchor--active')
+
+
             locationEl.innerText = linkText
 
         } else {
             list[0].classList.add('c-header__gnb__list__item__anchor--active')
             document.querySelector('.c-header__gnb__list__item__deps2__menu__item__anchor').classList.add('c-header__gnb__list__item__deps2__menu__item__anchor--active')
+            locationEl.style.display ="none"
         }
     }
 
@@ -481,9 +489,8 @@ function resolutionVideo() {
 }
 
 window.addEventListener('DOMContentLoaded', function () {
-    // setLocations()
-    // initCommonHeader();
-    commonHeader()
+    initCommonHeader();
+    setLocations()
     tabFunc() //tab content 
     brandElememtsSlider() //what's next slide
     resolutionVideo()
