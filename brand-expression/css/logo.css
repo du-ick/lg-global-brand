@@ -46,6 +46,9 @@
     width: 100%;
     height: 100%;
     object-fit: contain;
+    background: no-repeat center;
+    background-size: auto 100%;
+    background-image: url(../img/elements/logo/lg_electronics_expressive_symbol-d.gif);
 }
 .logo__container--logosuite {
     display: flex;
@@ -191,7 +194,17 @@
     max-height: 9.8958vw;
     width: 11.3vw;
     height: 11.3vw;
+    background: no-repeat center;
+    background-size: contain;
 }
+.logosuite__img.appearing {background-image: url(../img/elements/logo/lg_electronics_expressive_symbol_transparent_white_appearing.gif);}
+.logosuite__img.bobtomusic {background-image: url(../img/elements/logo/lg_electronics_expressive_symbol_transparent_white_bobtomusic.gif);}
+.logosuite__img.bowing {background-image: url(../img/elements/logo/lg_electronics_expressive_symbol_transparent_white_bowing.gif);}
+.logosuite__img.lookingaround {background-image: url(../img/elements/logo/lg_electronics_expressive_symbol_transparent_white_lookingaround.gif);}
+.logosuite__img.amazed {background-image: url(../img/elements/logo/lg_electronics_expressive_symbol_transparent_white_amazed.gif);}
+.logosuite__img.scrolling {background-image: url(../img/elements/logo/lg_electronics_expressive_symbol_transparent_white_scrolling.gif);}
+.logosuite__img.nodding {background-image: url(../img/elements/logo/lg_electronics_expressive_symbol_transparent_white_nodding.gif);}
+.logosuite__img.wink {background-image: url(../img/elements/logo/lg_electronics_expressive_symbol_transparent_white_wink.gif);}
 
 @media (max-width: 1500px) {
 

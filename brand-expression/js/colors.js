@@ -84,8 +84,8 @@ function colorSystemSlide() {
         easing: 'cubic-bezier(0.56, 0, 0.28, 1)',
         speed: 500,
         navigation: {
-            nextEl: '.colour-system__slide-controller .prev',
-            prevEl: '.colour-system__slide-controller .next',
+            nextEl: '.colour-system__slide-controller .next',
+            prevEl: '.colour-system__slide-controller .prev',
         }
     });
 

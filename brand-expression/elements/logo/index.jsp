@@ -231,7 +231,8 @@
 						<div class="tab-container" data-tab="logoPlay">
 							<div id="logoplay" class="tab-container__content tab-container__content--active">
 								<div class="logo__container logo__container--logoplay">
-									<img class="logo__container__logoplay-image" src="/global/our-brand/brand-expression/img/elements/logo/lg_electronics_expressive_symbol-d.gif" alt="">
+									<!-- <img class="logo__container__logoplay-image" src="/global/our-brand/brand-expression/img/elements/logo/lg_electronics_expressive_symbol-d.gif" alt=""> -->
+									<div class="logo__container__logoplay-image"></div>
 									<div class="v-box-bottom wt">
 										<p class="tit">Digital Logo Play</p>
 										<span class="desc">Allows us to engage and tell stories</span>
@@ -243,35 +244,43 @@
 									<ul class="logosuite">
 										<li class="logosuite__item">
 											<p class="logosuite__label">Appearing</p>
-											<img class="logosuite__img" src="/global/our-brand/brand-expression/img/elements/logo/lg_electronics_expressive_symbol_transparent_white_appearing.gif" alt="">
+											<div class="logosuite__img appearing"></div>
+											<!-- <img class="logosuite__img" src="/global/our-brand/brand-expression/img/elements/logo/lg_electronics_expressive_symbol_transparent_white_appearing.gif" alt=""> -->
 										</li>
 										<li class="logosuite__item">
 											<p class="logosuite__label">Bobbing to music</p>
-											<img class="logosuite__img" src="/global/our-brand/brand-expression/img/elements/logo/lg_electronics_expressive_symbol_transparent_white_bobtomusic.gif" alt="">
+											<div class="logosuite__img bobtomusic"></div>
+											<!-- <img class="logosuite__img" src="/global/our-brand/brand-expression/img/elements/logo/lg_electronics_expressive_symbol_transparent_white_bobtomusic.gif" alt=""> -->
 										</li>
 										<li class="logosuite__item">
 											<p class="logosuite__label">Bowing</p>
-											<img class="logosuite__img" src="/global/our-brand/brand-expression/img/elements/logo/lg_electronics_expressive_symbol_transparent_white_bowing.gif" alt="">
+											<div class="logosuite__img bowing"></div>
+											<!-- <img class="logosuite__img" src="/global/our-brand/brand-expression/img/elements/logo/lg_electronics_expressive_symbol_transparent_white_bowing.gif" alt=""> -->
 										</li>
 										<li class="logosuite__item">
 											<p class="logosuite__label">Look around</p>
-											<img class="logosuite__img" src="/global/our-brand/brand-expression/img/elements/logo/lg_electronics_expressive_symbol_transparent_white_lookingaround.gif" alt="">
+											<div class="logosuite__img lookingaround"></div>
+											<!-- <img class="logosuite__img" src="/global/our-brand/brand-expression/img/elements/logo/lg_electronics_expressive_symbol_transparent_white_lookingaround.gif" alt=""> -->
 										</li>
 										<li class="logosuite__item">
 											<p class="logosuite__label">Amazed</p>
-											<img class="logosuite__img" src="/global/our-brand/brand-expression/img/elements/logo/lg_electronics_expressive_symbol_transparent_white_amazed.gif" alt="">
+											<div class="logosuite__img amazed"></div>
+											<!-- <img class="logosuite__img" src="/global/our-brand/brand-expression/img/elements/logo/lg_electronics_expressive_symbol_transparent_white_amazed.gif" alt=""> -->
 										</li>
 										<li class="logosuite__item">
 											<p class="logosuite__label">Spinning</p>
-											<img class="logosuite__img" src="/global/our-brand/brand-expression/img/elements/logo/lg_electronics_expressive_symbol_transparent_white_scrolling.gif" alt="">
+											<div class="logosuite__img scrolling"></div>
+											<!-- <img class="logosuite__img" src="/global/our-brand/brand-expression/img/elements/logo/lg_electronics_expressive_symbol_transparent_white_scrolling.gif" alt=""> -->
 										</li>
 										<li class="logosuite__item">
 											<p class="logosuite__label">Nodding</p>
-											<img class="logosuite__img" src="/global/our-brand/brand-expression/img/elements/logo/lg_electronics_expressive_symbol_transparent_white_nodding.gif" alt="">
+											<div class="logosuite__img nodding"></div>
+											<!-- <img class="logosuite__img" src="/global/our-brand/brand-expression/img/elements/logo/lg_electronics_expressive_symbol_transparent_white_nodding.gif" alt=""> -->
 										</li>
 										<li class="logosuite__item">
 											<p class="logosuite__label">Wink</p>
-											<img class="logosuite__img" src="/global/our-brand/brand-expression/img/elements/logo/lg_electronics_expressive_symbol_transparent_white_wink.gif" alt="">
+											<div class="logosuite__img wink"></div>
+											<!-- <img class="logosuite__img" src="/global/our-brand/brand-expression/img/elements/logo/lg_electronics_expressive_symbol_transparent_white_wink.gif" alt=""> -->
 										</li>
 									</ul>
 								</div>
