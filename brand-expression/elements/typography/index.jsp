@@ -149,7 +149,6 @@
 								<source src="/global/our-brand/brand-expression/img/elements/typography/our-new-font-wormth-d.mp4" type="video/mp4" media="(min-width: 769px)"></source>
 								<source src="/global/our-brand/brand-expression/img/elements/typography/our-new-font-wormth-m.mp4" type="video/mp4"></source>
 							</video>
-							<p class="fix-text">Warmth</p>
 						</div>
 						<div class="brand__header">
 							<h2 class="brand__header-title">LG EI Headline</h2>
