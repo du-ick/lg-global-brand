@@ -198,6 +198,8 @@
     background-size: 24px auto;
     background-color: #00000099;
     backdrop-filter: blur(27px);
+    padding: 0;
+    box-sizing: border-box;
 }
 .bring-it-to-life__slide__controller .prev-btn {
     transform: rotate(180deg);
