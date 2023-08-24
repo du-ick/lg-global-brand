@@ -121,19 +121,12 @@
 				<div id="contents">
 					<div id="brand-container">
 						<div class="brand-visual-film visual__top">
-							<!-- <picture class="brand-visual-film__video">
-								<source media="(min-width: 769px)" srcset="/global/our-brand/brand-expression/img/philosophy/Expressive_symbol_wink_d.png">
-								<source media="(max-width: 768px)" srcset="/global/our-brand/brand-expression/img/philosophy/Expressive_symbol_wink_m.png">
-								<img src="/global/our-brand/brand-expression/img/philosophy/Expressive_symbol_wink_d.png" alt="">
-							</picture> -->
-							<video muted playsinline autoplay loop class="resolutionVideo">
-								<source 
-									src="/global/our-brand/brand-expression/img/philosophy/lifes-good-lg-video.mp4" 
-									type="video/mp4"
-									data-urlpc="/global/our-brand/brand-expression/img/philosophy/lifes-good-lg-video.mp4"
-									data-urlmo="/global/our-brand/brand-expression/img/philosophy/lifes-good-lg-video-m.mp4"
-								>
-								</source>
+							<video muted playsinline autoplay loop class="resolutionVideo" 
+								type="video/mp4"
+								src="/global/our-brand/brand-expression/img/philosophy/lifes-good-lg-video.mp4"
+								data-urlpc="/global/our-brand/brand-expression/img/philosophy/lifes-good-lg-video.mp4"
+								data-urlmo="/global/our-brand/brand-expression/img/philosophy/lifes-good-lg-video-m.mp4"
+							>
 							</video>
 			
 							<button class="btn-play"></button>
