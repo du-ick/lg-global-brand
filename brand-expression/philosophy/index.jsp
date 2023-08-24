@@ -123,7 +123,6 @@
 						<div class="brand-visual-film visual__top">
 							<video muted playsinline autoplay loop class="resolutionVideo" 
 								type="video/mp4"
-								src="/global/our-brand/brand-expression/img/philosophy/lifes-good-lg-video.mp4"
 								data-urlpc="/global/our-brand/brand-expression/img/philosophy/lifes-good-lg-video.mp4"
 								data-urlmo="/global/our-brand/brand-expression/img/philosophy/lifes-good-lg-video-m.mp4"
 							>
