@@ -10,6 +10,8 @@ function getSiblingsByClass(element, className) {
     return siblings;
 }
 
+let winWid = window.innerWidth
+window.addEventListener('resize', function(){ winWid = window.innerWidth })
 
 const siblings = (el) => { return [...el.parentNode.children].filter((child) => child !== el) }
 function setClass(el, currentClass) {
@@ -28,7 +30,6 @@ function setLocations() {
     const currentURL = window.location.href;
     const list = document.querySelectorAll('.c-header__gnb__list__item__anchor')
     const locationEl = document.querySelector('.c-header__location')
-    console.log(currentURL)
     
     const regex = /\/brand-expression\/([^/]+)/;
     const matches = currentURL.match(regex);
@@ -58,7 +59,11 @@ function setLocations() {
         } else {
             list[0].classList.add('c-header__gnb__list__item__anchor--active')
             document.querySelector('.c-header__gnb__list__item__deps2__menu__item__anchor').classList.add('c-header__gnb__list__item__deps2__menu__item__anchor--active')
-            locationEl.style.display ="none"
+
+            if (winWid > 768) {
+                locationEl.style.display = "none"        
+            }
+
         }
     }
 
