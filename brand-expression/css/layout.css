@@ -10,6 +10,9 @@ br.mo {display: none;}
 
 .c-header a:hover {color: #fff;}
 
+.video-only-pc {display: block;}
+.video-only-mo {display: none;}
+
 /* Common Header */
 .c-header__wrap {
     position: fixed;
@@ -319,6 +322,9 @@ br.mo {display: none;}
 /* Mobile */
 @media (max-width: 768px) {
     br.mo {display: block;}
+
+    .video-only-pc {display: none;}
+    .video-only-mo {display: block;}
     
     /* Common Header */
     .c-header__wrap {

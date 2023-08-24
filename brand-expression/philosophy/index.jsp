@@ -121,11 +121,11 @@
 				<div id="contents">
 					<div id="brand-container">
 						<div class="brand-visual-film visual__top">
-							<video muted playsinline autoplay loop class="resolutionVideo" 
-								type="video/mp4"
-								data-urlpc="/global/our-brand/brand-expression/img/philosophy/lifes-good-lg-video.mp4"
-								data-urlmo="/global/our-brand/brand-expression/img/philosophy/lifes-good-lg-video-m.mp4"
-							>
+							<video muted playsinline autoplay loop class="video-only-pc">
+								<source src="/global/our-brand/brand-expression/img/philosophy/lifes-good-lg-video.mp4" type="video/mp4">
+							</video>
+							<video muted playsinline autoplay loop class="video-only-mo">
+								<source src="/global/our-brand/brand-expression/img/philosophy/lifes-good-lg-video-m.mp4" type="video/mp4">
 							</video>
 			
 							<button class="btn-play"></button>
