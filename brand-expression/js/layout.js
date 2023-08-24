@@ -401,15 +401,10 @@ function resolutionVideo() {
     let isMobile = winSize > 768 ? false : true
     let lastSize = ''
 
-
-
-
     function setVideo() {
         if (isMobile !== lastSize) {
-
             changeVideo.forEach(video => {
-                const source = video.querySelector('source')
-                let currentUrl = winSize > 768 ? source.dataset.urlpc : source.dataset.urlmo
+                let currentUrl = winSize > 768 ? video.dataset.urlpc : video.dataset.urlmo
                 video.setAttribute('src', currentUrl)
             })
 
