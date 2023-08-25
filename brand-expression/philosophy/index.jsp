@@ -166,6 +166,9 @@
 										<video muted playsinline loop autoplay><source src="/global/our-brand/brand-expression/img/philosophy/emotionally_intelligent_item_01.mp4" type="video/mp4"/></video>
 									</li>
 									<li class="imotionally-design__item">
+										<video muted playsinline loop autoplay><source src="/global/our-brand/brand-expression/img/philosophy/emotionally_intelligent_item_07.mp4" type="video/mp4"/></video>
+									</li>
+									<li class="imotionally-design__item">
 										<video muted playsinline loop autoplay><source src="/global/our-brand/brand-expression/img/philosophy/emotionally_intelligent_item_02.mp4" type="video/mp4"/></video>
 									</li>
 									<li class="imotionally-design__item">
