@@ -313,7 +313,7 @@ function tabFunc() {
                 setClass(this, 'tab-menu__btn--active')
 
                 if (tabTarget.querySelector('video') != null) {
-                    toggleVideo(tabTarget.querySelector('video'))
+                    toggleVideo(tabTarget.querySelectorAll('video'))
                 }
                 
 
@@ -322,17 +322,18 @@ function tabFunc() {
         })
     })
 
-    function toggleVideo(targetVideo) {
-        targetVideo.currentTime = 0;
-
-        const tabContainer = targetVideo.closest('.tab-container');
+    function toggleVideo(targetVideos) {
+        const tabContainer = targetVideos[0].closest('.tab-container');
         const siblingVideos = tabContainer.querySelectorAll('video:not(.target)');
 
         siblingVideos.forEach((video) => {
             video.pause();
         });
 
-        targetVideo.play();
+        targetVideos.forEach((targetVideo) => {
+            targetVideo.currentTime = 0;    
+            targetVideo.play();
+        })
     }
 
     function setBgPosX(btn, target) {
