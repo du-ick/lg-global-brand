@@ -40,6 +40,7 @@ br.mo {display: none;}
     top: 19px;
     left: 30px;
     padding: 0;
+    font-size: unset;
 }
 .c-header__tit a {
     width: unset;
